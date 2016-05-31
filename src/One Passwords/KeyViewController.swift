@@ -7,6 +7,7 @@
 //
 
 import Cocoa
+import DonoCore
 
 class KeyViewController: NSViewController
 {
@@ -26,7 +27,7 @@ class KeyViewController: NSViewController
     {
         let newKey = self.keySecureTextField.stringValue
         
-        if (!newKey.isEmpty && newKey.characters.count >= OnePasswords.MIN_KEY_LENGTH)
+        if (!newKey.isEmpty && newKey.characters.count >= Dono.MIN_KEY_LENGTH)
         {
             self.key.setkey(newKey);
             self.dismissController(self);
@@ -36,7 +37,7 @@ class KeyViewController: NSViewController
             let alert = NSAlert()
             alert.beginSheetModalForWindow(self.view.window!, completionHandler: nil)
             alert.messageText = "Your Key is too  short!"
-            alert.informativeText = "Your Key has to be at least " + String(OnePasswords.MIN_KEY_LENGTH) + " characters"
+            alert.informativeText = "Your Key has to be at least " + String(Dono.MIN_KEY_LENGTH) + " characters"
             alert.addButtonWithTitle("Close")
             alert.alertStyle = NSAlertStyle.CriticalAlertStyle
         }
@@ -45,6 +46,6 @@ class KeyViewController: NSViewController
     private func setupView()
     {
         self.view.wantsLayer = true
-        self.view.layer?.backgroundColor = NSColorUtil.getColorFromString("#2196f3")?.CGColor
+        self.view.layer?.backgroundColor = NSColor(hexString: "#2196f3")?.CGColor
     }
 }

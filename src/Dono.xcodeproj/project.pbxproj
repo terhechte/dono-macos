@@ -7,23 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		580B33A26C45F892BFFA1156 /* Pods_Dono.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B7C9EAA1604EC107490047 /* Pods_Dono.framework */; };
+		9A8FB5F9656AD2F19E8EDA09 /* Pods_DonoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBCE82AE1A163C4168B3E55C /* Pods_DonoTests.framework */; };
+		E2CEE9644D3C3201610726BA /* Pods_DonoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD3045E2720E21D432D5C6DF /* Pods_DonoUITests.framework */; };
 		E62A58351C9731FF005EC7B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62A58341C9731FF005EC7B7 /* AppDelegate.swift */; };
 		E62A58371C9731FF005EC7B7 /* OnePasswordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62A58361C9731FF005EC7B7 /* OnePasswordsViewController.swift */; };
 		E62A58391C9731FF005EC7B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E62A58381C9731FF005EC7B7 /* Assets.xcassets */; };
 		E62A583C1C9731FF005EC7B7 /* OnePasswords.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E62A583A1C9731FF005EC7B7 /* OnePasswords.storyboard */; };
 		E62A58471C9731FF005EC7B7 /* DonoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62A58461C9731FF005EC7B7 /* DonoTests.swift */; };
 		E62A58521C9731FF005EC7B7 /* DonoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62A58511C9731FF005EC7B7 /* DonoUITests.swift */; };
-		E62A58601C973210005EC7B7 /* OnePasswords.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62A585F1C973210005EC7B7 /* OnePasswords.swift */; };
-		E62A58621C973252005EC7B7 /* BigInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62A58611C973252005EC7B7 /* BigInt.swift */; };
 		E62A58651C9734A7005EC7B7 /* KeyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62A58641C9734A7005EC7B7 /* KeyViewController.swift */; };
 		E62A58671C9734B2005EC7B7 /* NewLabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62A58661C9734B2005EC7B7 /* NewLabelViewController.swift */; };
-		E63B416C1C9889B30002508F /* NSColorFromHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63B416B1C9889B30002508F /* NSColorFromHex.swift */; };
 		E63B416E1C9889EE0002508F /* Pasteboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63B416D1C9889EE0002508F /* Pasteboard.swift */; };
 		E686A77B1C973D380060648C /* PersistableKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = E686A7791C973D380060648C /* PersistableKey.swift */; };
 		E686A77C1C973D380060648C /* PeristableLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E686A77A1C973D380060648C /* PeristableLabels.swift */; };
-		E686A77F1C973D900060648C /* StringWithAES.swift in Sources */ = {isa = PBXBuildFile; fileRef = E686A77E1C973D900060648C /* StringWithAES.swift */; };
-		E6B3C4571CCA72DB009B9B84 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B3C4521CCA72B9009B9B84 /* CryptoSwift.framework */; };
-		E6B3C4581CCA72DB009B9B84 /* CryptoSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E6B3C4521CCA72B9009B9B84 /* CryptoSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,48 +38,6 @@
 			remoteGlobalIDString = E62A58301C9731FF005EC7B7;
 			remoteInfo = "One Passwords";
 		};
-		E6B3C44D1CCA72B9009B9B84 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E6B3C4451CCA72B8009B9B84 /* CryptoSwift.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 754BE45519693E190098E6F3;
-			remoteInfo = "CryptoSwift iOS";
-		};
-		E6B3C44F1CCA72B9009B9B84 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E6B3C4451CCA72B8009B9B84 /* CryptoSwift.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5596BDBB1BC8F220007E38D5;
-			remoteInfo = "CryptoSwift watchOS";
-		};
-		E6B3C4511CCA72B9009B9B84 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E6B3C4451CCA72B8009B9B84 /* CryptoSwift.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 75DF77721BC8EB59006E9520;
-			remoteInfo = "CryptoSwift OSX";
-		};
-		E6B3C4531CCA72B9009B9B84 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E6B3C4451CCA72B8009B9B84 /* CryptoSwift.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 75D614BF1BD844F2001358B2;
-			remoteInfo = "CryptoSwift tvOS";
-		};
-		E6B3C4551CCA72B9009B9B84 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E6B3C4451CCA72B8009B9B84 /* CryptoSwift.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 754BE46019693E190098E6F3;
-			remoteInfo = CryptoSwiftTests;
-		};
-		E6B3C4591CCA72DB009B9B84 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E6B3C4451CCA72B8009B9B84 /* CryptoSwift.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 75DF77461BC8EB59006E9520;
-			remoteInfo = "CryptoSwift OSX";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -92,7 +47,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E6B3C4581CCA72DB009B9B84 /* CryptoSwift.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,6 +54,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		13AC495EFDDFFF362FBCF259 /* Pods-DonoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DonoTests/Pods-DonoTests.release.xcconfig"; sourceTree = "<group>"; };
+		456C27961153105B7E745918 /* Pods-DonoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DonoUITests/Pods-DonoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		59B7C9EAA1604EC107490047 /* Pods_Dono.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dono.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8734A68BC3CD4C653FC34D1A /* Pods-Dono.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dono.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dono/Pods-Dono.debug.xcconfig"; sourceTree = "<group>"; };
+		9502D1551F8EC8B519780599 /* Pods-DonoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DonoUITests/Pods-DonoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9F6E5AD89A1AE8965CE2A287 /* Pods-DonoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DonoTests/Pods-DonoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DF02E035695E212DA25B76BD /* Pods-Dono.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dono.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dono/Pods-Dono.release.xcconfig"; sourceTree = "<group>"; };
 		E62A58311C9731FF005EC7B7 /* Dono.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dono.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E62A58341C9731FF005EC7B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E62A58361C9731FF005EC7B7 /* OnePasswordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePasswordsViewController.swift; sourceTree = "<group>"; };
@@ -112,18 +73,14 @@
 		E62A584D1C9731FF005EC7B7 /* Dono.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dono.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E62A58511C9731FF005EC7B7 /* DonoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonoUITests.swift; sourceTree = "<group>"; };
 		E62A58531C9731FF005EC7B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E62A585F1C973210005EC7B7 /* OnePasswords.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnePasswords.swift; sourceTree = "<group>"; };
-		E62A58611C973252005EC7B7 /* BigInt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BigInt.swift; sourceTree = "<group>"; };
-		E62A58631C973263005EC7B7 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		E62A58641C9734A7005EC7B7 /* KeyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyViewController.swift; sourceTree = "<group>"; };
 		E62A58661C9734B2005EC7B7 /* NewLabelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewLabelViewController.swift; sourceTree = "<group>"; };
-		E63B416B1C9889B30002508F /* NSColorFromHex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSColorFromHex.swift; sourceTree = "<group>"; };
 		E63B416D1C9889EE0002508F /* Pasteboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pasteboard.swift; sourceTree = "<group>"; };
 		E63B416F1C988E550002508F /* One Passwords.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "One Passwords.entitlements"; sourceTree = "<group>"; };
 		E686A7791C973D380060648C /* PersistableKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistableKey.swift; sourceTree = "<group>"; };
 		E686A77A1C973D380060648C /* PeristableLabels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeristableLabels.swift; sourceTree = "<group>"; };
-		E686A77E1C973D900060648C /* StringWithAES.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringWithAES.swift; sourceTree = "<group>"; };
-		E6B3C4451CCA72B8009B9B84 /* CryptoSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CryptoSwift.xcodeproj; path = CryptoSwift/CryptoSwift.xcodeproj; sourceTree = "<group>"; };
+		EBCE82AE1A163C4168B3E55C /* Pods_DonoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DonoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD3045E2720E21D432D5C6DF /* Pods_DonoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DonoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,7 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6B3C4571CCA72DB009B9B84 /* CryptoSwift.framework in Frameworks */,
+				580B33A26C45F892BFFA1156 /* Pods_Dono.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A8FB5F9656AD2F19E8EDA09 /* Pods_DonoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,20 +104,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2CEE9644D3C3201610726BA /* Pods_DonoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E43C2712610AC956F73CCDC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8734A68BC3CD4C653FC34D1A /* Pods-Dono.debug.xcconfig */,
+				DF02E035695E212DA25B76BD /* Pods-Dono.release.xcconfig */,
+				9F6E5AD89A1AE8965CE2A287 /* Pods-DonoTests.debug.xcconfig */,
+				13AC495EFDDFFF362FBCF259 /* Pods-DonoTests.release.xcconfig */,
+				456C27961153105B7E745918 /* Pods-DonoUITests.debug.xcconfig */,
+				9502D1551F8EC8B519780599 /* Pods-DonoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B4276326F8DB19F6C83796C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59B7C9EAA1604EC107490047 /* Pods_Dono.framework */,
+				EBCE82AE1A163C4168B3E55C /* Pods_DonoTests.framework */,
+				FD3045E2720E21D432D5C6DF /* Pods_DonoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E62A58281C9731FF005EC7B7 = {
 			isa = PBXGroup;
 			children = (
-				E6B3C4451CCA72B8009B9B84 /* CryptoSwift.xcodeproj */,
 				E62A58331C9731FF005EC7B7 /* Dono */,
 				E62A58451C9731FF005EC7B7 /* DonoTests */,
 				E62A58501C9731FF005EC7B7 /* DonoUITests */,
 				E62A58321C9731FF005EC7B7 /* Products */,
+				2E43C2712610AC956F73CCDC /* Pods */,
+				B4276326F8DB19F6C83796C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -178,9 +161,7 @@
 			children = (
 				E63B416F1C988E550002508F /* One Passwords.entitlements */,
 				E686A77D1C973D420060648C /* Models */,
-				E686A7771C973D120060648C /* Core */,
 				E686A7781C973D1A0060648C /* Utils */,
-				E62A58631C973263005EC7B7 /* Header.h */,
 				E62A58341C9731FF005EC7B7 /* AppDelegate.swift */,
 				E686A7761C973D080060648C /* ViewControllers */,
 				E62A58381C9731FF005EC7B7 /* Assets.xcassets */,
@@ -221,21 +202,10 @@
 			name = ViewControllers;
 			sourceTree = "<group>";
 		};
-		E686A7771C973D120060648C /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				E62A585F1C973210005EC7B7 /* OnePasswords.swift */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
 		E686A7781C973D1A0060648C /* Utils */ = {
 			isa = PBXGroup;
 			children = (
 				E63B416D1C9889EE0002508F /* Pasteboard.swift */,
-				E63B416B1C9889B30002508F /* NSColorFromHex.swift */,
-				E686A77E1C973D900060648C /* StringWithAES.swift */,
-				E62A58611C973252005EC7B7 /* BigInt.swift */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -249,18 +219,6 @@
 			name = Models;
 			sourceTree = "<group>";
 		};
-		E6B3C4461CCA72B8009B9B84 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E6B3C44E1CCA72B9009B9B84 /* CryptoSwift.framework */,
-				E6B3C4501CCA72B9009B9B84 /* CryptoSwift.framework */,
-				E6B3C4521CCA72B9009B9B84 /* CryptoSwift.framework */,
-				E6B3C4541CCA72B9009B9B84 /* CryptoSwift.framework */,
-				E6B3C4561CCA72B9009B9B84 /* CryptoSwiftTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -268,15 +226,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E62A58561C9731FF005EC7B7 /* Build configuration list for PBXNativeTarget "Dono" */;
 			buildPhases = (
+				C3D4CF82EEE84D404C10CA7E /* 📦 Check Pods Manifest.lock */,
 				E62A582D1C9731FF005EC7B7 /* Sources */,
 				E62A582E1C9731FF005EC7B7 /* Frameworks */,
 				E62A582F1C9731FF005EC7B7 /* Resources */,
 				E686A7961C973DBC0060648C /* Embed Frameworks */,
+				A1775470CF7EA013CBCD1D39 /* 📦 Embed Pods Frameworks */,
+				0BF0A090095B4B86EA497E48 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E6B3C45A1CCA72DB009B9B84 /* PBXTargetDependency */,
 			);
 			name = Dono;
 			productName = "One Passwords";
@@ -287,9 +247,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E62A58591C9731FF005EC7B7 /* Build configuration list for PBXNativeTarget "DonoTests" */;
 			buildPhases = (
+				0A82ABE8BA976B123EBA96CC /* 📦 Check Pods Manifest.lock */,
 				E62A583E1C9731FF005EC7B7 /* Sources */,
 				E62A583F1C9731FF005EC7B7 /* Frameworks */,
 				E62A58401C9731FF005EC7B7 /* Resources */,
+				44EB863057FE3B28C4E6A17D /* 📦 Embed Pods Frameworks */,
+				087A66C5F5CEFFD039B05EEB /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -305,9 +268,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E62A585C1C9731FF005EC7B7 /* Build configuration list for PBXNativeTarget "DonoUITests" */;
 			buildPhases = (
+				524CAD7AD00462BE8615FF09 /* 📦 Check Pods Manifest.lock */,
 				E62A58491C9731FF005EC7B7 /* Sources */,
 				E62A584A1C9731FF005EC7B7 /* Frameworks */,
 				E62A584B1C9731FF005EC7B7 /* Resources */,
+				38678D87CD1C8BD29CEDCE0E /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -358,12 +323,6 @@
 			mainGroup = E62A58281C9731FF005EC7B7;
 			productRefGroup = E62A58321C9731FF005EC7B7 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = E6B3C4461CCA72B8009B9B84 /* Products */;
-					ProjectRef = E6B3C4451CCA72B8009B9B84 /* CryptoSwift.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				E62A58301C9731FF005EC7B7 /* Dono */,
@@ -372,44 +331,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		E6B3C44E1CCA72B9009B9B84 /* CryptoSwift.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CryptoSwift.framework;
-			remoteRef = E6B3C44D1CCA72B9009B9B84 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		E6B3C4501CCA72B9009B9B84 /* CryptoSwift.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CryptoSwift.framework;
-			remoteRef = E6B3C44F1CCA72B9009B9B84 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		E6B3C4521CCA72B9009B9B84 /* CryptoSwift.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CryptoSwift.framework;
-			remoteRef = E6B3C4511CCA72B9009B9B84 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		E6B3C4541CCA72B9009B9B84 /* CryptoSwift.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CryptoSwift.framework;
-			remoteRef = E6B3C4531CCA72B9009B9B84 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		E6B3C4561CCA72B9009B9B84 /* CryptoSwiftTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = CryptoSwiftTests.xctest;
-			remoteRef = E6B3C4551CCA72B9009B9B84 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		E62A582F1C9731FF005EC7B7 /* Resources */ = {
@@ -437,16 +358,135 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		087A66C5F5CEFFD039B05EEB /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DonoTests/Pods-DonoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0A82ABE8BA976B123EBA96CC /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0BF0A090095B4B86EA497E48 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dono/Pods-Dono-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38678D87CD1C8BD29CEDCE0E /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DonoUITests/Pods-DonoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44EB863057FE3B28C4E6A17D /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DonoTests/Pods-DonoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		524CAD7AD00462BE8615FF09 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A1775470CF7EA013CBCD1D39 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dono/Pods-Dono-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3D4CF82EEE84D404C10CA7E /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E62A582D1C9731FF005EC7B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E62A58621C973252005EC7B7 /* BigInt.swift in Sources */,
 				E686A77B1C973D380060648C /* PersistableKey.swift in Sources */,
-				E63B416C1C9889B30002508F /* NSColorFromHex.swift in Sources */,
-				E686A77F1C973D900060648C /* StringWithAES.swift in Sources */,
-				E62A58601C973210005EC7B7 /* OnePasswords.swift in Sources */,
 				E62A58371C9731FF005EC7B7 /* OnePasswordsViewController.swift in Sources */,
 				E62A58651C9734A7005EC7B7 /* KeyViewController.swift in Sources */,
 				E686A77C1C973D380060648C /* PeristableLabels.swift in Sources */,
@@ -484,11 +524,6 @@
 			isa = PBXTargetDependency;
 			target = E62A58301C9731FF005EC7B7 /* Dono */;
 			targetProxy = E62A584E1C9731FF005EC7B7 /* PBXContainerItemProxy */;
-		};
-		E6B3C45A1CCA72DB009B9B84 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "CryptoSwift OSX";
-			targetProxy = E6B3C4591CCA72DB009B9B84 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -586,6 +621,7 @@
 		};
 		E62A58571C9731FF005EC7B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8734A68BC3CD4C653FC34D1A /* Pods-Dono.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "One Passwords/One Passwords.entitlements";
@@ -596,12 +632,13 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.psakkos.onepasswords.macos;
 				PRODUCT_NAME = Dono;
-				SWIFT_OBJC_BRIDGING_HEADER = "One Passwords/Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Debug;
 		};
 		E62A58581C9731FF005EC7B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF02E035695E212DA25B76BD /* Pods-Dono.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "One Passwords/One Passwords.entitlements";
@@ -612,12 +649,13 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.psakkos.onepasswords.macos;
 				PRODUCT_NAME = Dono;
-				SWIFT_OBJC_BRIDGING_HEADER = "One Passwords/Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
 		E62A585A1C9731FF005EC7B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F6E5AD89A1AE8965CE2A287 /* Pods-DonoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -631,6 +669,7 @@
 		};
 		E62A585B1C9731FF005EC7B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13AC495EFDDFFF362FBCF259 /* Pods-DonoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -644,6 +683,7 @@
 		};
 		E62A585D1C9731FF005EC7B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 456C27961153105B7E745918 /* Pods-DonoUITests.debug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "One PasswordsUITests/Info.plist";
@@ -657,6 +697,7 @@
 		};
 		E62A585E1C9731FF005EC7B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9502D1551F8EC8B519780599 /* Pods-DonoUITests.release.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "One PasswordsUITests/Info.plist";

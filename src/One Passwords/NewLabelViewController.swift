@@ -7,6 +7,7 @@
 //
 
 import Cocoa
+import SwiftHEXColors
 
 class NewLabelViewController: NSViewController
 {
@@ -38,6 +39,6 @@ class NewLabelViewController: NSViewController
     private func setupView()
     {
         self.view.wantsLayer = true
-        self.view.layer?.backgroundColor = NSColorUtil.getColorFromString("#2196f3")?.CGColor
+        self.view.layer?.backgroundColor = NSColor(hexString: "#2196f3")?.CGColor
     }
 }

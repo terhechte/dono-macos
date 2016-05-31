@@ -7,13 +7,17 @@
 //
 
 import Foundation
+import KeychainSwift
 
 let keyFileName = "/.key";
 let pathToKeyFile = docsFolder.stringByAppendingString(keyFileName);
 
 internal class PersistableKey
 {
+    private static var KEYCHAIN_KEY = "dono.key"
+    
     static var Key = "";
+    let keychain = KeychainSwift()
     
     internal func getKey() -> String
     {
@@ -38,25 +42,11 @@ internal class PersistableKey
     
     private func loadKey()
     {
-        do
-        {
-            let encryptedKey = try String(contentsOfFile: pathToKeyFile, encoding: NSUTF8StringEncoding);
-            PersistableKey.Key = try encryptedKey.aesDecrypt();
-        }
-        catch
-        {
-        }
+        PersistableKey.Key = self.keychain.get(PersistableKey.KEYCHAIN_KEY) ?? ""
     }
     
     private func saveKey()
     {
-        do
-        {
-            let encryptedKey = try PersistableKey.Key.aesEncrypt();
-            try encryptedKey.writeToFile(pathToKeyFile, atomically: false, encoding: NSUTF8StringEncoding);
-        }
-        catch
-        {
-        }
+        self.keychain.set(PersistableKey.Key, forKey: PersistableKey.KEYCHAIN_KEY)
     }
 }

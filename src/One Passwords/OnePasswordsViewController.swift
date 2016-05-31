@@ -7,6 +7,8 @@
 //
 
 import Cocoa
+import DonoCore
+import SwiftHEXColors
 
 class OnePasswordsViewController: NSViewController, NSTableViewDataSource, NSTableViewDelegate
 {
@@ -14,7 +16,7 @@ class OnePasswordsViewController: NSViewController, NSTableViewDataSource, NSTab
     
     let labels = PersistableLabels()
     let key = PersistableKey()
-    let onePasswords = OnePasswords()
+    let onePasswords = Dono()
     
     override func viewDidLoad()
     {
@@ -26,7 +28,7 @@ class OnePasswordsViewController: NSViewController, NSTableViewDataSource, NSTab
         self.labelsTableView.setDelegate(self)
         self.labelsTableView.setDataSource(self)
         self.labelsTableView.target = self
-        self.labelsTableView.doubleAction = "tableViewDoubleClick:"
+        self.labelsTableView.doubleAction = #selector(OnePasswordsViewController.tableViewDoubleClick(_:))
     }
     
     @IBAction func deleteLabel(sender: AnyObject)
@@ -65,7 +67,7 @@ class OnePasswordsViewController: NSViewController, NSTableViewDataSource, NSTab
     private func setupView()
     {
         self.view.wantsLayer = true
-        self.view.layer?.backgroundColor = NSColorUtil.getColorFromString("#2196f3")?.CGColor
+        self.view.layer?.backgroundColor = NSColor(hexString: "#2196f3")?.CGColor
     }
     
     func refreshLabels()
@@ -97,7 +99,7 @@ class OnePasswordsViewController: NSViewController, NSTableViewDataSource, NSTab
         {
             let label = self.labels.getAt(self.labelsTableView.selectedRow)
             
-            let d = self.onePasswords.computePassword(self.key.getKey(), st: label)
+            let d = self.onePasswords.computePassword(self.key.getKey(), l: label)
             copyToPasteboard(d);
             
             let alert = NSAlert()
