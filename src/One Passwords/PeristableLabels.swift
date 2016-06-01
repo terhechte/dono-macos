@@ -1,5 +1,5 @@
 //
-//  Persistablelabels.swift
+//  PersistableLabels.swift
 //  One Passwords
 //
 //  Created by Ghost on 3/2/16.
@@ -11,102 +11,106 @@ import Foundation
 let docsFolder = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0] as String;
 
 let labelsfilename = "/.service-tags";
-let pathTolabelsFile = docsFolder.stringByAppendingString(labelsfilename);
+let pathToServiceTagsFile = docsFolder.stringByAppendingString(labelsfilename);
 
 internal class PersistableLabels
 {
     var labels = [String]()
     
-    internal func add(var serviceTag: String)
+    internal func add(var label: String) -> String
     {
-        if (self.labels.contains(serviceTag))
+        label = self.canonical(label)
+        
+        if (self.labels.contains(label))
         {
-            return;
+            return ""
         }
         
-        serviceTag = serviceTag.lowercaseString
-        serviceTag = serviceTag.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet())
+        self.labels.insert(label, atIndex: self.labels.count)
+        self.labels.sortInPlace()
+        self.saveLabels()
         
-        self.labels.insert(serviceTag, atIndex: self.labels.count);
-        self.labels.sortInPlace();
-        savelabels();
+        return label
     }
     
     internal func getAll() -> [String]
     {
-        loadlabels();
-        self.labels.sortInPlace();
+        self.loadLabels()
+        self.labels.sortInPlace()
         
-        return self.labels;
+        return self.labels
     }
     
     internal func getAt(position: Int) -> String
     {
         var ret = "";
         
-        for (i, serviceTag) in self.labels.enumerate()
+        for (i, label) in self.labels.enumerate()
         {
             if (i == position)
             {
-                ret = serviceTag;
+                ret = label;
             }
         }
         
         return ret;
     }
-
+    
     
     internal func deleteAt(position: Int) -> String
     {
-        if (position < 0 || position >= self.labels.count)
-        {
-            return ""
-        }
-        
         let ret = self.labels.removeAtIndex(position);
         
-        self.savelabels();
+        self.saveLabels();
         
         return ret;
     }
-
+    
     internal func count() -> Int
     {
         return self.labels.count;
     }
     
-    private func savelabels()
+    internal func canonical(var label: String) -> String
     {
-        var dump = "";
+        label = label.lowercaseString
+        label = label.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet())
         
-        for (_, serviceTag) in self.labels.enumerate()
+        return label
+    }
+    
+    private func saveLabels()
+    {
+        var dump = ""
+        
+        for (_, label) in self.labels.enumerate()
         {
-            dump += serviceTag + "\n";
+            dump += label + "\n"
         }
-            
+        
         do
         {
-            try dump.writeToFile(pathTolabelsFile, atomically: false, encoding: NSUTF8StringEncoding);
+            try dump.writeToFile(pathToServiceTagsFile, atomically: false, encoding: NSUTF8StringEncoding)
         }
         catch
         {
         }
     }
-
-    private func loadlabels()
+    
+    private func loadLabels()
     {
         do
         {
-            self.labels.removeAll();
+            self.labels.removeAll()
             
-            let tags = try String(contentsOfFile: pathTolabelsFile, encoding: NSUTF8StringEncoding).characters.split("\n");
+            let labels = try String(contentsOfFile: pathToServiceTagsFile, encoding: NSUTF8StringEncoding).characters.split("\n")
             
-            for (_, tag) in tags.enumerate()
+            for (_, label) in labels.enumerate()
             {
-                self.labels.insert(String(tag), atIndex: 0);
+                self.labels.insert(String(label), atIndex: 0)
             }
             
-            self.labels.sortInPlace();
+            self.labels.sortInPlace()
         }
         catch
         {

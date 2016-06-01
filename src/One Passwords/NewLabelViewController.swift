@@ -7,11 +7,12 @@
 //
 
 import Cocoa
+import SwiftHEXColors
 
 class NewLabelViewController: NSViewController
 {
     let labels = PersistableLabels()
-    var onePasswordsViewController = OnePasswordsViewController()
+    var labelsViewController = LabelsViewController()
     
     @IBOutlet weak var newLabelTextField: NSTextField!
     
@@ -32,12 +33,12 @@ class NewLabelViewController: NSViewController
     {
         self.labels.add(self.newLabelTextField.stringValue)
         self.dismissController(self)
-        self.onePasswordsViewController.refreshLabels()
+        self.labelsViewController.refreshLabels()
     }
     
     private func setupView()
     {
         self.view.wantsLayer = true
-        self.view.layer?.backgroundColor = NSColorUtil.getColorFromString("#2196f3")?.CGColor
+        self.view.layer?.backgroundColor = NSColor(hexString: "#2196f3")?.CGColor
     }
 }
