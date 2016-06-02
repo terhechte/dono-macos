@@ -80,6 +80,7 @@ class LabelsViewController : DonoViewController, NSTableViewDataSource, NSTableV
         if let cell = tableView.makeViewWithIdentifier("LabelCellID", owner: nil) as? NSTableCellView
         {
             cell.textField?.stringValue = self.labels.getAt(row)
+
             return cell
         }
         
