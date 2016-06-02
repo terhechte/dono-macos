@@ -30,8 +30,27 @@ class AddLabelViewController: DonoViewController
     
     @IBAction func addLabel(sender: AnyObject)
     {
-        self.labels.add(self.newLabelTextField.stringValue)
-        self.dismissController(self)
-        self.labelsViewController.refreshLabels()
+        var label = self.newLabelTextField.stringValue
+        
+        label = self.labels.add(label)
+        
+        if (label.isEmpty)
+        {
+            let canonicalLabel = self.labels.canonical(self.newLabelTextField.stringValue)
+            
+            if (!canonicalLabel.isEmpty)
+            {
+                self.showCrititcalAlert(
+                    "Label already exists!",
+                    message: "Label " + canonicalLabel + " is already added to your Labels")
+                
+                self.newLabelTextField.stringValue = String()
+            }
+        }
+        else
+        {
+            self.dismissController(self)
+            self.labelsViewController.refreshLabels()
+        }
     }
 }

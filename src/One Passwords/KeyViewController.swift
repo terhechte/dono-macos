@@ -37,8 +37,7 @@ class KeyViewController : DonoViewController
 
             self.showCrititcalAlert(
                 "Your Key is not long enough!",
-                message: "Your Key has to be longer than " + String(Dono.MIN_KEY_LENGTH - 1) + " characters",
-                buttonTitle: "Got it!")
+                message: "Your Key has to be longer than " + String(Dono.MIN_KEY_LENGTH - 1) + " characters")
         }
     }
     

@@ -24,9 +24,9 @@ class DonoViewController : NSViewController
         self.showAlert(title, message: message, buttonTitle: buttonTitle, style: NSAlertStyle.InformationalAlertStyle)
     }
 
-    func showCrititcalAlert(title: String, message: String, buttonTitle: String)
+    func showCrititcalAlert(title: String, message: String)
     {
-        self.showAlert(title, message: message, buttonTitle: buttonTitle, style: NSAlertStyle.CriticalAlertStyle)
+        self.showAlert(title, message: message, buttonTitle: "Got it!", style: NSAlertStyle.CriticalAlertStyle)
     }
 
     func showAlert(title: String, message: String, buttonTitle: String, style: NSAlertStyle)
