@@ -9,7 +9,7 @@
 import Cocoa
 import SwiftHEXColors
 
-class NewLabelViewController: DonoViewController
+class AddLabelViewController: DonoViewController
 {
     var labels = PersistableLabels()
     var labelsViewController = LabelsViewController()

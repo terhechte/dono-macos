@@ -49,9 +49,9 @@ class LabelsViewController : DonoViewController, NSTableViewDataSource, NSTableV
     {
         let destinationViewController = segue.destinationController
         
-        if (destinationViewController is NewLabelViewController)
+        if (destinationViewController is AddLabelViewController)
         {
-            (destinationViewController as! NewLabelViewController).labelsViewController = self
+            (destinationViewController as! AddLabelViewController).labelsViewController = self
         }
     }
     

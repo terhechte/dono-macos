@@ -740,7 +740,7 @@
                                                                     <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="tag" id="TKy-yE-tES"/>
                                                                 </imageView>
                                                                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" misplaced="YES" allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nU0-qF-Xrc">
-                                                                    <rect key="frame" x="25" y="-1" width="243" height="28"/>
+                                                                    <rect key="frame" x="25" y="-1" width="443" height="28"/>
                                                                     <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Table View Cell" id="JYh-bk-6qy">
                                                                         <font key="font" metaFont="system" size="17"/>
                                                                         <color key="textColor" red="0.011764705882352941" green="0.66274509803921566" blue="0.95686274509803915" alpha="1" colorSpace="calibratedRGB"/>
@@ -750,9 +750,7 @@
                                                             </subviews>
                                                             <constraints>
                                                                 <constraint firstItem="7Et-he-FJL" firstAttribute="top" secondItem="8am-Ga-g8Q" secondAttribute="top" id="6c9-ob-ceD"/>
-                                                                <constraint firstAttribute="trailing" secondItem="nU0-qF-Xrc" secondAttribute="trailing" constant="3" id="6lf-4F-tgE"/>
                                                                 <constraint firstItem="nU0-qF-Xrc" firstAttribute="leading" secondItem="7Et-he-FJL" secondAttribute="trailing" id="Jfv-dS-wZg"/>
-                                                                <constraint firstAttribute="trailing" secondItem="nU0-qF-Xrc" secondAttribute="trailing" constant="21" id="JwC-FM-qtr"/>
                                                                 <constraint firstItem="7Et-he-FJL" firstAttribute="leading" secondItem="8am-Ga-g8Q" secondAttribute="leading" constant="3" id="Nkq-vp-l3x"/>
                                                                 <constraint firstItem="7Et-he-FJL" firstAttribute="top" secondItem="nU0-qF-Xrc" secondAttribute="top" constant="4" id="V0d-me-LH0"/>
                                                                 <constraint firstItem="7Et-he-FJL" firstAttribute="bottom" secondItem="nU0-qF-Xrc" secondAttribute="bottom" id="cGi-a5-Ntm"/>
@@ -828,10 +826,10 @@
             </objects>
             <point key="canvasLocation" x="319.5" y="362"/>
         </scene>
-        <!--New Label View Controller-->
+        <!--Add Label View Controller-->
         <scene sceneID="uDc-KP-WgR">
             <objects>
-                <viewController id="zK5-TD-oPm" customClass="NewLabelViewController" customModule="Dono" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="zK5-TD-oPm" customClass="AddLabelViewController" customModule="Dono" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="LbU-pO-YvZ">
                         <rect key="frame" x="0.0" y="0.0" width="400" height="180"/>
                         <autoresizingMask key="autoresizingMask"/>
