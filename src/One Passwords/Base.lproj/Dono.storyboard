@@ -675,6 +675,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="535" height="542"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
+                            <button translatesAutoresizingMaskIntoConstraints="NO" id="PCJ-vs-hvz">
+                                <rect key="frame" x="272" y="20" width="48" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="48" id="T8n-ac-0Ee"/>
+                                </constraints>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="key" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="rYm-3F-kDn">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <segue destination="ox4-km-s57" kind="sheet" id="V8Q-uj-NYO"/>
+                                </connections>
+                            </button>
+                            <button translatesAutoresizingMaskIntoConstraints="NO" id="v2M-5D-8Lx">
+                                <rect key="frame" x="214" y="20" width="48" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="48" id="NN5-c8-Bbi"/>
+                                    <constraint firstAttribute="height" constant="48" id="cLw-UH-JG3"/>
+                                </constraints>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="plus-circle" imagePosition="overlaps" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="xsp-dD-WNp">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <segue destination="zK5-TD-oPm" kind="sheet" id="XKL-FF-U5P"/>
+                                </connections>
+                            </button>
                             <scrollView autohidesScrollers="YES" horizontalLineScroll="41" horizontalPageScroll="10" verticalLineScroll="41" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CE2-m5-YjX">
                                 <rect key="frame" x="20" y="83" width="495" height="412"/>
                                 <clipView key="contentView" id="Hfi-Qi-jS9">
@@ -757,7 +784,7 @@
                                 </connections>
                             </scrollView>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="kfe-um-hlF">
-                                <rect key="frame" x="83" y="503" width="368" height="26"/>
+                                <rect key="frame" x="18" y="503" width="499" height="26"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="26" id="SPE-GK-8Is"/>
                                 </constraints>
@@ -767,33 +794,6 @@
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <button translatesAutoresizingMaskIntoConstraints="NO" id="PCJ-vs-hvz">
-                                <rect key="frame" x="272" y="20" width="48" height="48"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="48" id="T8n-ac-0Ee"/>
-                                </constraints>
-                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="key" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="rYm-3F-kDn">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                                <connections>
-                                    <segue destination="ox4-km-s57" kind="sheet" id="V8Q-uj-NYO"/>
-                                </connections>
-                            </button>
-                            <button translatesAutoresizingMaskIntoConstraints="NO" id="v2M-5D-8Lx">
-                                <rect key="frame" x="214" y="20" width="48" height="48"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="48" id="NN5-c8-Bbi"/>
-                                    <constraint firstAttribute="height" constant="48" id="cLw-UH-JG3"/>
-                                </constraints>
-                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="plus-circle" imagePosition="overlaps" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="xsp-dD-WNp">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                                <connections>
-                                    <segue destination="zK5-TD-oPm" kind="sheet" id="XKL-FF-U5P"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <constraints>
                             <constraint firstItem="v2M-5D-8Lx" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="214" id="3V8-mo-NRe"/>
@@ -804,7 +804,7 @@
                             <constraint firstAttribute="trailing" secondItem="CE2-m5-YjX" secondAttribute="trailing" constant="20" symbolic="YES" id="jBs-H4-rWg"/>
                             <constraint firstAttribute="bottom" secondItem="v2M-5D-8Lx" secondAttribute="bottom" constant="20" symbolic="YES" id="mMV-rC-zPI"/>
                             <constraint firstItem="kfe-um-hlF" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="13" id="neC-B4-hyF"/>
-                            <constraint firstItem="kfe-um-hlF" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="85" id="rYX-4M-M31"/>
+                            <constraint firstItem="kfe-um-hlF" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="rYX-4M-M31"/>
                             <constraint firstItem="CE2-m5-YjX" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" symbolic="YES" id="tBt-ao-r6z"/>
                             <constraint firstItem="v2M-5D-8Lx" firstAttribute="top" secondItem="PCJ-vs-hvz" secondAttribute="top" id="wu4-Wb-yWH"/>
                             <constraint firstItem="CE2-m5-YjX" firstAttribute="top" secondItem="kfe-um-hlF" secondAttribute="bottom" constant="8" symbolic="YES" id="y4D-cv-h26"/>
@@ -998,7 +998,7 @@
                             </button>
                             <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pR1-oc-fBb">
                                 <rect key="frame" x="20" y="20" width="300" height="22"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="center" placeholderString="Your Key" bezelStyle="round" id="AXM-h9-FvJ">
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="center" placeholderString="Your Key" bezelStyle="round" id="AXM-h9-FvJ">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -1012,7 +1012,7 @@
                 </viewController>
                 <customObject id="IK3-5r-tTe" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="731" y="1125"/>
+            <point key="canvasLocation" x="646" y="1085"/>
         </scene>
     </scenes>
     <resources>

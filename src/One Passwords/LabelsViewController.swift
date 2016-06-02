@@ -91,17 +91,23 @@ class LabelsViewController : DonoViewController, NSTableViewDataSource, NSTableV
     {
         if (self.labelsTableView.selectedRow >= 0)
         {
+            let key = self.key.getKey()
+            
+            if (key.isEmpty)
+            {
+                self.showCrititcalAlert("No Key is set!",
+                                        message: "You need to set your Key in order to derive passwords for your Labels!",
+                                        buttonTitle: "Got it!")
+
+                return
+            }
+            
             let label = self.labels.getAt(self.labelsTableView.selectedRow)
             
-            let d = self.dono.computePassword(self.key.getKey(), l: label)
+            let d = self.dono.computePassword(key, l: label)
             copyToPasteboard(d);
-            
-            let alert = NSAlert()
-            alert.messageText = "Password retrieved"
-            alert.informativeText = "Your password for " + label + " is ready to be pasted!"
-            alert.addButtonWithTitle("Awesome!")
-            alert.alertStyle = NSAlertStyle.InformationalAlertStyle
-            alert.beginSheetModalForWindow(self.view.window!, completionHandler: nil)
+                        
+            self.showInfoAlert("Password retrieved", message: "Your password for " + label + " is ready to be pasted!", buttonTitle: "Awesome!")
         }
     }
 }
