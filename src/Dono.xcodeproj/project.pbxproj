@@ -21,6 +21,7 @@
 		E63B416E1C9889EE0002508F /* Pasteboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63B416D1C9889EE0002508F /* Pasteboard.swift */; };
 		E686A77B1C973D380060648C /* PersistableKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = E686A7791C973D380060648C /* PersistableKey.swift */; };
 		E686A77C1C973D380060648C /* PeristableLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E686A77A1C973D380060648C /* PeristableLabels.swift */; };
+		E6986EED1D00C0DB009C3829 /* MainWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6986EEC1D00C0DB009C3829 /* MainWindow.swift */; };
 		E6A40F231D00A2F700D92620 /* PlainKeyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A40F221D00A2F700D92620 /* PlainKeyViewController.swift */; };
 		E6A40F251D00A6A100D92620 /* DonoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A40F241D00A6A100D92620 /* DonoViewController.swift */; };
 /* End PBXBuildFile section */
@@ -81,6 +82,7 @@
 		E63B416F1C988E550002508F /* One Passwords.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "One Passwords.entitlements"; sourceTree = "<group>"; };
 		E686A7791C973D380060648C /* PersistableKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistableKey.swift; sourceTree = "<group>"; };
 		E686A77A1C973D380060648C /* PeristableLabels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeristableLabels.swift; sourceTree = "<group>"; };
+		E6986EEC1D00C0DB009C3829 /* MainWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindow.swift; sourceTree = "<group>"; };
 		E6A40F221D00A2F700D92620 /* PlainKeyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlainKeyViewController.swift; sourceTree = "<group>"; };
 		E6A40F241D00A6A100D92620 /* DonoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonoViewController.swift; sourceTree = "<group>"; };
 		EBCE82AE1A163C4168B3E55C /* Pods_DonoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DonoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -171,6 +173,7 @@
 				E62A58381C9731FF005EC7B7 /* Assets.xcassets */,
 				E62A583A1C9731FF005EC7B7 /* Dono.storyboard */,
 				E62A583D1C9731FF005EC7B7 /* Info.plist */,
+				E6986EEC1D00C0DB009C3829 /* MainWindow.swift */,
 			);
 			name = Dono;
 			path = "One Passwords";
@@ -495,6 +498,7 @@
 			files = (
 				E686A77B1C973D380060648C /* PersistableKey.swift in Sources */,
 				E62A58371C9731FF005EC7B7 /* LabelsViewController.swift in Sources */,
+				E6986EED1D00C0DB009C3829 /* MainWindow.swift in Sources */,
 				E6A40F251D00A6A100D92620 /* DonoViewController.swift in Sources */,
 				E62A58651C9734A7005EC7B7 /* KeyViewController.swift in Sources */,
 				E6A40F231D00A2F700D92620 /* PlainKeyViewController.swift in Sources */,

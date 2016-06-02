@@ -15,6 +15,6 @@ class DonoViewController : NSViewController
         super.viewDidLoad()
         
         self.view.wantsLayer = true
-        self.view.layer?.backgroundColor = NSColor(hexString: "#2196f3")?.CGColor
+        self.view.layer?.backgroundColor = NSColor(hexString: "#2196f3")?.colorWithAlphaComponent(1).CGColor
     }
 }
