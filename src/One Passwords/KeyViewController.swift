@@ -9,11 +9,11 @@
 import Cocoa
 import DonoCore
 
-class KeyViewController: NSViewController
+class KeyViewController : DonoViewController
 {
-    @IBOutlet weak var keySecureTextField: NSSecureTextField!
-
     let key = PersistableKey()
+    
+    @IBOutlet weak var keySecureTextField: NSSecureTextField!
     
     override func viewDidLoad()
     {
@@ -23,7 +23,7 @@ class KeyViewController: NSViewController
         self.keySecureTextField.stringValue = self.key.getKey()
     }
     
-    @IBAction func dismiss(sender: AnyObject)
+    @IBAction func done(sender: AnyObject)
     {
         let newKey = self.keySecureTextField.stringValue
         
@@ -35,11 +35,13 @@ class KeyViewController: NSViewController
         else
         {
             let alert = NSAlert()
-            alert.beginSheetModalForWindow(self.view.window!, completionHandler: nil)
-            alert.messageText = "Your Key is too  short!"
-            alert.informativeText = "Your Key has to be at least " + String(Dono.MIN_KEY_LENGTH) + " characters"
-            alert.addButtonWithTitle("Close")
+            alert.messageText = "Your Key is not long enough!"
+            alert.informativeText = "Your Key has to be longer than " + String(Dono.MIN_KEY_LENGTH - 1) + " characters"
+            alert.addButtonWithTitle("Got it!")
             alert.alertStyle = NSAlertStyle.CriticalAlertStyle
+            alert.beginSheetModalForWindow(self.view.window!, completionHandler: nil)
+            
+            self.keySecureTextField.stringValue = self.key.getKey()
         }
     }
     
@@ -47,5 +49,16 @@ class KeyViewController: NSViewController
     {
         self.view.wantsLayer = true
         self.view.layer?.backgroundColor = NSColor(hexString: "#2196f3")?.CGColor
+    }
+    
+    override func prepareForSegue(segue: NSStoryboardSegue, sender: AnyObject?)
+    {
+        if (segue.identifier == "ShowPlainKeyView")
+        {
+            if let destinationVC = segue.destinationController as? PlainKeyViewController
+            {
+                destinationVC.plainKey = self.keySecureTextField.stringValue
+            }
+        }
     }
 }

@@ -6,11 +6,13 @@ PODS:
     - CryptoSwift (~> 0.4.1)
   - KeychainSwift (3.0.16)
   - SwiftHEXColors (1.0.4)
+  - SwiftyUserDefaults (2.2.0)
 
 DEPENDENCIES:
   - DonoCore (from `https://github.com/dono-app/dono-pod/`)
   - KeychainSwift (~> 3.0.16)
   - SwiftHEXColors (~> 1.0.4)
+  - SwiftyUserDefaults (~> 2.2.0)
 
 EXTERNAL SOURCES:
   DonoCore:
@@ -27,7 +29,8 @@ SPEC CHECKSUMS:
   DonoCore: b37aa6aa1bbd6f58a16aacf6671ca13093781b63
   KeychainSwift: a5bb85cd498ce2217b55e055ec59e9268d83384c
   SwiftHEXColors: b0ecc7bd83a1aa2e1956f9ba51f55ebb2bcf86ef
+  SwiftyUserDefaults: e7c8197a9d4068702e7f2406a968cae413b8de27
 
-PODFILE CHECKSUM: cb8b88db00daceea33fa09f245277df03bc29b8d
+PODFILE CHECKSUM: 4460cfe9f2e2311998f51116c456dc1a33d743ba
 
 COCOAPODS: 1.0.0
