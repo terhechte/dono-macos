@@ -9,9 +9,9 @@
 import Cocoa
 import SwiftHEXColors
 
-class NewLabelViewController: NSViewController
+class NewLabelViewController: DonoViewController
 {
-    let labels = PersistableLabels()
+    var labels = PersistableLabels()
     var labelsViewController = LabelsViewController()
     
     @IBOutlet weak var newLabelTextField: NSTextField!
@@ -20,7 +20,6 @@ class NewLabelViewController: NSViewController
     {
         super.viewDidLoad()
         
-        self.setupView()
         self.labels.getAll()
     }
     
@@ -34,11 +33,5 @@ class NewLabelViewController: NSViewController
         self.labels.add(self.newLabelTextField.stringValue)
         self.dismissController(self)
         self.labelsViewController.refreshLabels()
-    }
-    
-    private func setupView()
-    {
-        self.view.wantsLayer = true
-        self.view.layer?.backgroundColor = NSColor(hexString: "#2196f3")?.CGColor
     }
 }

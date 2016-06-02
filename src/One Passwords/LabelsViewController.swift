@@ -10,7 +10,7 @@ import Cocoa
 import DonoCore
 import SwiftHEXColors
 
-class LabelsViewController: NSViewController, NSTableViewDataSource, NSTableViewDelegate
+class LabelsViewController : DonoViewController, NSTableViewDataSource, NSTableViewDelegate
 {
     @IBOutlet weak var labelsTableView: NSTableView!
     
@@ -22,7 +22,6 @@ class LabelsViewController: NSViewController, NSTableViewDataSource, NSTableView
     {
         super.viewDidLoad()
 
-        self.setupView()
         self.labels.getAll()
         
         self.labelsTableView.setDelegate(self)
@@ -63,12 +62,6 @@ class LabelsViewController: NSViewController, NSTableViewDataSource, NSTableView
             // Update the view, if already loaded.
         }
     }
-
-    private func setupView()
-    {
-        self.view.wantsLayer = true
-        self.view.layer?.backgroundColor = NSColor(hexString: "#2196f3")?.CGColor
-    }
     
     func refreshLabels()
     {
@@ -103,11 +96,11 @@ class LabelsViewController: NSViewController, NSTableViewDataSource, NSTableView
             copyToPasteboard(d);
             
             let alert = NSAlert()
-            alert.beginSheetModalForWindow(self.view.window!, completionHandler: nil)
             alert.messageText = "Password retrieved"
             alert.informativeText = "Your password for " + label + " is ready to be pasted!"
             alert.addButtonWithTitle("Awesome!")
             alert.alertStyle = NSAlertStyle.InformationalAlertStyle
+            alert.beginSheetModalForWindow(self.view.window!, completionHandler: nil)
         }
     }
 }

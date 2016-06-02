@@ -9,6 +9,7 @@ target 'Dono' do
   pod 'DonoCore', :git => "https://github.com/dono-app/dono-pod/"
   pod 'KeychainSwift', '~> 3.0.16'
   pod 'SwiftHEXColors', '~> 1.0.4'
+  pod 'SwiftyUserDefaults', '~> 2.2.0'
 
 
   target 'DonoTests' do
