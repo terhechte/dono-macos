@@ -14,6 +14,7 @@ class LabelsViewController : DonoViewController, NSTableViewDataSource, NSTableV
 {
     @IBOutlet weak var labelsTableView: NSTableView!
     
+    @IBOutlet weak var addLabelButton: NSButton!
     let labels = PersistableLabels()
     let key = PersistableKey()
     let dono = Dono()
@@ -21,7 +22,7 @@ class LabelsViewController : DonoViewController, NSTableViewDataSource, NSTableV
     override func viewDidLoad()
     {
         super.viewDidLoad()
-
+            
         self.labels.getAll()
         
         self.labelsTableView.setDelegate(self)

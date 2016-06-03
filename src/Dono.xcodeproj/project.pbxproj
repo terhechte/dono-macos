@@ -165,14 +165,14 @@
 		E62A58331C9731FF005EC7B7 /* Dono */ = {
 			isa = PBXGroup;
 			children = (
-				E63B416F1C988E550002508F /* One Passwords.entitlements */,
-				E686A77D1C973D420060648C /* Models */,
-				E686A7781C973D1A0060648C /* Utils */,
-				E62A58341C9731FF005EC7B7 /* AppDelegate.swift */,
-				E686A7761C973D080060648C /* ViewControllers */,
-				E62A58381C9731FF005EC7B7 /* Assets.xcassets */,
-				E62A583A1C9731FF005EC7B7 /* Dono.storyboard */,
 				E62A583D1C9731FF005EC7B7 /* Info.plist */,
+				E63B416F1C988E550002508F /* One Passwords.entitlements */,
+				E62A58381C9731FF005EC7B7 /* Assets.xcassets */,
+				E686A7781C973D1A0060648C /* Utils */,
+				E686A77D1C973D420060648C /* Models */,
+				E686A7761C973D080060648C /* ViewControllers */,
+				E62A58341C9731FF005EC7B7 /* AppDelegate.swift */,
+				E62A583A1C9731FF005EC7B7 /* Dono.storyboard */,
 				E6986EEC1D00C0DB009C3829 /* MainWindow.swift */,
 			);
 			name = Dono;

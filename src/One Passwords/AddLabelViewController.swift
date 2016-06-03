@@ -23,7 +23,7 @@ class AddLabelViewController: DonoViewController
         self.labels.getAll()
     }
     
-    @IBAction func dismiss(sender: AnyObject)
+    @IBAction func close(sender: AnyObject)
     {
         self.dismissController(self)
     }
