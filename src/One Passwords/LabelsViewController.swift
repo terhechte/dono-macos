@@ -9,6 +9,7 @@
 import Cocoa
 import DonoCore
 import SwiftHEXColors
+import Carbon
 
 class LabelsViewController : DonoViewController, NSTableViewDataSource, NSTableViewDelegate
 {
@@ -23,11 +24,10 @@ class LabelsViewController : DonoViewController, NSTableViewDataSource, NSTableV
         super.viewDidLoad()
 
         self.labels.getAll()
-        
         self.labelsTableView.setDelegate(self)
         self.labelsTableView.setDataSource(self)
         self.labelsTableView.target = self
-        self.labelsTableView.doubleAction = #selector(LabelsViewController.tableViewDoubleClick(_:))
+        self.labelsTableView.doubleAction = #selector(LabelsViewController.tableViewDoubleClick(_:))        
     }
     
     @IBAction func deleteLabel(sender: AnyObject)
@@ -49,9 +49,9 @@ class LabelsViewController : DonoViewController, NSTableViewDataSource, NSTableV
     {
         let destinationViewController = segue.destinationController
         
-        if (destinationViewController is NewLabelViewController)
+        if (destinationViewController is AddLabelViewController)
         {
-            (destinationViewController as! NewLabelViewController).labelsViewController = self
+            (destinationViewController as! AddLabelViewController).labelsViewController = self
         }
     }
     
@@ -80,27 +80,37 @@ class LabelsViewController : DonoViewController, NSTableViewDataSource, NSTableV
         if let cell = tableView.makeViewWithIdentifier("LabelCellID", owner: nil) as? NSTableCellView
         {
             cell.textField?.stringValue = self.labels.getAt(row)
+
             return cell
         }
         
         return nil
     }
-    
+        
     func tableViewDoubleClick(sender: AnyObject)
     {
         if (self.labelsTableView.selectedRow >= 0)
         {
+            let key = self.key.getKey()
+            
+            if (key.isEmpty)
+            {
+                self.showCrititcalAlert(
+                    "No Key is set!",
+                    message: "You need to set your Key in order to derive passwords for your Labels!")
+
+                return
+            }
+            
             let label = self.labels.getAt(self.labelsTableView.selectedRow)
             
-            let d = self.dono.computePassword(self.key.getKey(), l: label)
+            let d = self.dono.computePassword(key, l: label)
             copyToPasteboard(d);
-            
-            let alert = NSAlert()
-            alert.messageText = "Password retrieved"
-            alert.informativeText = "Your password for " + label + " is ready to be pasted!"
-            alert.addButtonWithTitle("Awesome!")
-            alert.alertStyle = NSAlertStyle.InformationalAlertStyle
-            alert.beginSheetModalForWindow(self.view.window!, completionHandler: nil)
+                        
+            self.showInfoAlert(
+                "Password retrieved",
+                message: "Your password for " + label + " is ready to be pasted!",
+                buttonTitle: "Awesome!")
         }
     }
 }

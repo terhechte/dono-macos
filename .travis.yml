@@ -3,3 +3,6 @@ osx_image: xcode7.3
 
 script:
     - xcodebuild -workspace src/Dono.xcworkspace -scheme Dono | xcpretty
+
+notifications:
+    on_failure: always

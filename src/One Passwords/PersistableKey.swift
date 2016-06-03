@@ -9,9 +9,6 @@
 import Foundation
 import KeychainSwift
 
-let keyFileName = "/.key";
-let pathToKeyFile = docsFolder.stringByAppendingString(keyFileName);
-
 internal class PersistableKey
 {
     private static var KEYCHAIN_KEY = "dono.key"
