@@ -21,6 +21,8 @@ class AddLabelViewController: DonoViewController
         super.viewDidLoad()
         
         self.labels.getAll()
+
+        self.registerKeyShortcuts()
     }
     
     @IBAction func close(sender: AnyObject)
@@ -51,6 +53,23 @@ class AddLabelViewController: DonoViewController
         {
             self.dismissController(self)
             self.labelsViewController.refreshLabels()
+        }
+    }
+    
+    private func registerKeyShortcuts()
+    {
+        NSEvent.addLocalMonitorForEventsMatchingMask(.KeyDownMask) { (aEvent) -> NSEvent? in
+            
+            if (aEvent.keyCode == DonoViewController.EscKeyCode)
+            {
+                self.close(self)
+            }
+            else if (aEvent.keyCode == DonoViewController.EnterKeyCode)
+            {
+                self.addLabel(self)
+            }
+            
+            return aEvent
         }
     }
 }

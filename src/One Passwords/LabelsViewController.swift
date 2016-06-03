@@ -9,6 +9,7 @@
 import Cocoa
 import DonoCore
 import SwiftHEXColors
+import Carbon
 
 class LabelsViewController : DonoViewController, NSTableViewDataSource, NSTableViewDelegate
 {
@@ -26,7 +27,7 @@ class LabelsViewController : DonoViewController, NSTableViewDataSource, NSTableV
         self.labelsTableView.setDelegate(self)
         self.labelsTableView.setDataSource(self)
         self.labelsTableView.target = self
-        self.labelsTableView.doubleAction = #selector(LabelsViewController.tableViewDoubleClick(_:))
+        self.labelsTableView.doubleAction = #selector(LabelsViewController.tableViewDoubleClick(_:))        
     }
     
     @IBAction func deleteLabel(sender: AnyObject)

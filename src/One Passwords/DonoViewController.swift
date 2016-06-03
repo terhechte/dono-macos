@@ -18,6 +18,10 @@ class DonoViewController : NSViewController
 
     static var SecondaryText = "#E3E3E3"
     
+    static var EscKeyCode = UInt16(53)
+    
+    static var EnterKeyCode = UInt16(36)
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()

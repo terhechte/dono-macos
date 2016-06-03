@@ -19,6 +19,8 @@ class KeyViewController : DonoViewController
     {
         super.viewDidLoad()
         
+        self.registerKeyShortcuts()
+        
         self.keySecureTextField.stringValue = self.key.getKey()
     }
     
@@ -29,6 +31,7 @@ class KeyViewController : DonoViewController
         if (!newKey.isEmpty && newKey.characters.count >= Dono.MIN_KEY_LENGTH)
         {
             self.key.setkey(newKey);
+            
             self.dismissController(self);
         }
         else
@@ -49,6 +52,23 @@ class KeyViewController : DonoViewController
             {
                 destinationVC.plainKey = self.keySecureTextField.stringValue
             }
+        }
+    }
+    
+    private func registerKeyShortcuts()
+    {
+        NSEvent.addLocalMonitorForEventsMatchingMask(.KeyDownMask) { (aEvent) -> NSEvent? in
+            
+            if (aEvent.keyCode == DonoViewController.EscKeyCode)
+            {
+                self.done(self)
+            }
+            else if (aEvent.keyCode == DonoViewController.EnterKeyCode)
+            {
+                self.done(self)
+            }
+            
+            return aEvent
         }
     }
 }
