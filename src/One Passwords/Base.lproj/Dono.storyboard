@@ -675,6 +675,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="292" height="511"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
+                            <button translatesAutoresizingMaskIntoConstraints="NO" id="v2M-5D-8Lx">
+                                <rect key="frame" x="117" y="20" width="24" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="24" id="2rJ-nl-yIU"/>
+                                    <constraint firstAttribute="height" constant="24" id="Kc4-E9-zek"/>
+                                </constraints>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="plus-circle" imagePosition="overlaps" alignment="center" alternateImage="plus-circle-dark" imageScaling="proportionallyUpOrDown" inset="2" id="xsp-dD-WNp">
+                                    <behavior key="behavior" lightByContents="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <segue destination="zK5-TD-oPm" kind="sheet" id="XKL-FF-U5P"/>
+                                </connections>
+                            </button>
                             <scrollView autohidesScrollers="YES" horizontalLineScroll="41" horizontalPageScroll="10" verticalLineScroll="41" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CE2-m5-YjX">
                                 <rect key="frame" x="0.0" y="52" width="292" height="412"/>
                                 <clipView key="contentView" id="Hfi-Qi-jS9">
@@ -771,26 +785,12 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="24" id="Z5B-S4-MSA"/>
                                 </constraints>
-                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="key" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="rYm-3F-kDn">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="key" imagePosition="only" alignment="center" alternateImage="key-dark" imageScaling="proportionallyUpOrDown" inset="2" id="rYm-3F-kDn">
+                                    <behavior key="behavior" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
                                     <segue destination="ox4-km-s57" kind="sheet" id="V8Q-uj-NYO"/>
-                                </connections>
-                            </button>
-                            <button translatesAutoresizingMaskIntoConstraints="NO" id="v2M-5D-8Lx">
-                                <rect key="frame" x="117" y="20" width="24" height="24"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="24" id="2rJ-nl-yIU"/>
-                                    <constraint firstAttribute="height" constant="24" id="Kc4-E9-zek"/>
-                                </constraints>
-                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="plus-circle" imagePosition="overlaps" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="xsp-dD-WNp">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                                <connections>
-                                    <segue destination="zK5-TD-oPm" kind="sheet" id="XKL-FF-U5P"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -856,8 +856,8 @@
                             </textField>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c9A-FI-s4G">
                                 <rect key="frame" x="205" y="20" width="24" height="24"/>
-                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="close-circle" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="qyH-Uq-OES">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="close-circle" imagePosition="only" alignment="center" alternateImage="close-circle-dark" imageScaling="proportionallyUpOrDown" inset="2" id="qyH-Uq-OES">
+                                    <behavior key="behavior" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
@@ -866,8 +866,8 @@
                             </button>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ohQ-hx-xUD">
                                 <rect key="frame" x="171" y="20" width="24" height="24"/>
-                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="plus-circle" imagePosition="overlaps" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="q78-xl-3bn">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="plus-circle" imagePosition="overlaps" alignment="center" alternateImage="plus-circle-dark" imageScaling="proportionallyUpOrDown" inset="2" id="q78-xl-3bn">
+                                    <behavior key="behavior" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
@@ -910,17 +910,6 @@
                                     </allowedInputSourceLocales>
                                 </secureTextFieldCell>
                             </secureTextField>
-                            <button translatesAutoresizingMaskIntoConstraints="NO" id="DA1-0L-x5k">
-                                <rect key="frame" x="356" y="79" width="24" height="24"/>
-                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="eye" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="fbD-Ck-Qdd">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                                <connections>
-                                    <action selector="click:" target="ox4-km-s57" id="c3s-vA-MbL"/>
-                                    <segue destination="i08-7H-TPX" kind="popover" identifier="ShowPlainKeyView" popoverAnchorView="DA1-0L-x5k" popoverBehavior="t" preferredEdge="maxY" id="xLJ-9D-Pcv"/>
-                                </connections>
-                            </button>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="glg-Rz-rhX">
                                 <rect key="frame" x="18" y="139" width="364" height="21"/>
                                 <constraints>
@@ -934,12 +923,23 @@
                             </textField>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7cl-eb-0SC">
                                 <rect key="frame" x="188" y="20" width="24" height="24"/>
-                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="check-circle" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="w5F-YD-LMM">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="check-circle" imagePosition="only" alignment="center" alternateImage="check-circle-dark" imageScaling="proportionallyUpOrDown" inset="2" id="w5F-YD-LMM">
+                                    <behavior key="behavior" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
                                     <action selector="done:" target="ox4-km-s57" id="wTi-F0-Evl"/>
+                                </connections>
+                            </button>
+                            <button translatesAutoresizingMaskIntoConstraints="NO" id="DA1-0L-x5k">
+                                <rect key="frame" x="356" y="79" width="24" height="24"/>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="eye" imagePosition="only" alignment="center" alternateImage="eye-dark" continuous="YES" imageScaling="proportionallyUpOrDown" inset="2" id="fbD-Ck-Qdd">
+                                    <behavior key="behavior" lightByContents="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="click:" target="ox4-km-s57" id="c3s-vA-MbL"/>
+                                    <segue destination="i08-7H-TPX" kind="popover" identifier="ShowPlainKeyView" popoverAnchorView="DA1-0L-x5k" popoverBehavior="t" preferredEdge="maxY" id="xLJ-9D-Pcv"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -997,16 +997,21 @@
                 </viewController>
                 <customObject id="IK3-5r-tTe" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="646" y="1085"/>
+            <point key="canvasLocation" x="579" y="1142"/>
         </scene>
     </scenes>
     <resources>
         <image name="check-circle" width="24" height="24"/>
+        <image name="check-circle-dark" width="24" height="24"/>
         <image name="close-circle" width="24" height="24"/>
+        <image name="close-circle-dark" width="24" height="24"/>
         <image name="eye" width="24" height="24"/>
+        <image name="eye-dark" width="24" height="24"/>
         <image name="eye-off" width="24" height="24"/>
         <image name="key" width="24" height="24"/>
+        <image name="key-dark" width="24" height="24"/>
         <image name="plus-circle" width="24" height="24"/>
+        <image name="plus-circle-dark" width="24" height="24"/>
         <image name="tag" width="24" height="24"/>
     </resources>
 </document>
