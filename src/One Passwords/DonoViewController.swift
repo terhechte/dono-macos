@@ -10,13 +10,19 @@ import Cocoa
 
 class DonoViewController : NSViewController
 {
+    static var DarkPrimaryColor = "#1976d2"
+
+    static var PrimaryColor = "#2196f3"
+
+    static var AccentColor = "#03a9f4"
+
     override func viewDidLoad()
     {
         super.viewDidLoad()
         
         // Set view's background color
         self.view.wantsLayer = true
-        self.view.layer?.backgroundColor = NSColor(hexString: "#2196f3")?.colorWithAlphaComponent(1).CGColor
+        self.view.layer?.backgroundColor = NSColor(hexString: DonoViewController.PrimaryColor)?.colorWithAlphaComponent(1).CGColor
     }
     
     func showInfoAlert(title: String, message: String, buttonTitle: String)

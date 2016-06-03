@@ -15,7 +15,7 @@ class MainWindow: NSWindowController
     {
         super.windowDidLoad()
         
-        super.window?.backgroundColor = NSColor(hexString: "#1976d2")        
+        super.window?.backgroundColor = NSColor(hexString: DonoViewController.DarkPrimaryColor)
     }
     
 }
