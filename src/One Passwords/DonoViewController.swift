@@ -16,6 +16,8 @@ class DonoViewController : NSViewController
 
     static var AccentColor = "#03a9f4"
 
+    static var SecondaryText = "#E3E3E3"
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()

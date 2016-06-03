@@ -85,7 +85,7 @@ class LabelsViewController : DonoViewController, NSTableViewDataSource, NSTableV
         
         return nil
     }
-    
+        
     func tableViewDoubleClick(sender: AnyObject)
     {
         if (self.labelsTableView.selectedRow >= 0)
