@@ -18,7 +18,8 @@ class KeyViewController : DonoViewController
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        self.setupView()
+        
+        self.registerKeyShortcuts()
         
         self.keySecureTextField.stringValue = self.key.getKey()
     }
@@ -30,25 +31,17 @@ class KeyViewController : DonoViewController
         if (!newKey.isEmpty && newKey.characters.count >= Dono.MIN_KEY_LENGTH)
         {
             self.key.setkey(newKey);
+            
             self.dismissController(self);
         }
         else
         {
-            let alert = NSAlert()
-            alert.messageText = "Your Key is not long enough!"
-            alert.informativeText = "Your Key has to be longer than " + String(Dono.MIN_KEY_LENGTH - 1) + " characters"
-            alert.addButtonWithTitle("Got it!")
-            alert.alertStyle = NSAlertStyle.CriticalAlertStyle
-            alert.beginSheetModalForWindow(self.view.window!, completionHandler: nil)
-            
             self.keySecureTextField.stringValue = self.key.getKey()
+
+            self.showCrititcalAlert(
+                "Your Key is not long enough!",
+                message: "Your Key has to be longer than " + String(Dono.MIN_KEY_LENGTH - 1) + " characters")
         }
-    }
-    
-    private func setupView()
-    {
-        self.view.wantsLayer = true
-        self.view.layer?.backgroundColor = NSColor(hexString: "#2196f3")?.CGColor
     }
     
     override func prepareForSegue(segue: NSStoryboardSegue, sender: AnyObject?)
@@ -59,6 +52,23 @@ class KeyViewController : DonoViewController
             {
                 destinationVC.plainKey = self.keySecureTextField.stringValue
             }
+        }
+    }
+    
+    private func registerKeyShortcuts()
+    {
+        NSEvent.addLocalMonitorForEventsMatchingMask(.KeyDownMask) { (aEvent) -> NSEvent? in
+            
+            if (aEvent.keyCode == DonoViewController.EscKeyCode)
+            {
+                self.done(self)
+            }
+            else if (aEvent.keyCode == DonoViewController.EnterKeyCode)
+            {
+                self.done(self)
+            }
+            
+            return aEvent
         }
     }
 }
