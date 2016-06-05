@@ -11,13 +11,11 @@ import SwiftHEXColors
 
 class AddLabelViewController: DonoViewController
 {
-    var labels = PersistableLabels()
-    var labelsViewController = LabelsViewController()
-    
-    var keyboardMonitor = AnyObject?()
-    
     @IBOutlet weak var newLabelTextField: NSTextField!
     
+    var labels = PersistableLabels()
+    var labelsViewController = LabelsViewController()
+
     override func viewDidLoad()
     {
         super.viewDidLoad()
@@ -29,8 +27,6 @@ class AddLabelViewController: DonoViewController
     
     @IBAction func close(sender: AnyObject)
     {
-        NSEvent.removeMonitor(self.keyboardMonitor!)
-
         self.dismissController(nil)
     }
     
@@ -62,7 +58,7 @@ class AddLabelViewController: DonoViewController
     
     private func registerKeyShortcuts()
     {
-        self.keyboardMonitor = NSEvent.addLocalMonitorForEventsMatchingMask(.KeyDownMask) { (aEvent) -> NSEvent? in
+        NSEvent.addLocalMonitorForEventsMatchingMask(.KeyDownMask) { (aEvent) -> NSEvent? in
             
             if (aEvent.keyCode == DonoViewController.EscKeyCode)
             {

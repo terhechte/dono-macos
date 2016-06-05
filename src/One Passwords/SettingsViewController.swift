@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class DonoSettingsViewController : DonoViewController
+class SettingsViewController : DonoViewController
 {
     @IBOutlet weak var rememberKeyToggle: NSButton!
     

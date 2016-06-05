@@ -11,10 +11,10 @@ import DonoCore
 
 class KeyViewController : DonoViewController
 {
-    let key = PersistableKey()
-    
     @IBOutlet weak var keySecureTextField: NSSecureTextField!
     
+    let key = PersistableKey()
+
     override func viewDidLoad()
     {
         super.viewDidLoad()
@@ -32,7 +32,7 @@ class KeyViewController : DonoViewController
         {
             self.key.setkey(newKey);
             
-            self.dismissController(self);
+            self.close(sender)
         }
         else
         {
@@ -46,9 +46,7 @@ class KeyViewController : DonoViewController
 
     @IBAction func close(sender: AnyObject)
     {
-        //        NSEvent.removeMonitor(self.keyboardMonitor!)
-        
-        self.dismissController(nil)
+        self.dismissController(sender)
     }
 
     override func prepareForSegue(segue: NSStoryboardSegue, sender: AnyObject?)
@@ -64,7 +62,6 @@ class KeyViewController : DonoViewController
     
     private func registerKeyShortcuts()
     {
-        // self.keyboardMonitor =
         NSEvent.addLocalMonitorForEventsMatchingMask(.KeyDownMask) { (aEvent) -> NSEvent? in
             
             if (aEvent.keyCode == DonoViewController.EscKeyCode)

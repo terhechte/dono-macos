@@ -11,9 +11,9 @@ import Foundation
 
 class PlainKeyViewController : NSViewController
 {
-    var plainKey = String()
-    
     @IBOutlet weak var plainKeyTextField: NSTextField!
+
+    var plainKey = String()
 
     override func viewDidLoad()
     {

@@ -676,13 +676,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="350" height="592"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="In5-EN-dxX">
+                                <rect key="frame" x="18" y="295" width="314" height="192"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="192" id="oht-oe-FXj"/>
+                                </constraints>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="It feels lonely in here! Add Labels in order to derive passwords for them" id="ohY-nC-t8h">
+                                    <font key="font" metaFont="system" size="22"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
                             <scrollView borderType="none" autohidesScrollers="YES" horizontalLineScroll="48" horizontalPageScroll="10" verticalLineScroll="48" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" scrollerKnobStyle="light" translatesAutoresizingMaskIntoConstraints="NO" id="CE2-m5-YjX">
                                 <rect key="frame" x="0.0" y="59" width="350" height="474"/>
                                 <clipView key="contentView" drawsBackground="NO" copiesOnScroll="NO" id="Hfi-Qi-jS9">
                                     <rect key="frame" x="0.0" y="0.0" width="350" height="474"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
-                                        <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" rowHeight="48" viewBased="YES" id="er9-T5-2r0">
+                                        <tableView hidden="YES" verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" rowHeight="48" viewBased="YES" id="er9-T5-2r0">
                                             <rect key="frame" x="0.0" y="0.0" width="351" height="0.0"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -807,6 +818,7 @@
                         <constraints>
                             <constraint firstItem="v2M-5D-8Lx" firstAttribute="top" secondItem="PCJ-vs-hvz" secondAttribute="top" id="12v-SQ-h7b"/>
                             <constraint firstItem="CE2-m5-YjX" firstAttribute="top" secondItem="kfe-um-hlF" secondAttribute="bottom" constant="15" id="2jg-99-RCA"/>
+                            <constraint firstItem="In5-EN-dxX" firstAttribute="top" secondItem="kfe-um-hlF" secondAttribute="bottom" constant="61" id="4hs-tu-qhQ"/>
                             <constraint firstItem="CE2-m5-YjX" firstAttribute="centerY" secondItem="m2S-Jp-Qdl" secondAttribute="centerY" id="970-ko-wfv"/>
                             <constraint firstItem="v2M-5D-8Lx" firstAttribute="top" secondItem="CE2-m5-YjX" secondAttribute="bottom" constant="15" id="D5f-aK-L3q"/>
                             <constraint firstItem="kfe-um-hlF" firstAttribute="trailing" secondItem="CE2-m5-YjX" secondAttribute="trailing" id="DgR-aF-yyV"/>
@@ -815,7 +827,10 @@
                             <constraint firstItem="CE2-m5-YjX" firstAttribute="centerX" secondItem="PCJ-vs-hvz" secondAttribute="centerX" id="Jsq-7f-cpz"/>
                             <constraint firstItem="v2M-5D-8Lx" firstAttribute="baseline" secondItem="PCJ-vs-hvz" secondAttribute="baseline" id="PC6-ZV-HLt"/>
                             <constraint firstItem="kfe-um-hlF" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="20" symbolic="YES" id="X8y-Kp-3uB"/>
+                            <constraint firstItem="In5-EN-dxX" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="ZQB-Ve-Dgg"/>
+                            <constraint firstAttribute="trailing" secondItem="In5-EN-dxX" secondAttribute="trailing" constant="20" id="Zc4-WZ-vji"/>
                             <constraint firstAttribute="bottom" secondItem="v2M-5D-8Lx" secondAttribute="bottom" constant="20" symbolic="YES" id="dSZ-jg-acx"/>
+                            <constraint firstItem="In5-EN-dxX" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="dqh-fg-B7e"/>
                             <constraint firstItem="PCJ-vs-hvz" firstAttribute="top" secondItem="ICl-4e-4u1" secondAttribute="top" id="eGf-8T-R71"/>
                             <constraint firstItem="ICl-4e-4u1" firstAttribute="leading" secondItem="PCJ-vs-hvz" secondAttribute="trailing" constant="10" symbolic="YES" id="keK-px-AFn"/>
                             <constraint firstItem="PCJ-vs-hvz" firstAttribute="leading" secondItem="v2M-5D-8Lx" secondAttribute="trailing" constant="10" symbolic="YES" id="lAI-te-Ku4"/>
@@ -825,6 +840,7 @@
                     </view>
                     <connections>
                         <outlet property="labelsTableView" destination="er9-T5-2r0" id="QdJ-aa-Iiu"/>
+                        <outlet property="lonelyLabel" destination="In5-EN-dxX" id="Grb-9O-Jfc"/>
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
@@ -913,7 +929,7 @@
                 </viewController>
                 <customObject id="QTU-Kn-wnK" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-135" y="1055"/>
+            <point key="canvasLocation" x="-18" y="979"/>
         </scene>
         <!--Key View Controller-->
         <scene sceneID="YTt-sm-j64">
@@ -987,7 +1003,6 @@
                     </view>
                     <connections>
                         <outlet property="keySecureTextField" destination="lGI-wD-1MT" id="vYi-WO-YFt"/>
-                        <outlet property="revealHideButton" destination="DA1-0L-x5k" id="WO0-7P-ZwJ"/>
                     </connections>
                 </viewController>
                 <customObject id="rfg-Nz-46D" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
@@ -1025,10 +1040,10 @@
             </objects>
             <point key="canvasLocation" x="670" y="686"/>
         </scene>
-        <!--Dono Settings View Controller-->
+        <!--Settings View Controller-->
         <scene sceneID="gMQ-Mg-EZp">
             <objects>
-                <viewController id="Mw9-1n-BRh" customClass="DonoSettingsViewController" customModule="Dono" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Mw9-1n-BRh" customClass="SettingsViewController" customModule="Dono" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="ZZo-rh-qH9">
                         <rect key="frame" x="0.0" y="0.0" width="350" height="180"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -1052,7 +1067,7 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="close:" target="Mw9-1n-BRh" id="rNE-e7-bbg"/>
+                                    <action selector="dismissController:" target="Mw9-1n-BRh" id="zcd-tw-jOf"/>
                                 </connections>
                             </button>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="8qS-x5-sAE">
@@ -1099,7 +1114,7 @@
                 </viewController>
                 <customObject id="YnP-DB-1sT" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="380" y="1013"/>
+            <point key="canvasLocation" x="452" y="979"/>
         </scene>
     </scenes>
     <resources>
