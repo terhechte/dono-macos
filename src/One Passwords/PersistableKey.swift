@@ -13,17 +13,19 @@ internal class PersistableKey
 {
     private static var KEYCHAIN_KEY = "dono.key"
     
-    static var Key = "";
+    static var Key = String();
+    
     let keychain = KeychainSwift()
+    let settings = Settings()
     
     internal func getKey() -> String
     {
-        if (PersistableKey.Key != "")
+        if (!PersistableKey.Key.isEmpty)
         {
             return PersistableKey.Key;
         }
         
-        loadKey();
+        self.load();
         
         return PersistableKey.Key;
     }
@@ -33,17 +35,29 @@ internal class PersistableKey
         if (key != PersistableKey.Key)
         {
             PersistableKey.Key = key;
-            saveKey();
+            self.save();
         }
     }
     
-    private func loadKey()
+    internal func delete()
     {
-        PersistableKey.Key = self.keychain.get(PersistableKey.KEYCHAIN_KEY) ?? ""
+        PersistableKey.Key = String()
+        self.keychain.delete(PersistableKey.KEYCHAIN_KEY)
     }
     
-    private func saveKey()
+    internal func save()
     {
-        self.keychain.set(PersistableKey.Key, forKey: PersistableKey.KEYCHAIN_KEY)
+        if (self.settings.getRememberKeyValue())
+        {
+            self.keychain.set(PersistableKey.Key, forKey: PersistableKey.KEYCHAIN_KEY)
+        }
+    }
+    
+    private func load()
+    {
+        if (self.settings.getRememberKeyValue())
+        {
+            PersistableKey.Key = self.keychain.get(PersistableKey.KEYCHAIN_KEY) ?? String()
+        }
     }
 }

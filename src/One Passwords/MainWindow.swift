@@ -10,11 +10,15 @@ import Cocoa
 
 class MainWindow: NSWindowController
 {
-    
     override func windowDidLoad()
     {
         super.windowDidLoad()
         
         super.window?.backgroundColor = NSColor(hexString: DonoViewController.DarkPrimaryColor)
+    }
+    
+    internal func showSettings()
+    {
+        (self.contentViewController as! LabelsViewController).performSegueWithIdentifier("ShowSettingsView", sender: self)
     }
 }

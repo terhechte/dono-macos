@@ -14,6 +14,8 @@ class AddLabelViewController: DonoViewController
     var labels = PersistableLabels()
     var labelsViewController = LabelsViewController()
     
+    var keyboardMonitor = AnyObject?()
+    
     @IBOutlet weak var newLabelTextField: NSTextField!
     
     override func viewDidLoad()
@@ -21,13 +23,15 @@ class AddLabelViewController: DonoViewController
         super.viewDidLoad()
         
         self.labels.getAll()
-
+        
         self.registerKeyShortcuts()
     }
     
     @IBAction func close(sender: AnyObject)
     {
-        self.dismissController(self)
+        NSEvent.removeMonitor(self.keyboardMonitor!)
+
+        self.dismissController(nil)
     }
     
     @IBAction func addLabel(sender: AnyObject)
@@ -51,14 +55,14 @@ class AddLabelViewController: DonoViewController
         }
         else
         {
-            self.dismissController(self)
+            self.close(sender)
             self.labelsViewController.refreshLabels()
         }
     }
     
     private func registerKeyShortcuts()
     {
-        NSEvent.addLocalMonitorForEventsMatchingMask(.KeyDownMask) { (aEvent) -> NSEvent? in
+        self.keyboardMonitor = NSEvent.addLocalMonitorForEventsMatchingMask(.KeyDownMask) { (aEvent) -> NSEvent? in
             
             if (aEvent.keyCode == DonoViewController.EscKeyCode)
             {

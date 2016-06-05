@@ -15,10 +15,20 @@ class AppDelegate: NSObject, NSApplicationDelegate
     {
         // Insert code here to initialize your application
     }
-
+    
     func applicationWillTerminate(aNotification: NSNotification)
     {
         // Insert code here to tear down your application
+    }
+    
+    func applicationShouldTerminateAfterLastWindowClosed(sender: NSApplication) -> Bool
+    {
+        return true
+    }
+    
+    @IBAction func showSettings(sender: AnyObject)
+    {
+        (NSApplication.sharedApplication().mainWindow?.windowController as! MainWindow).showSettings()
     }
 }
 

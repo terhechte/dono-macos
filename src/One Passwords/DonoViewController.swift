@@ -48,6 +48,6 @@ class DonoViewController : NSViewController
         alert.informativeText = message
         alert.addButtonWithTitle(buttonTitle)
         alert.alertStyle = style
-        alert.beginSheetModalForWindow(self.view.window!, completionHandler: nil)
+        alert.beginSheetModalForWindow(NSApplication.sharedApplication().mainWindow!, completionHandler: nil)
     }
 }

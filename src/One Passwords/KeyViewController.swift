@@ -19,9 +19,9 @@ class KeyViewController : DonoViewController
     {
         super.viewDidLoad()
         
-        self.registerKeyShortcuts()
-        
         self.keySecureTextField.stringValue = self.key.getKey()
+        
+        self.registerKeyShortcuts()
     }
     
     @IBAction func done(sender: AnyObject)
@@ -43,7 +43,14 @@ class KeyViewController : DonoViewController
                 message: "Your Key has to be longer than " + String(Dono.MIN_KEY_LENGTH - 1) + " characters")
         }
     }
-    
+
+    @IBAction func close(sender: AnyObject)
+    {
+        //        NSEvent.removeMonitor(self.keyboardMonitor!)
+        
+        self.dismissController(nil)
+    }
+
     override func prepareForSegue(segue: NSStoryboardSegue, sender: AnyObject?)
     {
         if (segue.identifier == "ShowPlainKeyView")
@@ -57,11 +64,12 @@ class KeyViewController : DonoViewController
     
     private func registerKeyShortcuts()
     {
+        // self.keyboardMonitor =
         NSEvent.addLocalMonitorForEventsMatchingMask(.KeyDownMask) { (aEvent) -> NSEvent? in
             
             if (aEvent.keyCode == DonoViewController.EscKeyCode)
             {
-                self.done(self)
+                self.close(self)
             }
             else if (aEvent.keyCode == DonoViewController.EnterKeyCode)
             {

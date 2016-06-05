@@ -59,6 +59,11 @@ internal class PersistableLabels
     
     internal func deleteAt(position: Int) -> String
     {
+        if (position < 0)
+        {
+            return String()
+        }
+        
         let ret = self.labels.removeAtIndex(position);
         
         self.saveLabels();

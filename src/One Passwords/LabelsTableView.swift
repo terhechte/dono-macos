@@ -22,4 +22,5 @@ class LabelTableCellView : NSTableCellView
                 self.layer?.backgroundColor = NSColor.clearColor().CGColor
             }
         }
-    }}
+    }
+}
