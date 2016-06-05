@@ -14,6 +14,9 @@ import Carbon
 class LabelsViewController : DonoViewController, NSTableViewDataSource, NSTableViewDelegate
 {
     @IBOutlet weak var labelsTableView: NSTableView!
+
+    @IBOutlet weak var lonelyLabel: NSTextField!
+
     
     let labels = PersistableLabels()
     let key = PersistableKey()
@@ -27,7 +30,11 @@ class LabelsViewController : DonoViewController, NSTableViewDataSource, NSTableV
         self.labelsTableView.setDelegate(self)
         self.labelsTableView.setDataSource(self)
         self.labelsTableView.target = self
-        self.labelsTableView.doubleAction = #selector(LabelsViewController.tableViewDoubleClick(_:))        
+        self.labelsTableView.doubleAction = #selector(LabelsViewController.tableViewDoubleClick(_:))
+        
+        self.lonelyLabel.cell?.title = "It feels lonely in here!\n\nAdd Labels in order to derive passwords for them"
+
+        self.refreshLabels()
     }
     
     @IBAction func deleteLabel(sender: AnyObject)
@@ -67,6 +74,17 @@ class LabelsViewController : DonoViewController, NSTableViewDataSource, NSTableV
     {
         self.labels.getAll()
         self.labelsTableView.reloadData()
+
+        if (self.labels.count() == 0)
+        {
+            self.lonelyLabel.hidden = false
+        }
+        else
+        {
+            self.lonelyLabel.hidden = true
+        }
+        
+        self.labelsTableView.hidden = !self.lonelyLabel.hidden
     }
     
     //TableView Data Source
