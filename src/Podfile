@@ -8,6 +8,7 @@ target 'Dono' do
   # Pods for Dono
   pod 'DonoCore', :git => "https://github.com/dono-app/dono-pod/"
   pod 'KeychainSwift', '~> 3.0.16'
+  pod 'RFOverlayScrollView', '~> 0.3'
   pod 'SwiftHEXColors', '~> 1.0.4'
   pod 'SwiftyUserDefaults', '~> 2.2.0'
 

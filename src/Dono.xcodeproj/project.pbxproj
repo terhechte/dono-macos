@@ -252,13 +252,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E62A58561C9731FF005EC7B7 /* Build configuration list for PBXNativeTarget "Dono" */;
 			buildPhases = (
-				C3D4CF82EEE84D404C10CA7E /* 📦 Check Pods Manifest.lock */,
+				C3D4CF82EEE84D404C10CA7E /* [CP] Check Pods Manifest.lock */,
 				E62A582D1C9731FF005EC7B7 /* Sources */,
 				E62A582E1C9731FF005EC7B7 /* Frameworks */,
 				E62A582F1C9731FF005EC7B7 /* Resources */,
 				E686A7961C973DBC0060648C /* Embed Frameworks */,
-				A1775470CF7EA013CBCD1D39 /* 📦 Embed Pods Frameworks */,
-				0BF0A090095B4B86EA497E48 /* 📦 Copy Pods Resources */,
+				A1775470CF7EA013CBCD1D39 /* [CP] Embed Pods Frameworks */,
+				0BF0A090095B4B86EA497E48 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -273,12 +273,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E62A58591C9731FF005EC7B7 /* Build configuration list for PBXNativeTarget "DonoTests" */;
 			buildPhases = (
-				0A82ABE8BA976B123EBA96CC /* 📦 Check Pods Manifest.lock */,
+				0A82ABE8BA976B123EBA96CC /* [CP] Check Pods Manifest.lock */,
 				E62A583E1C9731FF005EC7B7 /* Sources */,
 				E62A583F1C9731FF005EC7B7 /* Frameworks */,
 				E62A58401C9731FF005EC7B7 /* Resources */,
-				44EB863057FE3B28C4E6A17D /* 📦 Embed Pods Frameworks */,
-				087A66C5F5CEFFD039B05EEB /* 📦 Copy Pods Resources */,
+				44EB863057FE3B28C4E6A17D /* [CP] Embed Pods Frameworks */,
+				087A66C5F5CEFFD039B05EEB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -294,11 +294,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E62A585C1C9731FF005EC7B7 /* Build configuration list for PBXNativeTarget "DonoUITests" */;
 			buildPhases = (
-				524CAD7AD00462BE8615FF09 /* 📦 Check Pods Manifest.lock */,
+				524CAD7AD00462BE8615FF09 /* [CP] Check Pods Manifest.lock */,
 				E62A58491C9731FF005EC7B7 /* Sources */,
 				E62A584A1C9731FF005EC7B7 /* Frameworks */,
 				E62A584B1C9731FF005EC7B7 /* Resources */,
-				38678D87CD1C8BD29CEDCE0E /* 📦 Copy Pods Resources */,
+				38678D87CD1C8BD29CEDCE0E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -386,14 +386,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		087A66C5F5CEFFD039B05EEB /* 📦 Copy Pods Resources */ = {
+		087A66C5F5CEFFD039B05EEB /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,14 +401,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DonoTests/Pods-DonoTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		0A82ABE8BA976B123EBA96CC /* 📦 Check Pods Manifest.lock */ = {
+		0A82ABE8BA976B123EBA96CC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,14 +416,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		0BF0A090095B4B86EA497E48 /* 📦 Copy Pods Resources */ = {
+		0BF0A090095B4B86EA497E48 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,14 +431,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dono/Pods-Dono-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		38678D87CD1C8BD29CEDCE0E /* 📦 Copy Pods Resources */ = {
+		38678D87CD1C8BD29CEDCE0E /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,14 +446,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DonoUITests/Pods-DonoUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		44EB863057FE3B28C4E6A17D /* 📦 Embed Pods Frameworks */ = {
+		44EB863057FE3B28C4E6A17D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,14 +461,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DonoTests/Pods-DonoTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		524CAD7AD00462BE8615FF09 /* 📦 Check Pods Manifest.lock */ = {
+		524CAD7AD00462BE8615FF09 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -476,14 +476,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		A1775470CF7EA013CBCD1D39 /* 📦 Embed Pods Frameworks */ = {
+		A1775470CF7EA013CBCD1D39 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -491,14 +491,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dono/Pods-Dono-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C3D4CF82EEE84D404C10CA7E /* 📦 Check Pods Manifest.lock */ = {
+		C3D4CF82EEE84D404C10CA7E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;

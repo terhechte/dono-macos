@@ -5,4 +5,5 @@
 * [DonoCore](https://github.com/dono-app/dono-pod/)
 * [Material Design Icons](https://github.com/Templarian/MaterialDesign)
 * [KeychainSwift](https://github.com/marketplacer/keychain-swift)
+* [RFOverlayScrollView](https://github.com/rheinfabrik/RFOverlayScrollView)
 * [SwiftHEXColors](https://github.com/thii/SwiftHEXColors)

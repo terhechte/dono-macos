@@ -687,7 +687,7 @@
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <scrollView borderType="none" autohidesScrollers="YES" horizontalLineScroll="48" horizontalPageScroll="10" verticalLineScroll="48" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CE2-m5-YjX">
+                            <scrollView borderType="none" autohidesScrollers="YES" horizontalLineScroll="48" horizontalPageScroll="10" verticalLineScroll="48" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CE2-m5-YjX" customClass="RFOverlayScrollView">
                                 <rect key="frame" x="0.0" y="59" width="350" height="474"/>
                                 <clipView key="contentView" copiesOnScroll="NO" id="Hfi-Qi-jS9">
                                     <rect key="frame" x="0.0" y="0.0" width="350" height="474"/>
@@ -721,8 +721,8 @@
                                                                     <rect key="frame" x="3" y="12" width="24" height="24"/>
                                                                     <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="tag" id="TKy-yE-tES"/>
                                                                 </imageView>
-                                                                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" misplaced="YES" allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nU0-qF-Xrc">
-                                                                    <rect key="frame" x="33" y="12" width="303" height="24"/>
+                                                                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nU0-qF-Xrc">
+                                                                    <rect key="frame" x="33" y="12" width="302" height="24"/>
                                                                     <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Table View Cell" id="JYh-bk-6qy">
                                                                         <font key="font" metaFont="system" size="17"/>
                                                                         <color key="textColor" red="0.011764705882352941" green="0.66274509803921566" blue="0.95686274509803915" alpha="1" colorSpace="calibratedRGB"/>
@@ -756,7 +756,7 @@
                                     <rect key="frame" x="-100" y="-100" width="335" height="15"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
-                                <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="NO" id="M6Z-OD-cxf">
+                                <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="NO" id="M6Z-OD-cxf" customClass="RFOverlayScroller">
                                     <rect key="frame" x="335" y="0.0" width="15" height="459"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
