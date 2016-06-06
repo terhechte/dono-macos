@@ -14,7 +14,8 @@ class KeyViewController : DonoViewController
     @IBOutlet weak var keySecureTextField: NSSecureTextField!
     
     let key = PersistableKey()
-
+    var eventMonitor = AnyObject?()
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
@@ -22,6 +23,11 @@ class KeyViewController : DonoViewController
         self.keySecureTextField.stringValue = self.key.getKey()
         
         self.registerKeyShortcuts()
+    }
+    
+    override func viewWillDisappear()
+    {
+        NSEvent.removeMonitor(self.eventMonitor!)
     }
     
     @IBAction func done(sender: AnyObject)
@@ -62,7 +68,7 @@ class KeyViewController : DonoViewController
     
     private func registerKeyShortcuts()
     {
-        NSEvent.addLocalMonitorForEventsMatchingMask(.KeyDownMask) { (aEvent) -> NSEvent? in
+        self.eventMonitor = NSEvent.addLocalMonitorForEventsMatchingMask(.KeyDownMask) { (aEvent) -> NSEvent? in
             
             if (aEvent.keyCode == DonoViewController.EscKeyCode)
             {
