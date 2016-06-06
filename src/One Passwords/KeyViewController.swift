@@ -33,6 +33,11 @@ class KeyViewController : DonoViewController
     @IBAction func done(sender: AnyObject)
     {
         let newKey = self.keySecureTextField.stringValue
+     
+        if (newKey.isEmpty)
+        {
+            return
+        }
         
         if (!newKey.isEmpty && newKey.characters.count >= Dono.MIN_KEY_LENGTH)
         {
