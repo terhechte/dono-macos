@@ -31,22 +31,27 @@ class DonoViewController : NSViewController
     {
         super.viewDidLoad()
         
-        // Set view's background color
-        self.view.wantsLayer = true
-        self.view.layer?.backgroundColor = NSColor(hexString: DonoViewController.PrimaryColor)?.colorWithAlphaComponent(1).CGColor
+        self.setupView()
     }
     
-    func showInfoAlert(title: String, message: String, buttonTitle: String)
+    internal func showInfoAlert(title: String, message: String, buttonTitle: String)
     {
         self.showAlert(title, message: message, buttonTitle: buttonTitle, style: NSAlertStyle.InformationalAlertStyle)
     }
 
-    func showCrititcalAlert(title: String, message: String)
+    internal func showCrititcalAlert(title: String, message: String)
     {
         self.showAlert(title, message: message, buttonTitle: "Got it!", style: NSAlertStyle.CriticalAlertStyle)
     }
+    
+    internal func copyToPasteboard(text: String)
+    {
+        let pasteboard = NSPasteboard.generalPasteboard()
+        pasteboard.clearContents()
+        pasteboard.setString(text, forType: NSPasteboardTypeString)
+    }
 
-    func showAlert(title: String, message: String, buttonTitle: String, style: NSAlertStyle)
+    private func showAlert(title: String, message: String, buttonTitle: String, style: NSAlertStyle)
     {
         let alert = NSAlert()
         alert.messageText = title
@@ -55,18 +60,10 @@ class DonoViewController : NSViewController
         alert.alertStyle = style
         alert.beginSheetModalForWindow(NSApplication.sharedApplication().mainWindow!, completionHandler: nil)
     }
-    
 
-    func getPasteboardContents() -> String?
+    private func setupView()
     {
-        let pasteboard = NSPasteboard.generalPasteboard()
-        return pasteboard.stringForType(NSPasteboardTypeString)
-    }
-    
-    func copyToPasteboard(text: String)
-    {
-        let pasteboard = NSPasteboard.generalPasteboard()
-        pasteboard.clearContents()
-        pasteboard.setString(text, forType: NSPasteboardTypeString)
+        self.view.wantsLayer = true
+        self.view.layer?.backgroundColor = NSColor(hexString: DonoViewController.PrimaryColor)?.colorWithAlphaComponent(1).CGColor
     }
 }

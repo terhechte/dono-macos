@@ -34,17 +34,10 @@ class LabelsViewController : DonoViewController, NSTableViewDataSource, NSTableV
         self.refreshLabels()
     }
     
-    @IBAction func deleteLabel(sender: AnyObject)
-    {
-        let labelToDelete = self.labelsTableView.selectedRow
-        self.labels.deleteAt(labelToDelete)
-        self.refreshLabels()
-    }
-    
     override func viewWillAppear()
     {
         super.viewWillAppear()
-     
+        
         self.labels.getAll()
         self.labelsTableView.reloadData()
     }
@@ -58,13 +51,20 @@ class LabelsViewController : DonoViewController, NSTableViewDataSource, NSTableV
             (destinationViewController as! AddLabelViewController).labelsViewController = self
         }
     }
-    
+
     override var representedObject: AnyObject?
-    {
+        {
         didSet
         {
             // Update the view, if already loaded.
         }
+    }
+
+    @IBAction func deleteLabel(sender: AnyObject)
+    {
+        let labelToDelete = self.labelsTableView.selectedRow
+        self.labels.deleteAt(labelToDelete)
+        self.refreshLabels()
     }
     
     func refreshLabels()
@@ -120,7 +120,8 @@ class LabelsViewController : DonoViewController, NSTableViewDataSource, NSTableV
             let label = self.labels.getAt(self.labelsTableView.selectedRow)
             
             let d = self.dono.computePassword(key, l: label)
-            copyToPasteboard(d);
+            
+            self.copyToPasteboard(d);
                         
             self.showInfoAlert(
                 "Password derived",
