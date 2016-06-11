@@ -11,9 +11,7 @@ import Cocoa
 class SettingsViewController : DonoViewController
 {
     @IBOutlet weak var rememberKeyToggle: NSButton!
-    
-    var settings = Settings()
-    
+        
     override func viewDidLoad()
     {
         super.viewDidLoad()

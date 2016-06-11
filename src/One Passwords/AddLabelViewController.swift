@@ -13,8 +13,8 @@ class AddLabelViewController: DonoViewController
 {
     @IBOutlet weak var newLabelTextField: NSTextField!
     
-    var labels = PersistableLabels()
     var labelsViewController = LabelsViewController()
+    
     var eventMonitor = AnyObject?()
 
     override func viewDidLoad()

@@ -20,7 +20,6 @@
 		E62A58671C9734B2005EC7B7 /* AddLabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62A58661C9734B2005EC7B7 /* AddLabelViewController.swift */; };
 		E62AB03B1D03568A004C4051 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62AB03A1D03568A004C4051 /* SettingsViewController.swift */; };
 		E62AB03D1D03635B004C4051 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62AB03C1D03635B004C4051 /* Settings.swift */; };
-		E63B416E1C9889EE0002508F /* Pasteboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63B416D1C9889EE0002508F /* Pasteboard.swift */; };
 		E686A77B1C973D380060648C /* PersistableKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = E686A7791C973D380060648C /* PersistableKey.swift */; };
 		E686A77C1C973D380060648C /* PeristableLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E686A77A1C973D380060648C /* PeristableLabels.swift */; };
 		E6906FD61D020C9A00623684 /* LabelsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6906FD51D020C9A00623684 /* LabelsTableView.swift */; };
@@ -83,7 +82,6 @@
 		E62A58661C9734B2005EC7B7 /* AddLabelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddLabelViewController.swift; sourceTree = "<group>"; };
 		E62AB03A1D03568A004C4051 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		E62AB03C1D03635B004C4051 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
-		E63B416D1C9889EE0002508F /* Pasteboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pasteboard.swift; sourceTree = "<group>"; };
 		E63B416F1C988E550002508F /* One Passwords.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "One Passwords.entitlements"; sourceTree = "<group>"; };
 		E686A7791C973D380060648C /* PersistableKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistableKey.swift; sourceTree = "<group>"; };
 		E686A77A1C973D380060648C /* PeristableLabels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeristableLabels.swift; sourceTree = "<group>"; };
@@ -174,7 +172,6 @@
 				E62A583D1C9731FF005EC7B7 /* Info.plist */,
 				E63B416F1C988E550002508F /* One Passwords.entitlements */,
 				E62A58381C9731FF005EC7B7 /* Assets.xcassets */,
-				E686A7781C973D1A0060648C /* Utils */,
 				E686A77D1C973D420060648C /* Models */,
 				E6E02E201D037A5200092A24 /* Views */,
 				E686A7761C973D080060648C /* ViewControllers */,
@@ -217,14 +214,6 @@
 				E62AB03A1D03568A004C4051 /* SettingsViewController.swift */,
 			);
 			name = ViewControllers;
-			sourceTree = "<group>";
-		};
-		E686A7781C973D1A0060648C /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				E63B416D1C9889EE0002508F /* Pasteboard.swift */,
-			);
-			name = Utils;
 			sourceTree = "<group>";
 		};
 		E686A77D1C973D420060648C /* Models */ = {
@@ -524,7 +513,6 @@
 				E62A58671C9734B2005EC7B7 /* AddLabelViewController.swift in Sources */,
 				E62A58351C9731FF005EC7B7 /* AppDelegate.swift in Sources */,
 				E6906FD61D020C9A00623684 /* LabelsTableView.swift in Sources */,
-				E63B416E1C9889EE0002508F /* Pasteboard.swift in Sources */,
 				E62AB03B1D03568A004C4051 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

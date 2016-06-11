@@ -11,10 +11,10 @@ PODS:
 
 DEPENDENCIES:
   - DonoCore (from `https://github.com/dono-app/dono-pod/`)
-  - KeychainSwift (~> 3.0.16)
+  - KeychainSwift (~> 3.0)
   - RFOverlayScrollView (~> 0.3)
-  - SwiftHEXColors (~> 1.0.4)
-  - SwiftyUserDefaults (~> 2.2.0)
+  - SwiftHEXColors (~> 1.0)
+  - SwiftyUserDefaults (~> 2.2)
 
 EXTERNAL SOURCES:
   DonoCore:
@@ -22,18 +22,18 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   DonoCore:
-    :commit: dcd41f7096b240e9b7afe80eb9186f59e9899762
+    :commit: 735044f1b418d9889b7b63a929a8b15c09dfa2a0
     :git: https://github.com/dono-app/dono-pod/
 
 SPEC CHECKSUMS:
   BigInt: 1ba4796c674f63a82132ea75cd2b4754608873ed
   CryptoSwift: 25b5aff3f260967391f8fff2e9abe4254d2c6fd5
-  DonoCore: b37aa6aa1bbd6f58a16aacf6671ca13093781b63
+  DonoCore: bf68282ef363c49e67ffddb78e3e1bc59e9d38a1
   KeychainSwift: a5bb85cd498ce2217b55e055ec59e9268d83384c
   RFOverlayScrollView: 8e2b3cee771aab5b3cf4df10b0ead12d22c7d965
   SwiftHEXColors: b0ecc7bd83a1aa2e1956f9ba51f55ebb2bcf86ef
   SwiftyUserDefaults: e7c8197a9d4068702e7f2406a968cae413b8de27
 
-PODFILE CHECKSUM: 00f9c2576c3b6476b65b1e56b4b82bdc74061b0f
+PODFILE CHECKSUM: 389635b7c3710310d0ffa0fbe40f43462ba52f51
 
 COCOAPODS: 1.0.1

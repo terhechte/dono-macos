@@ -16,10 +16,7 @@ class LabelsViewController : DonoViewController, NSTableViewDataSource, NSTableV
     @IBOutlet weak var labelsTableView: NSTableView!
 
     @IBOutlet weak var lonelyLabel: NSTextField!
-
     
-    let labels = PersistableLabels()
-    let key = PersistableKey()
     let dono = Dono()
     
     override func viewDidLoad()
@@ -78,13 +75,13 @@ class LabelsViewController : DonoViewController, NSTableViewDataSource, NSTableV
         if (self.labels.count() == 0)
         {
             self.lonelyLabel.hidden = false
+            self.labelsTableView.hidden = true
         }
         else
         {
             self.lonelyLabel.hidden = true
+            self.labelsTableView.hidden = false
         }
-        
-        self.labelsTableView.hidden = !self.lonelyLabel.hidden
     }
     
     //TableView Data Source

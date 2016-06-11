@@ -6,6 +6,7 @@
 //  Copyright © 2016 Panos Sakkos. All rights reserved.
 //
 
+import AppKit
 import Cocoa
 
 class DonoViewController : NSViewController
@@ -14,14 +15,18 @@ class DonoViewController : NSViewController
 
     static var PrimaryColor = "#2196f3"
 
-    static var AccentColor = "#03a9f4"
-
     static var SecondaryText = "#E3E3E3"
     
     static var EscKeyCode = UInt16(53)
     
     static var EnterKeyCode = UInt16(36)
     
+    let key = PersistableKey()
+
+    let labels = PersistableLabels()
+    
+    var settings = Settings()
+
     override func viewDidLoad()
     {
         super.viewDidLoad()
@@ -49,5 +54,19 @@ class DonoViewController : NSViewController
         alert.addButtonWithTitle(buttonTitle)
         alert.alertStyle = style
         alert.beginSheetModalForWindow(NSApplication.sharedApplication().mainWindow!, completionHandler: nil)
+    }
+    
+
+    func getPasteboardContents() -> String?
+    {
+        let pasteboard = NSPasteboard.generalPasteboard()
+        return pasteboard.stringForType(NSPasteboardTypeString)
+    }
+    
+    func copyToPasteboard(text: String)
+    {
+        let pasteboard = NSPasteboard.generalPasteboard()
+        pasteboard.clearContents()
+        pasteboard.setString(text, forType: NSPasteboardTypeString)
     }
 }

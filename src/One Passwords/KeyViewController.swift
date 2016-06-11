@@ -13,7 +13,6 @@ class KeyViewController : DonoViewController
 {
     @IBOutlet weak var keySecureTextField: NSSecureTextField!
     
-    let key = PersistableKey()
     var eventMonitor = AnyObject?()
     
     override func viewDidLoad()
