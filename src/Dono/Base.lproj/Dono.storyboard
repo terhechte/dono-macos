@@ -677,12 +677,12 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="In5-EN-dxX">
-                                <rect key="frame" x="18" y="295" width="314" height="192"/>
+                                <rect key="frame" x="18" y="59" width="314" height="428"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="192" id="oht-oe-FXj"/>
+                                    <constraint firstAttribute="height" constant="428" id="oht-oe-FXj"/>
                                 </constraints>
-                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="It feels lonely in here! Add Labels in order to derive passwords for them" id="ohY-nC-t8h">
-                                    <font key="font" metaFont="system" size="22"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Feels lonely in here! Add Labels in order to derive passwords for them" id="ohY-nC-t8h">
+                                    <font key="font" size="35" name=".AppleSystemUIFontUltraLight"/>
                                     <color key="textColor" red="1" green="1" blue="1" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
