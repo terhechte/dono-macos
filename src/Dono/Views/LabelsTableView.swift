@@ -1,5 +1,5 @@
 // Dono OS X - Password Derivation Tool
-// Copyright (C) 2016  Panos Sakkos
+// Copyright (C) 2016  Dono - Password Derivation Tool
 //
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -15,18 +15,20 @@
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 import Cocoa
-import Foundation
 
-class PlainKeyViewController : NSViewController
+class LabelTableCellView : NSTableCellView
 {
-    @IBOutlet weak var plainKeyTextField: NSTextField!
-
-    var plainKey = String()
-
-    override func viewDidLoad()
-    {
-        super.viewDidLoad()
-
-        self.plainKeyTextField.stringValue = self.plainKey
+    override var backgroundStyle:NSBackgroundStyle{
+        //check value when the style was setted
+        didSet{
+            //if it is dark the cell is highlighted -> apply the app color to it
+            if backgroundStyle == .Dark{
+                self.layer?.backgroundColor = NSColor(hexString: DonoViewController.SecondaryText)?.CGColor
+            }
+                //else go back to the standard color
+            else{
+                self.layer?.backgroundColor = NSColor.clearColor().CGColor
+            }
+        }
     }
 }

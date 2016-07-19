@@ -10,22 +10,22 @@
 		580B33A26C45F892BFFA1156 /* Pods_Dono.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B7C9EAA1604EC107490047 /* Pods_Dono.framework */; };
 		9A8FB5F9656AD2F19E8EDA09 /* Pods_DonoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBCE82AE1A163C4168B3E55C /* Pods_DonoTests.framework */; };
 		E2CEE9644D3C3201610726BA /* Pods_DonoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD3045E2720E21D432D5C6DF /* Pods_DonoUITests.framework */; };
+		E6114D3F1D3EC1B50065F878 /* AddLabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6114D391D3EC1B50065F878 /* AddLabelViewController.swift */; };
+		E6114D401D3EC1B50065F878 /* DonoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6114D3A1D3EC1B50065F878 /* DonoViewController.swift */; };
+		E6114D411D3EC1B50065F878 /* KeyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6114D3B1D3EC1B50065F878 /* KeyViewController.swift */; };
+		E6114D421D3EC1B50065F878 /* LabelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6114D3C1D3EC1B50065F878 /* LabelsViewController.swift */; };
+		E6114D431D3EC1B50065F878 /* PlainKeyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6114D3D1D3EC1B50065F878 /* PlainKeyViewController.swift */; };
+		E6114D441D3EC1B50065F878 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6114D3E1D3EC1B50065F878 /* SettingsViewController.swift */; };
+		E6114D471D3EC1C70065F878 /* LabelsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6114D461D3EC1C70065F878 /* LabelsTableView.swift */; };
+		E6114D4C1D3EC1DC0065F878 /* PeristableLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6114D491D3EC1DC0065F878 /* PeristableLabels.swift */; };
+		E6114D4D1D3EC1DC0065F878 /* PersistableKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6114D4A1D3EC1DC0065F878 /* PersistableKey.swift */; };
+		E6114D4E1D3EC1DC0065F878 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6114D4B1D3EC1DC0065F878 /* Settings.swift */; };
 		E62A58351C9731FF005EC7B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62A58341C9731FF005EC7B7 /* AppDelegate.swift */; };
-		E62A58371C9731FF005EC7B7 /* LabelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62A58361C9731FF005EC7B7 /* LabelsViewController.swift */; };
 		E62A58391C9731FF005EC7B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E62A58381C9731FF005EC7B7 /* Assets.xcassets */; };
 		E62A583C1C9731FF005EC7B7 /* Dono.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E62A583A1C9731FF005EC7B7 /* Dono.storyboard */; };
 		E62A58471C9731FF005EC7B7 /* DonoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62A58461C9731FF005EC7B7 /* DonoTests.swift */; };
 		E62A58521C9731FF005EC7B7 /* DonoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62A58511C9731FF005EC7B7 /* DonoUITests.swift */; };
-		E62A58651C9734A7005EC7B7 /* KeyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62A58641C9734A7005EC7B7 /* KeyViewController.swift */; };
-		E62A58671C9734B2005EC7B7 /* AddLabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62A58661C9734B2005EC7B7 /* AddLabelViewController.swift */; };
-		E62AB03B1D03568A004C4051 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62AB03A1D03568A004C4051 /* SettingsViewController.swift */; };
-		E62AB03D1D03635B004C4051 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62AB03C1D03635B004C4051 /* Settings.swift */; };
-		E686A77B1C973D380060648C /* PersistableKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = E686A7791C973D380060648C /* PersistableKey.swift */; };
-		E686A77C1C973D380060648C /* PeristableLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E686A77A1C973D380060648C /* PeristableLabels.swift */; };
-		E6906FD61D020C9A00623684 /* LabelsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6906FD51D020C9A00623684 /* LabelsTableView.swift */; };
 		E6986EED1D00C0DB009C3829 /* MainWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6986EEC1D00C0DB009C3829 /* MainWindow.swift */; };
-		E6A40F231D00A2F700D92620 /* PlainKeyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A40F221D00A2F700D92620 /* PlainKeyViewController.swift */; };
-		E6A40F251D00A6A100D92620 /* DonoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A40F241D00A6A100D92620 /* DonoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +34,14 @@
 			containerPortal = E62A58291C9731FF005EC7B7 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E62A58301C9731FF005EC7B7;
-			remoteInfo = "One Passwords";
+			remoteInfo = Dono;
 		};
 		E62A584E1C9731FF005EC7B7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E62A58291C9731FF005EC7B7 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E62A58301C9731FF005EC7B7;
-			remoteInfo = "One Passwords";
+			remoteInfo = Dono;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -66,9 +66,18 @@
 		9502D1551F8EC8B519780599 /* Pods-DonoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DonoUITests/Pods-DonoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9F6E5AD89A1AE8965CE2A287 /* Pods-DonoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DonoTests/Pods-DonoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DF02E035695E212DA25B76BD /* Pods-Dono.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dono.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dono/Pods-Dono.release.xcconfig"; sourceTree = "<group>"; };
+		E6114D391D3EC1B50065F878 /* AddLabelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddLabelViewController.swift; sourceTree = "<group>"; };
+		E6114D3A1D3EC1B50065F878 /* DonoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonoViewController.swift; sourceTree = "<group>"; };
+		E6114D3B1D3EC1B50065F878 /* KeyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyViewController.swift; sourceTree = "<group>"; };
+		E6114D3C1D3EC1B50065F878 /* LabelsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelsViewController.swift; sourceTree = "<group>"; };
+		E6114D3D1D3EC1B50065F878 /* PlainKeyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlainKeyViewController.swift; sourceTree = "<group>"; };
+		E6114D3E1D3EC1B50065F878 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		E6114D461D3EC1C70065F878 /* LabelsTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelsTableView.swift; sourceTree = "<group>"; };
+		E6114D491D3EC1DC0065F878 /* PeristableLabels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeristableLabels.swift; sourceTree = "<group>"; };
+		E6114D4A1D3EC1DC0065F878 /* PersistableKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistableKey.swift; sourceTree = "<group>"; };
+		E6114D4B1D3EC1DC0065F878 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		E62A58311C9731FF005EC7B7 /* Dono.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dono.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E62A58341C9731FF005EC7B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E62A58361C9731FF005EC7B7 /* LabelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelsViewController.swift; sourceTree = "<group>"; };
 		E62A58381C9731FF005EC7B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E62A583B1C9731FF005EC7B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Dono.storyboard; sourceTree = "<group>"; };
 		E62A583D1C9731FF005EC7B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,17 +87,8 @@
 		E62A584D1C9731FF005EC7B7 /* Dono.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dono.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E62A58511C9731FF005EC7B7 /* DonoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonoUITests.swift; sourceTree = "<group>"; };
 		E62A58531C9731FF005EC7B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E62A58641C9734A7005EC7B7 /* KeyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyViewController.swift; sourceTree = "<group>"; };
-		E62A58661C9734B2005EC7B7 /* AddLabelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddLabelViewController.swift; sourceTree = "<group>"; };
-		E62AB03A1D03568A004C4051 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		E62AB03C1D03635B004C4051 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
-		E63B416F1C988E550002508F /* One Passwords.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "One Passwords.entitlements"; sourceTree = "<group>"; };
-		E686A7791C973D380060648C /* PersistableKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistableKey.swift; sourceTree = "<group>"; };
-		E686A77A1C973D380060648C /* PeristableLabels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeristableLabels.swift; sourceTree = "<group>"; };
-		E6906FD51D020C9A00623684 /* LabelsTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelsTableView.swift; sourceTree = "<group>"; };
+		E67BD5C71D3EC38B00A8AF2C /* Dono.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Dono.entitlements; sourceTree = "<group>"; };
 		E6986EEC1D00C0DB009C3829 /* MainWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindow.swift; sourceTree = "<group>"; };
-		E6A40F221D00A2F700D92620 /* PlainKeyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlainKeyViewController.swift; sourceTree = "<group>"; };
-		E6A40F241D00A6A100D92620 /* DonoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonoViewController.swift; sourceTree = "<group>"; };
 		EBCE82AE1A163C4168B3E55C /* Pods_DonoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DonoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD3045E2720E21D432D5C6DF /* Pods_DonoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DonoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -144,6 +144,37 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E6114D381D3EC1B50065F878 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E6114D391D3EC1B50065F878 /* AddLabelViewController.swift */,
+				E6114D3A1D3EC1B50065F878 /* DonoViewController.swift */,
+				E6114D3B1D3EC1B50065F878 /* KeyViewController.swift */,
+				E6114D3C1D3EC1B50065F878 /* LabelsViewController.swift */,
+				E6114D3D1D3EC1B50065F878 /* PlainKeyViewController.swift */,
+				E6114D3E1D3EC1B50065F878 /* SettingsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E6114D451D3EC1C70065F878 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E6114D461D3EC1C70065F878 /* LabelsTableView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E6114D481D3EC1DC0065F878 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E6114D491D3EC1DC0065F878 /* PeristableLabels.swift */,
+				E6114D4A1D3EC1DC0065F878 /* PersistableKey.swift */,
+				E6114D4B1D3EC1DC0065F878 /* Settings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		E62A58281C9731FF005EC7B7 = {
 			isa = PBXGroup;
 			children = (
@@ -170,17 +201,16 @@
 			isa = PBXGroup;
 			children = (
 				E62A583D1C9731FF005EC7B7 /* Info.plist */,
-				E63B416F1C988E550002508F /* One Passwords.entitlements */,
+				E67BD5C71D3EC38B00A8AF2C /* Dono.entitlements */,
 				E62A58381C9731FF005EC7B7 /* Assets.xcassets */,
-				E686A77D1C973D420060648C /* Models */,
-				E6E02E201D037A5200092A24 /* Views */,
-				E686A7761C973D080060648C /* ViewControllers */,
+				E6114D481D3EC1DC0065F878 /* Models */,
+				E6114D381D3EC1B50065F878 /* ViewControllers */,
+				E6114D451D3EC1C70065F878 /* Views */,
 				E62A583A1C9731FF005EC7B7 /* Dono.storyboard */,
 				E62A58341C9731FF005EC7B7 /* AppDelegate.swift */,
 				E6986EEC1D00C0DB009C3829 /* MainWindow.swift */,
 			);
-			name = Dono;
-			path = "One Passwords";
+			path = Dono;
 			sourceTree = "<group>";
 		};
 		E62A58451C9731FF005EC7B7 /* DonoTests */ = {
@@ -189,8 +219,7 @@
 				E62A58461C9731FF005EC7B7 /* DonoTests.swift */,
 				E62A58481C9731FF005EC7B7 /* Info.plist */,
 			);
-			name = DonoTests;
-			path = "One PasswordsTests";
+			path = DonoTests;
 			sourceTree = "<group>";
 		};
 		E62A58501C9731FF005EC7B7 /* DonoUITests */ = {
@@ -199,39 +228,7 @@
 				E62A58511C9731FF005EC7B7 /* DonoUITests.swift */,
 				E62A58531C9731FF005EC7B7 /* Info.plist */,
 			);
-			name = DonoUITests;
-			path = "One PasswordsUITests";
-			sourceTree = "<group>";
-		};
-		E686A7761C973D080060648C /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				E62A58361C9731FF005EC7B7 /* LabelsViewController.swift */,
-				E6A40F241D00A6A100D92620 /* DonoViewController.swift */,
-				E62A58641C9734A7005EC7B7 /* KeyViewController.swift */,
-				E62A58661C9734B2005EC7B7 /* AddLabelViewController.swift */,
-				E6A40F221D00A2F700D92620 /* PlainKeyViewController.swift */,
-				E62AB03A1D03568A004C4051 /* SettingsViewController.swift */,
-			);
-			name = ViewControllers;
-			sourceTree = "<group>";
-		};
-		E686A77D1C973D420060648C /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				E686A7791C973D380060648C /* PersistableKey.swift */,
-				E686A77A1C973D380060648C /* PeristableLabels.swift */,
-				E62AB03C1D03635B004C4051 /* Settings.swift */,
-			);
-			name = Models;
-			sourceTree = "<group>";
-		};
-		E6E02E201D037A5200092A24 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				E6906FD51D020C9A00623684 /* LabelsTableView.swift */,
-			);
-			name = Views;
+			path = DonoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,7 +251,7 @@
 			dependencies = (
 			);
 			name = Dono;
-			productName = "One Passwords";
+			productName = Dono;
 			productReference = E62A58311C9731FF005EC7B7 /* Dono.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -275,7 +272,7 @@
 				E62A58441C9731FF005EC7B7 /* PBXTargetDependency */,
 			);
 			name = DonoTests;
-			productName = "One PasswordsTests";
+			productName = DonoTests;
 			productReference = E62A58421C9731FF005EC7B7 /* Dono.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -295,7 +292,7 @@
 				E62A584F1C9731FF005EC7B7 /* PBXTargetDependency */,
 			);
 			name = DonoUITests;
-			productName = "One PasswordsUITests";
+			productName = DonoUITests;
 			productReference = E62A584D1C9731FF005EC7B7 /* Dono.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
@@ -502,18 +499,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E686A77B1C973D380060648C /* PersistableKey.swift in Sources */,
-				E62A58371C9731FF005EC7B7 /* LabelsViewController.swift in Sources */,
-				E62AB03D1D03635B004C4051 /* Settings.swift in Sources */,
+				E6114D431D3EC1B50065F878 /* PlainKeyViewController.swift in Sources */,
+				E6114D3F1D3EC1B50065F878 /* AddLabelViewController.swift in Sources */,
+				E6114D401D3EC1B50065F878 /* DonoViewController.swift in Sources */,
+				E6114D4D1D3EC1DC0065F878 /* PersistableKey.swift in Sources */,
 				E6986EED1D00C0DB009C3829 /* MainWindow.swift in Sources */,
-				E6A40F251D00A6A100D92620 /* DonoViewController.swift in Sources */,
-				E62A58651C9734A7005EC7B7 /* KeyViewController.swift in Sources */,
-				E6A40F231D00A2F700D92620 /* PlainKeyViewController.swift in Sources */,
-				E686A77C1C973D380060648C /* PeristableLabels.swift in Sources */,
-				E62A58671C9734B2005EC7B7 /* AddLabelViewController.swift in Sources */,
 				E62A58351C9731FF005EC7B7 /* AppDelegate.swift in Sources */,
-				E6906FD61D020C9A00623684 /* LabelsTableView.swift in Sources */,
-				E62AB03B1D03568A004C4051 /* SettingsViewController.swift in Sources */,
+				E6114D4E1D3EC1DC0065F878 /* Settings.swift in Sources */,
+				E6114D411D3EC1B50065F878 /* KeyViewController.swift in Sources */,
+				E6114D421D3EC1B50065F878 /* LabelsViewController.swift in Sources */,
+				E6114D471D3EC1C70065F878 /* LabelsTableView.swift in Sources */,
+				E6114D441D3EC1B50065F878 /* SettingsViewController.swift in Sources */,
+				E6114D4C1D3EC1DC0065F878 /* PeristableLabels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -645,11 +642,11 @@
 			baseConfigurationReference = 8734A68BC3CD4C653FC34D1A /* Pods-Dono.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "One Passwords/One Passwords.entitlements";
+				CODE_SIGN_ENTITLEMENTS = Dono/Dono.entitlements;
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = "$(inherited)";
-				INFOPLIST_FILE = "One Passwords/Info.plist";
+				INFOPLIST_FILE = Dono/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dono.macos;
@@ -663,11 +660,11 @@
 			baseConfigurationReference = DF02E035695E212DA25B76BD /* Pods-Dono.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "One Passwords/One Passwords.entitlements";
+				CODE_SIGN_ENTITLEMENTS = Dono/Dono.entitlements;
 				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = "$(inherited)";
-				INFOPLIST_FILE = "One Passwords/Info.plist";
+				INFOPLIST_FILE = Dono/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dono.macos;
@@ -682,9 +679,9 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "One PasswordsTests/Info.plist";
+				INFOPLIST_FILE = DonoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "OnePasswords.One-PasswordsTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dono.One-PasswordsTests";
 				PRODUCT_NAME = Dono;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dono.app/Contents/MacOS/Dono";
 			};
@@ -696,9 +693,9 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "One PasswordsTests/Info.plist";
+				INFOPLIST_FILE = DonoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "OnePasswords.One-PasswordsTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dono.One-PasswordsTests";
 				PRODUCT_NAME = Dono;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dono.app/Contents/MacOS/Dono";
 			};
@@ -709,11 +706,11 @@
 			baseConfigurationReference = 456C27961153105B7E745918 /* Pods-DonoUITests.debug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "One PasswordsUITests/Info.plist";
+				INFOPLIST_FILE = DonoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "OnePasswords.One-PasswordsUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dono.One-PasswordsUITests";
 				PRODUCT_NAME = Dono;
-				TEST_TARGET_NAME = "One Passwords";
+				TEST_TARGET_NAME = Dono;
 				USES_XCTRUNNER = YES;
 			};
 			name = Debug;
@@ -723,11 +720,11 @@
 			baseConfigurationReference = 9502D1551F8EC8B519780599 /* Pods-DonoUITests.release.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "One PasswordsUITests/Info.plist";
+				INFOPLIST_FILE = DonoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "OnePasswords.One-PasswordsUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dono.One-PasswordsUITests";
 				PRODUCT_NAME = Dono;
-				TEST_TARGET_NAME = "One Passwords";
+				TEST_TARGET_NAME = Dono;
 				USES_XCTRUNNER = YES;
 			};
 			name = Release;

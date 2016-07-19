@@ -1,5 +1,5 @@
 // Dono OS X - Password Derivation Tool
-// Copyright (C) 2016  Panos Sakkos
+// Copyright (C) 2016  Dono - Password Derivation Tool
 //
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -15,19 +15,21 @@
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 import Cocoa
-import DonoCore
+import SwiftHEXColors
 
-class KeyViewController : DonoViewController
+class AddLabelViewController: DonoViewController
 {
-    @IBOutlet weak var keySecureTextField: NSSecureTextField!
+    @IBOutlet weak var newLabelTextField: NSTextField!
+    
+    var labelsViewController = LabelsViewController()
     
     var eventMonitor = AnyObject?()
-    
+
     override func viewDidLoad()
     {
         super.viewDidLoad()
         
-        self.keySecureTextField.stringValue = self.key.getKey()
+        self.labels.getAll()
         
         self.registerKeyShortcuts()
     }
@@ -37,45 +39,35 @@ class KeyViewController : DonoViewController
         NSEvent.removeMonitor(self.eventMonitor!)
     }
 
-    override func prepareForSegue(segue: NSStoryboardSegue, sender: AnyObject?)
+    @IBAction func close(sender: AnyObject)
     {
-        if (segue.identifier == "ShowPlainKeyView")
-        {
-            if let destinationVC = segue.destinationController as? PlainKeyViewController
-            {
-                destinationVC.plainKey = self.keySecureTextField.stringValue
-            }
-        }
+        self.dismissController(nil)
     }
-
-    @IBAction func done(sender: AnyObject)
+    
+    @IBAction func addLabel(sender: AnyObject)
     {
-        let newKey = self.keySecureTextField.stringValue
-     
-        if (newKey.isEmpty)
-        {
-            return
-        }
+        var label = self.newLabelTextField.stringValue
         
-        if (!newKey.isEmpty && newKey.characters.count >= Dono.MIN_KEY_LENGTH)
+        label = self.labels.add(label)
+        
+        if (label.isEmpty)
         {
-            self.key.setkey(newKey);
+            let canonicalLabel = self.labels.canonical(self.newLabelTextField.stringValue)
             
-            self.close(sender)
+            if (!canonicalLabel.isEmpty)
+            {
+                self.showCrititcalAlert(
+                    "Label already exists!",
+                    message: "Label " + canonicalLabel + " is already added to your Labels")
+                
+                self.newLabelTextField.stringValue = String()
+            }
         }
         else
         {
-            self.keySecureTextField.stringValue = self.key.getKey()
-
-            self.showCrititcalAlert(
-                "Your Key is not long enough!",
-                message: "Your Key has to be longer than " + String(Dono.MIN_KEY_LENGTH - 1) + " characters")
+            self.close(sender)
+            self.labelsViewController.refreshLabels()
         }
-    }
-
-    @IBAction func close(sender: AnyObject)
-    {
-        self.dismissController(sender)
     }
     
     private func registerKeyShortcuts()
@@ -88,7 +80,7 @@ class KeyViewController : DonoViewController
             }
             else if (aEvent.keyCode == DonoViewController.EnterKeyCode)
             {
-                self.done(self)
+                self.addLabel(self)
             }
             
             return aEvent

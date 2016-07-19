@@ -1,5 +1,5 @@
 // Dono OS X - Password Derivation Tool
-// Copyright (C) 2016  Panos Sakkos
+// Copyright (C) 2016  Dono - Password Derivation Tool
 //
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -14,22 +14,19 @@
 // You should have received a copy of the GNU General Public License
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+import Cocoa
 import Foundation
 
-class Settings
+class PlainKeyViewController : NSViewController
 {
-    var REMEMBER_KEY_KEY = "rememberKey"
-    
-    internal func getRememberKeyValue() -> Bool
+    @IBOutlet weak var plainKeyTextField: NSTextField!
+
+    var plainKey = String()
+
+    override func viewDidLoad()
     {
-        let defaults = NSUserDefaults.standardUserDefaults()
-        
-        return defaults.boolForKey(REMEMBER_KEY_KEY)
-    }
-    
-    internal func setRememberKeyValue(value: Bool)
-    {
-        let defaults = NSUserDefaults.standardUserDefaults()
-        defaults.setBool(value, forKey: REMEMBER_KEY_KEY)
+        super.viewDidLoad()
+
+        self.plainKeyTextField.stringValue = self.plainKey
     }
 }
