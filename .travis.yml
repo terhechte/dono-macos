@@ -5,4 +5,8 @@ script:
     - xcodebuild -workspace src/Dono.xcworkspace -scheme Dono | xcpretty
 
 notifications:
-    on_failure: always
+  email:
+      recipients:
+        - panos.sakkos@gmail.com
+      on_failure: always
+      on_success: never

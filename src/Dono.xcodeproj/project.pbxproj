@@ -652,7 +652,7 @@
 				INFOPLIST_FILE = "One Passwords/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = com.psakkos.onepasswords.macos;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dono.macos;
 				PRODUCT_NAME = Dono;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
@@ -670,7 +670,7 @@
 				INFOPLIST_FILE = "One Passwords/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = com.psakkos.onepasswords.macos;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dono.macos;
 				PRODUCT_NAME = Dono;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};

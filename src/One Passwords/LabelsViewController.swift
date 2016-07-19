@@ -129,7 +129,7 @@ class LabelsViewController : DonoViewController, NSTableViewDataSource, NSTableV
             
             let d = self.dono.computePassword(key, l: label)
             
-            self.copyToPasteboard(d);
+            self.copyToPasteboard(d!);
                         
             self.showInfoAlert(
                 "Password derived",
