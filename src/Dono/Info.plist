@@ -17,17 +17,17 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.2.0</string>
+	<string>1.3.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.2.0</string>
+	<string>1.3.0</string>
 	<key>LSApplicationCategoryType</key>
 	<string>public.app-category.utilities</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2016 Panos Sakkos. All rights reserved.</string>
+	<string>Copyright Dono - Password Derivation Tool         Licensed under the GPLv3                                       Source Code: https://github.com/dono-app/macos</string>
 	<key>NSMainStoryboardFile</key>
 	<string>Dono</string>
 	<key>NSPrincipalClass</key>

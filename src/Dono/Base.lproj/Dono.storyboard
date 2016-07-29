@@ -676,17 +676,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="350" height="592"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="In5-EN-dxX">
-                                <rect key="frame" x="18" y="59" width="314" height="428"/>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="In5-EN-dxX">
+                                <rect key="frame" x="18" y="319" width="314" height="168"/>
                                 <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Feels lonely in here! Add Labels in order to derive passwords for them" id="ohY-nC-t8h">
                                     <font key="font" size="35" name=".AppleSystemUIFontUltraLight"/>
                                     <color key="textColor" red="1" green="1" blue="1" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <scrollView ambiguous="YES" misplaced="YES" borderType="none" autohidesScrollers="YES" horizontalLineScroll="48" horizontalPageScroll="10" verticalLineScroll="48" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CE2-m5-YjX" userLabel="Labels Table" customClass="RFOverlayScrollView">
+                            <scrollView borderType="none" autohidesScrollers="YES" horizontalLineScroll="48" horizontalPageScroll="10" verticalLineScroll="48" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CE2-m5-YjX" userLabel="Labels Table" customClass="RFOverlayScrollView">
                                 <rect key="frame" x="0.0" y="59" width="350" height="474"/>
-                                <clipView key="contentView" ambiguous="YES" drawsBackground="NO" copiesOnScroll="NO" id="Hfi-Qi-jS9">
+                                <clipView key="contentView" drawsBackground="NO" copiesOnScroll="NO" id="Hfi-Qi-jS9">
                                     <rect key="frame" x="0.0" y="0.0" width="350" height="474"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
@@ -809,7 +809,7 @@
                                     <segue destination="Mw9-1n-BRh" kind="sheet" identifier="ShowSettingsView" id="gGP-3r-6ZB"/>
                                 </connections>
                             </button>
-                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S5B-T1-Lux">
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="S5B-T1-Lux">
                                 <rect key="frame" x="155" y="541" width="40" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="QA1-SL-HGe"/>
@@ -840,6 +840,7 @@
                             <constraint firstItem="ICl-4e-4u1" firstAttribute="top" secondItem="CE2-m5-YjX" secondAttribute="bottom" constant="15" id="tjy-Ku-omO"/>
                             <constraint firstItem="In5-EN-dxX" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="xiq-Wo-uLP"/>
                             <constraint firstAttribute="bottom" secondItem="ICl-4e-4u1" secondAttribute="bottom" constant="20" id="yNk-GG-1Hf"/>
+                            <constraint firstItem="S5B-T1-Lux" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="11" id="zVd-fb-zAu"/>
                         </constraints>
                     </view>
                     <connections>
