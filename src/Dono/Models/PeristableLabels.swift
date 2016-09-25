@@ -16,16 +16,16 @@
 
 import Foundation
 
-let docsFolder = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0] as String;
+let docsFolder = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as String;
 
 let labelsfilename = "/.labels";
-let pathToServiceTagsFile = docsFolder.stringByAppendingString(labelsfilename);
+let pathToServiceTagsFile = docsFolder + labelsfilename;
 
 internal class PersistableLabels
 {
     var labels = [String]()
     
-    internal func add(label: String) -> String
+    internal func add(_ label: String) -> String
     {
         let l = self.canonical(label)
         
@@ -34,8 +34,8 @@ internal class PersistableLabels
             return String()
         }
         
-        self.labels.insert(l, atIndex: self.labels.count)
-        self.labels.sortInPlace()
+        self.labels.insert(l, at: self.labels.count)
+        self.labels.sort()
         self.saveLabels()
         
         return l
@@ -44,16 +44,16 @@ internal class PersistableLabels
     internal func getAll() -> [String]
     {
         self.loadLabels()
-        self.labels.sortInPlace()
+        self.labels.sort()
         
         return self.labels
     }
     
-    internal func getAt(position: Int) -> String
+    internal func getAt(_ position: Int) -> String
     {
         var ret = String();
         
-        for (i, label) in self.labels.enumerate()
+        for (i, label) in self.labels.enumerated()
         {
             if (i == position)
             {
@@ -65,14 +65,14 @@ internal class PersistableLabels
     }
     
     
-    internal func deleteAt(position: Int) -> String
+    internal func deleteAt(_ position: Int) -> String
     {
         if (position < 0)
         {
             return String()
         }
         
-        let ret = self.labels.removeAtIndex(position);
+        let ret = self.labels.remove(at: position);
         
         self.saveLabels();
         
@@ -84,46 +84,46 @@ internal class PersistableLabels
         return self.labels.count;
     }
     
-    internal func canonical(label: String) -> String
+    internal func canonical(_ label: String) -> String
     {
-        var l = label.lowercaseString
-        l = l.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet())
+        var l = label.lowercased()
+        l = l.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
         
         return l
     }
     
-    private func saveLabels()
+    fileprivate func saveLabels()
     {
         var dump = String()
         
-        for (_, label) in self.labels.enumerate()
+        for (_, label) in self.labels.enumerated()
         {
             dump += label + "\n"
         }
         
         do
         {
-            try dump.writeToFile(pathToServiceTagsFile, atomically: false, encoding: NSUTF8StringEncoding)
+            try dump.write(toFile: pathToServiceTagsFile, atomically: false, encoding: String.Encoding.utf8)
         }
         catch
         {
         }
     }
     
-    private func loadLabels()
+    fileprivate func loadLabels()
     {
         do
         {
             self.labels.removeAll()
             
-            let labels = try String(contentsOfFile: pathToServiceTagsFile, encoding: NSUTF8StringEncoding).characters.split("\n")
+            let labels = try String(contentsOfFile: pathToServiceTagsFile, encoding: String.Encoding.utf8).characters.split(separator: "\n")
             
-            for (_, label) in labels.enumerate()
+            for (_, label) in labels.enumerated()
             {
-                self.labels.insert(String(label), atIndex: 0)
+                self.labels.insert(String(label), at: 0)
             }
             
-            self.labels.sortInPlace()
+            self.labels.sort()
         }
         catch
         {

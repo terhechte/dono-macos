@@ -22,14 +22,14 @@ class Settings
     
     internal func getRememberKeyValue() -> Bool
     {
-        let defaults = NSUserDefaults.standardUserDefaults()
+        let defaults = UserDefaults.standard
         
-        return defaults.boolForKey(REMEMBER_KEY_KEY)
+        return defaults.bool(forKey: REMEMBER_KEY_KEY)
     }
     
-    internal func setRememberKeyValue(value: Bool)
+    internal func setRememberKeyValue(_ value: Bool)
     {
-        let defaults = NSUserDefaults.standardUserDefaults()
-        defaults.setBool(value, forKey: REMEMBER_KEY_KEY)
+        let defaults = UserDefaults.standard
+        defaults.set(value, forKey: REMEMBER_KEY_KEY)
     }
 }

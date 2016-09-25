@@ -32,8 +32,8 @@ class LabelsViewController : DonoViewController, NSTableViewDataSource, NSTableV
         super.viewDidLoad()
 
         self.labels.getAll()
-        self.labelsTableView.setDelegate(self)
-        self.labelsTableView.setDataSource(self)
+        self.labelsTableView.delegate = self
+        self.labelsTableView.dataSource = self
         self.labelsTableView.target = self
         self.labelsTableView.doubleAction = #selector(LabelsViewController.tableViewDoubleClick(_:))
         
@@ -50,7 +50,7 @@ class LabelsViewController : DonoViewController, NSTableViewDataSource, NSTableV
         self.labelsTableView.reloadData()
     }
     
-    override func prepareForSegue(segue: NSStoryboardSegue, sender: AnyObject?)
+    override func prepare(for segue: NSStoryboardSegue, sender: Any?)
     {
         let destinationViewController = segue.destinationController
         
@@ -60,15 +60,7 @@ class LabelsViewController : DonoViewController, NSTableViewDataSource, NSTableV
         }
     }
 
-    override var representedObject: AnyObject?
-        {
-        didSet
-        {
-            // Update the view, if already loaded.
-        }
-    }
-
-    @IBAction func deleteLabel(sender: AnyObject)
+    @IBAction func deleteLabel(_ sender: AnyObject)
     {
         let labelToDelete = self.labelsTableView.selectedRow
         self.labels.deleteAt(labelToDelete)
@@ -82,25 +74,25 @@ class LabelsViewController : DonoViewController, NSTableViewDataSource, NSTableV
 
         if (self.labels.count() == 0)
         {
-            self.lonelyLabel.hidden = false
-            self.labelsTableView.hidden = true
+            self.lonelyLabel.isHidden = false
+            self.labelsTableView.isHidden = true
         }
         else
         {
-            self.lonelyLabel.hidden = true
-            self.labelsTableView.hidden = false
+            self.lonelyLabel.isHidden = true
+            self.labelsTableView.isHidden = false
         }
     }
     
     //TableView Data Source
-    func numberOfRowsInTableView(tableView: NSTableView) -> Int
+    func numberOfRows(in tableView: NSTableView) -> Int
     {
         return self.labels.count()
     }
     
-    func tableView(tableView: NSTableView, viewForTableColumn tableColumn: NSTableColumn?, row: Int) -> NSView?
+    func tableView(_ tableView: NSTableView, viewFor tableColumn: NSTableColumn?, row: Int) -> NSView?
     {
-        if let cell = tableView.makeViewWithIdentifier("LabelCellID", owner: nil) as? NSTableCellView
+        if let cell = tableView.make(withIdentifier: "LabelCellID", owner: nil) as? NSTableCellView
         {
             cell.textField?.stringValue = self.labels.getAt(row)
 
@@ -110,7 +102,7 @@ class LabelsViewController : DonoViewController, NSTableViewDataSource, NSTableV
         return nil
     }
         
-    func tableViewDoubleClick(sender: AnyObject)
+    func tableViewDoubleClick(_ sender: AnyObject)
     {
         if (self.labelsTableView.selectedRow >= 0)
         {

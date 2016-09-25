@@ -27,6 +27,6 @@ class MainWindow: NSWindowController
     
     internal func showSettings()
     {
-        (self.contentViewController as! LabelsViewController).performSegueWithIdentifier("ShowSettingsView", sender: self)
+        (self.contentViewController as! LabelsViewController).performSegue(withIdentifier: "ShowSettingsView", sender: self)
     }
 }

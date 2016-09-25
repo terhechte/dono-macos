@@ -19,7 +19,7 @@ import KeychainSwift
 
 internal class PersistableKey
 {
-    private static var KEYCHAIN_KEY = "dono.key"
+    fileprivate static var KEYCHAIN_KEY = "dono.key"
     
     static var Key = String();
     
@@ -38,7 +38,7 @@ internal class PersistableKey
         return PersistableKey.Key;
     }
     
-    internal func setkey(key: String)
+    internal func setkey(_ key: String)
     {
         if (key != PersistableKey.Key)
         {
@@ -61,7 +61,7 @@ internal class PersistableKey
         }
     }
     
-    private func load()
+    fileprivate func load()
     {
         if (self.settings.getRememberKeyValue())
         {

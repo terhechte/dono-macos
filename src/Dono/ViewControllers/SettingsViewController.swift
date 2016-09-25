@@ -27,7 +27,7 @@ class SettingsViewController : DonoViewController
         self.updateViewWithCurrentValues()
     }
     
-    @IBAction func changedValue(sender: AnyObject)
+    @IBAction func changedValue(_ sender: AnyObject)
     {
         let value = self.rememberKeyToggle.state == 1 ? true : false
         
@@ -45,12 +45,12 @@ class SettingsViewController : DonoViewController
         }
     }
     
-    @IBAction func close(sender: AnyObject)
+    @IBAction func close(_ sender: AnyObject)
     {
-        self.dismissController(nil)
+        self.dismiss(nil)
     }
     
-    private func updateViewWithCurrentValues()
+    fileprivate func updateViewWithCurrentValues()
     {
         let state = self.settings.getRememberKeyValue() == true ? 1 : 0
         

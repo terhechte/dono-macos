@@ -42,36 +42,36 @@ class DonoViewController : NSViewController
         self.setupView()
     }
     
-    internal func showInfoAlert(title: String, message: String, buttonTitle: String)
+    internal func showInfoAlert(_ title: String, message: String, buttonTitle: String)
     {
-        self.showAlert(title, message: message, buttonTitle: buttonTitle, style: NSAlertStyle.InformationalAlertStyle)
+        self.showAlert(title, message: message, buttonTitle: buttonTitle, style: NSAlertStyle.informational)
     }
 
-    internal func showCrititcalAlert(title: String, message: String)
+    internal func showCrititcalAlert(_ title: String, message: String)
     {
-        self.showAlert(title, message: message, buttonTitle: "Got it!", style: NSAlertStyle.CriticalAlertStyle)
+        self.showAlert(title, message: message, buttonTitle: "Got it!", style: NSAlertStyle.critical)
     }
     
-    internal func copyToPasteboard(text: String)
+    internal func copyToPasteboard(_ text: String)
     {
-        let pasteboard = NSPasteboard.generalPasteboard()
+        let pasteboard = NSPasteboard.general()
         pasteboard.clearContents()
         pasteboard.setString(text, forType: NSPasteboardTypeString)
     }
 
-    private func showAlert(title: String, message: String, buttonTitle: String, style: NSAlertStyle)
+    fileprivate func showAlert(_ title: String, message: String, buttonTitle: String, style: NSAlertStyle)
     {
         let alert = NSAlert()
         alert.messageText = title
         alert.informativeText = message
-        alert.addButtonWithTitle(buttonTitle)
+        alert.addButton(withTitle: buttonTitle)
         alert.alertStyle = style
-        alert.beginSheetModalForWindow(NSApplication.sharedApplication().mainWindow!, completionHandler: nil)
+        alert.beginSheetModal(for: NSApplication.shared().mainWindow!, completionHandler: nil)
     }
 
-    private func setupView()
+    fileprivate func setupView()
     {
         self.view.wantsLayer = true
-        self.view.layer?.backgroundColor = NSColor(hexString: DonoViewController.PrimaryColor)?.colorWithAlphaComponent(1).CGColor
+        self.view.layer?.backgroundColor = NSColor(hexString: DonoViewController.PrimaryColor)?.withAlphaComponent(1).cgColor
     }
 }

@@ -22,12 +22,12 @@ class LabelTableCellView : NSTableCellView
         //check value when the style was setted
         didSet{
             //if it is dark the cell is highlighted -> apply the app color to it
-            if backgroundStyle == .Dark{
-                self.layer?.backgroundColor = NSColor(hexString: DonoViewController.SecondaryText)?.CGColor
+            if backgroundStyle == .dark{
+                self.layer?.backgroundColor = NSColor(hexString: DonoViewController.SecondaryText)?.cgColor
             }
                 //else go back to the standard color
             else{
-                self.layer?.backgroundColor = NSColor.clearColor().CGColor
+                self.layer?.backgroundColor = NSColor.clear.cgColor
             }
         }
     }
