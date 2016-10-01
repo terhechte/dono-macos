@@ -19,8 +19,6 @@ import Foundation
 
 open class Dono
 {
-    open static var MIN_KEY_LENGTH = 17
-
     fileprivate static var Iterations : [Int] =
         [
             Int.max,
@@ -52,7 +50,7 @@ open class Dono
     
     open func computePassword(_ k: String, l: String) -> String?
     {
-        if (k.characters.count < Dono.MIN_KEY_LENGTH)
+        if (k.characters.count < DonoConstants.MIN_KEY_LENGTH)
         {
             return nil
         }
@@ -78,10 +76,9 @@ open class Dono
         
         let d = try! PKCS5.PBKDF2(password: password, salt: salt, iterations: c, keyLength: 256, variant: .sha256)
                             .calculate()
-                            .toHexString()
-                            .characters
+                            .toBase64()!
         
-        return String(d)
+        return d
     }
 
     fileprivate func getIterations(_ k: String) -> Int

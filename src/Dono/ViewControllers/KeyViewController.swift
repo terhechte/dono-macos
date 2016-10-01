@@ -50,7 +50,7 @@ class KeyViewController : DonoViewController
             return
         }
         
-        if (!newKey.isEmpty && newKey.characters.count >= Dono.MIN_KEY_LENGTH)
+        if (!newKey.isEmpty && newKey.characters.count >= DonoConstants.MIN_KEY_LENGTH)
         {
             self.key.setkey(newKey);
             
@@ -62,7 +62,7 @@ class KeyViewController : DonoViewController
 
             self.showCrititcalAlert(
                 "Your Key is not long enough!",
-                message: "Your Key has to be longer than " + String(Dono.MIN_KEY_LENGTH - 1) + " characters")
+                message: "Your Key has to be longer than " + String(DonoConstants.MIN_KEY_LENGTH - 1) + " characters")
         }
     }
 

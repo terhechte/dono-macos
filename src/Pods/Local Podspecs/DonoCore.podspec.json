@@ -2,7 +2,7 @@
   "name": "DonoCore",
   "summary": "Dono Key Derivation Function",
   "requires_arc": true,
-  "version": "4.0.0",
+  "version": "5.1.0",
   "license": {
     "type": "GNU GPLv3",
     "file": "LICENSE"

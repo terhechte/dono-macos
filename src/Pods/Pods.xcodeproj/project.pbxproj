@@ -7,106 +7,107 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01A8315E13A1546361C49CC14C3D7DDC /* Rabbit+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156088C021FF4AAB85C707BB64AC9DD3 /* Rabbit+Foundation.swift */; };
-		023D9E2B24A050BCE1A35DF8F7EEC1C3 /* TegKeychainConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C8760EF0273ACA67E69288C0A004D8 /* TegKeychainConstants.swift */; };
-		0330A724B9F3EDB7D55C029812EB9326 /* RandomAccessBlockModeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2DA78938EB748C5F72B64C486F26C6 /* RandomAccessBlockModeWorker.swift */; };
-		0491A04C9403E6CEC3519FBB38F02863 /* KeychainSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8978580F51FA50319D29B57020CA5D39 /* KeychainSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		07962E45FE0C4B672F6D2AFE243C99CF /* Cipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BAEC79E45BBEA6EAB9A78CD64529F5 /* Cipher.swift */; };
+		01A8315E13A1546361C49CC14C3D7DDC /* Rabbit+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C6DA119D9788EB8DFE8E77C7F85847 /* Rabbit+Foundation.swift */; };
+		023D9E2B24A050BCE1A35DF8F7EEC1C3 /* TegKeychainConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E2A6715EFBFDA2E74288204E308D95 /* TegKeychainConstants.swift */; };
+		0330A724B9F3EDB7D55C029812EB9326 /* RandomAccessBlockModeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97B863524BB6543B590261111687403 /* RandomAccessBlockModeWorker.swift */; };
+		03CEDF8A50EE4ADB297C65045492242B /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70502C425C5F36535BEAAE7AA3103923 /* CryptoSwift.framework */; };
+		0491A04C9403E6CEC3519FBB38F02863 /* KeychainSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86A317398DE293C6954B7A56E73321AE /* KeychainSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07962E45FE0C4B672F6D2AFE243C99CF /* Cipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AFA37FA73186E99A58CB584C4CD4E5 /* Cipher.swift */; };
+		09B11C85AF0722A37A27E55E348BAEED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8E3C620D550B9F346E893C313EE58E7 /* Foundation.framework */; };
 		0B0C2A29B3ED0F874F6B1C7DA4532430 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4B420FDCF6BAE25B046141327C0C92 /* Cocoa.framework */; };
-		0D090A8412DEF2087A395E8AD01ECAD0 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01A6079CF6498D5A5AF6053147D5868 /* Array+Extension.swift */; };
-		0D39B0EF92C2275FC88CAA99249D7F1B /* DigestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914B45B3F0FF9EC16311A31F9A31D3C1 /* DigestType.swift */; };
+		0D090A8412DEF2087A395E8AD01ECAD0 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A402A54E8F46963103531F28379FCD8A /* Array+Extension.swift */; };
+		0D39B0EF92C2275FC88CAA99249D7F1B /* DigestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24C6EC7395141EF46EA1AE882453CC3 /* DigestType.swift */; };
 		0E35D049DA035B24B7BFDFB1E1F571DB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4B420FDCF6BAE25B046141327C0C92 /* Cocoa.framework */; };
-		0F6E84294891C71EF8796A85E4F4D210 /* SwiftyUserDefaults-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED72E7DE7A1B492F6FD28904D747DEE5 /* SwiftyUserDefaults-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		10E84BBEE4F2645F6C2EAEFD6CE22297 /* CBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EA7DB722675E4B14ABC04C3BE039A6 /* CBC.swift */; };
+		0F6E84294891C71EF8796A85E4F4D210 /* SwiftyUserDefaults-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E842F954B6A381574A579FE8AB7D3C3E /* SwiftyUserDefaults-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10E84BBEE4F2645F6C2EAEFD6CE22297 /* CBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E693010D51469611092B07C5BE1DEA1F /* CBC.swift */; };
 		145371C2A29692F742E0FAC7736F270B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4B420FDCF6BAE25B046141327C0C92 /* Cocoa.framework */; };
 		16D54976470338197D432DD79688352C /* Pods-DonoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9C4C0F02D52F84672C280741B13A9E /* Pods-DonoUITests-dummy.m */; };
 		1A6400580270308AFF7076D8E9E3C4E7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4B420FDCF6BAE25B046141327C0C92 /* Cocoa.framework */; };
-		1C8C867391525782818A0F1C10AC45C0 /* Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F098FC60DD6B5666CFDCFCB4CFEB32 /* Generics.swift */; };
-		1D5CCD15BE97C8177BA4219E8E8E87B3 /* PKCS5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461016DED66D48163B3E1A41936EADFA /* PKCS5.swift */; };
-		21076A3FAA4C013C33393C8F8C57BF30 /* DonoCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD955C904B079B39F15D819681A08ED4 /* DonoCore-dummy.m */; };
-		25D620AB16B5A9E1D15B9DAC69329025 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9CDE6DDE70BA1C9BF1004E2E592F7D /* Operators.swift */; };
-		2A1E0F7560691640FE0C0E49B5C384B7 /* AES.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753C8BFE80AB2BE55D4FD9593A82AB14 /* AES.swift */; };
-		2AE8CDE44679AE137FA7CDA9C6E09C82 /* RFOverlayScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE5127CC38D4FA2271A564554069FB7 /* RFOverlayScrollView-dummy.m */; };
-		2D4940B2451A49723E293E540A85CF6E /* SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8607EB07998CA24C251F3ED77952DA /* SHA1.swift */; };
-		3493B8D4678FE3A9296773413F6CF2F8 /* SHA2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719E03F8610079712B58A8A03E366A5B /* SHA2.swift */; };
-		363BA6BB0BD8F51D77FE22DB6155E837 /* SwiftHEXColors.h in Headers */ = {isa = PBXBuildFile; fileRef = 16FCB99A6B172523939EA1DEE92C07D1 /* SwiftHEXColors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C8C867391525782818A0F1C10AC45C0 /* Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BA5621791DBC7C0AF28ED1A9F534F0 /* Generics.swift */; };
+		1D5CCD15BE97C8177BA4219E8E8E87B3 /* PKCS5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4C06ACD7C4B0469C36BEADD2F525AD /* PKCS5.swift */; };
+		25D620AB16B5A9E1D15B9DAC69329025 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB85B95671651136F4BA479D69E105B /* Operators.swift */; };
+		2A1E0F7560691640FE0C0E49B5C384B7 /* AES.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424B119154F4B8B2A28DA2F1CDDA9F3A /* AES.swift */; };
+		2AE8CDE44679AE137FA7CDA9C6E09C82 /* RFOverlayScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAEB9ABE54E94A30772174FAF4E62821 /* RFOverlayScrollView-dummy.m */; };
+		2D4940B2451A49723E293E540A85CF6E /* SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAF46FB4EDA3A90F5EEDCEC807154FF /* SHA1.swift */; };
+		32ADDE795D7C3192AA3CBA7A946A9471 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4B420FDCF6BAE25B046141327C0C92 /* Cocoa.framework */; };
+		3493B8D4678FE3A9296773413F6CF2F8 /* SHA2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1420B2F6D946C118863FFF38CABC44AB /* SHA2.swift */; };
+		363BA6BB0BD8F51D77FE22DB6155E837 /* SwiftHEXColors.h in Headers */ = {isa = PBXBuildFile; fileRef = 724D8D9647A9D86D98E9C2B13A7B10E3 /* SwiftHEXColors.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3B4CC569F3655FD3FF70ED571D077004 /* Pods-DonoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 311B68C82D8EDDCBAFB924CA58472562 /* Pods-DonoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3B8180B449C5B934EB6D81DD338F4934 /* CSArrayType+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DA3D1696C21972435B63D87093ED07 /* CSArrayType+Extensions.swift */; };
-		3C0925C2327BE0E99E5BE14A16FCC70A /* SecureBytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B555A8BF41DBFFE00F5D53502392E5DB /* SecureBytes.swift */; };
-		3D4AD9465B4E5EF843DBAB609BE93BE3 /* OFB.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7290C75082F7E816A962D45847FB1AF /* OFB.swift */; };
+		3B8180B449C5B934EB6D81DD338F4934 /* CSArrayType+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897CED8DB6500B2E80019452E69F62D6 /* CSArrayType+Extensions.swift */; };
+		3C0925C2327BE0E99E5BE14A16FCC70A /* SecureBytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B68D57502914A9B8685A560D6F8EC5 /* SecureBytes.swift */; };
+		3D4AD9465B4E5EF843DBAB609BE93BE3 /* OFB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303120B195981DAA8B8CA9296F3EC44E /* OFB.swift */; };
 		3E4913CF67EFF54EBB1D2CDE956A2604 /* Pods-DonoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9EF4DDA322B78CF7B55F49082467D2D /* Pods-DonoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3EDE43591D6E33081177D96BA8D3B7AE /* Authenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AAEA1AF8A6595E64CA5E2EB96F02CD /* Authenticator.swift */; };
-		404B8E366077C2740FE41DAE489425A8 /* SwiftyUserDefaults-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C91069B08A58B0CE822689C745F6331 /* SwiftyUserDefaults-dummy.m */; };
-		4184934FBAC0692EE91F4FAE461390B3 /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F2C764006C43A719650928347DB208 /* Data+Extension.swift */; };
-		420D38B50074D21A5A4B3F508E1F85D3 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9A7B68E96F75A09B2988DB3103E8B7 /* StringExtensions.swift */; };
-		4954290B121241EC0A1AAF424EE64921 /* AES+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9402BC4B87F0C95B1D05D310560CC1 /* AES+Foundation.swift */; };
+		3EDE43591D6E33081177D96BA8D3B7AE /* Authenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B43EE0B66AA3EFF6A57C6B81E31D94 /* Authenticator.swift */; };
+		404B8E366077C2740FE41DAE489425A8 /* SwiftyUserDefaults-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B27BA650110DFE53DE1C0393A13EE6 /* SwiftyUserDefaults-dummy.m */; };
+		4184934FBAC0692EE91F4FAE461390B3 /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8382907C169EE34EF2B9596B2E46A29 /* Data+Extension.swift */; };
+		4954290B121241EC0A1AAF424EE64921 /* AES+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30CC53432D2AC5DA93AE57398500330 /* AES+Foundation.swift */; };
 		4A57FB905C657FE2C00F212F1817AF6E /* Pods-DonoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E9B7D638BD662FB27C1595C4BB1176 /* Pods-DonoTests-dummy.m */; };
-		4C5B68C9D3C21E43DC96A39DF90ED498 /* KeychainSwiftAccessOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD13B2DBBEA6EBCB34F794394EBCB492 /* KeychainSwiftAccessOptions.swift */; };
-		4CCE675D5820C801A48327211E1B07DB /* HMAC+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC5D0655E61A623597C705B02F37F9B /* HMAC+Foundation.swift */; };
-		51F26CF5531485352EBE3B8D7AE1BFDD /* UInt64+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3B03A7FCD40F7C067BA18DEABB9CC5 /* UInt64+Extension.swift */; };
-		5A541896E0FFE4AFC0222F69CD226EA4 /* SwiftyUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = B808DD9F7E0326501FA9FB8C01AF6F33 /* SwiftyUserDefaults.swift */; };
+		4C5B68C9D3C21E43DC96A39DF90ED498 /* KeychainSwiftAccessOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8208229466D6741C6034DF5873F4A01 /* KeychainSwiftAccessOptions.swift */; };
+		4CCE675D5820C801A48327211E1B07DB /* HMAC+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3610B6C634E534B4A03D9A3F2B33E770 /* HMAC+Foundation.swift */; };
+		51F26CF5531485352EBE3B8D7AE1BFDD /* UInt64+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC29AEB5524F32B50FEA3137D216457B /* UInt64+Extension.swift */; };
+		55B65F81DE9D9DA2E0626CE9420560F9 /* DonoCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96827BC0F76A1349B0849D8CECCA91A0 /* DonoCore-dummy.m */; };
+		5A541896E0FFE4AFC0222F69CD226EA4 /* SwiftyUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B89AE9206434A96196A3172ED8220A /* SwiftyUserDefaults.swift */; };
 		5BDA68D8492BE398ECC15C33717095E8 /* Pods-Dono-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7E658246B960AF6C634AACE372C70C /* Pods-Dono-dummy.m */; };
-		5EE0B7A1C6976AB49D4B88ABC9F21E07 /* RFOverlayScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 520275D7B01D92A10F995F19E139ED40 /* RFOverlayScrollView.m */; };
-		5FEFA56B8CE739CEB31ECF2371A776CB /* ECB.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA4064A895EE9CB6072B10755EB73B /* ECB.swift */; };
-		61D8AB621FCAA8B6F3EABDCA022E1776 /* CryptoSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D93A8B9B6F85F8A41DECE59624871862 /* CryptoSwift-dummy.m */; };
-		6368FCB357BD7F66F463EB7FECFA9862 /* CFB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AD60F6F063C88FF6F8B7A10BDD870F /* CFB.swift */; };
-		6409E32B8CD7E680575A831B787BFE00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8E3C620D550B9F346E893C313EE58E7 /* Foundation.framework */; };
-		64DDCEB574591436BC646BEC90DDC7BD /* Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD8782A7711FE0F70058C4057376179 /* Padding.swift */; };
-		73DEE31BFFBDB31A78D6666041B1674B /* RFOverlayScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0133DB7AC521DD2EA44CFEE8C2D110 /* RFOverlayScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		74D9BC287FBC1CF7A72D31D2A1AB50F4 /* KeychainSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106BD277DF6402EE701FCD3F7A25D1D3 /* KeychainSwift.swift */; };
-		7565B74AAC08AE5BEF049AEA162065C7 /* Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45434ED3A174410909B9F4DF8DB9E1B8 /* Digest.swift */; };
-		75CA19D580DDD79755E4D0EF0F0DB1DD /* BlockModeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A70D3A8B64E7332C065D048E74A2FF /* BlockModeWorker.swift */; };
-		7879A3CF42B721EBEF08E8DF991CCEB3 /* Poly1305.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF0680BB0892DD85160269645BA0F19 /* Poly1305.swift */; };
-		7B0B7C7F46173439AF5716418A199675 /* SwiftHEXColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3A236FBF2C68BDFD5309A5F558214A /* SwiftHEXColors.swift */; };
+		5EE0B7A1C6976AB49D4B88ABC9F21E07 /* RFOverlayScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A996CEF6D5D6C862F20628AE1E5311A2 /* RFOverlayScrollView.m */; };
+		5FEFA56B8CE739CEB31ECF2371A776CB /* ECB.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC73459E7D6DFE06F5E61CE78CFE928F /* ECB.swift */; };
+		61D8AB621FCAA8B6F3EABDCA022E1776 /* CryptoSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF27383386629127F71EE53BF1AF2F90 /* CryptoSwift-dummy.m */; };
+		6368FCB357BD7F66F463EB7FECFA9862 /* CFB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D09A658A576230F4FEAB9B71522B1B6 /* CFB.swift */; };
+		64DDCEB574591436BC646BEC90DDC7BD /* Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67CA610865BEC1557B687D3D081D5E3 /* Padding.swift */; };
+		73DEE31BFFBDB31A78D6666041B1674B /* RFOverlayScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A0463F2E98C3B918EF9D87BA205F974 /* RFOverlayScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74D9BC287FBC1CF7A72D31D2A1AB50F4 /* KeychainSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66934A1CAC8F57CD27025A8D8082F00 /* KeychainSwift.swift */; };
+		7565B74AAC08AE5BEF049AEA162065C7 /* Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBB5CB34971C12879C6CE9389D0B5BC /* Digest.swift */; };
+		75CA19D580DDD79755E4D0EF0F0DB1DD /* BlockModeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88982DC143D986BD12581B0265296B2B /* BlockModeWorker.swift */; };
+		7879A3CF42B721EBEF08E8DF991CCEB3 /* Poly1305.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326D7C5158E5E5693C910A378CE7D5CC /* Poly1305.swift */; };
+		792AFEAD96F4E5887F869AD2DAD6D976 /* DonoCore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CCEC2B8417B3F2FAD377426B28889A5 /* DonoCore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B0B7C7F46173439AF5716418A199675 /* SwiftHEXColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5F14936985C1B5B765AA337E3CF49 /* SwiftHEXColors.swift */; };
 		7B3F2F52563F32A4B9DABC2185712127 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4B420FDCF6BAE25B046141327C0C92 /* Cocoa.framework */; };
-		7DBA146FB1811E2E70A1D728D890B3DB /* Multiplatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807564CA2BDC3FFB6444EA6506B75434 /* Multiplatform.swift */; };
-		7DED3EBF62F79DA229ED31D471BA42E2 /* PKCS7.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E1EF7CDE9B118A4214AB103F00041 /* PKCS7.swift */; };
+		7DBA146FB1811E2E70A1D728D890B3DB /* Multiplatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5298D739AAC415B81ECD43E10F98BF47 /* Multiplatform.swift */; };
+		7DED3EBF62F79DA229ED31D471BA42E2 /* PKCS7.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD69E10E337E8F9F7C5531B67CB3DFFF /* PKCS7.swift */; };
 		800B51D9B7366CBD4AD7B2D054145751 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4B420FDCF6BAE25B046141327C0C92 /* Cocoa.framework */; };
-		82F30FEFF35F92ACBC160B82666AF67E /* Updatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2E01234571B156DA543A9E4F7C2DA0 /* Updatable.swift */; };
-		8859154833243536AEE696FEB4F63245 /* BytesSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CC45AD48A6F010C5BEBFB02E6E1BC6 /* BytesSequence.swift */; };
-		89986F43459788E7ADAE412C38D457C6 /* UInt8+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04773DC690FC5C8865DBD3D036C4C57 /* UInt8+Extension.swift */; };
-		8BFA6F7313945D0F19121AF568950BFB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4B420FDCF6BAE25B046141327C0C92 /* Cocoa.framework */; };
-		9310F4B12ED0840040DD866F9247BB2F /* KeychainSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D034481187B195EA705E72802D69276 /* KeychainSwift-dummy.m */; };
-		9F9E687DE853E6AEB230A3AEDC1BCB00 /* BlockModeOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAE5A995D4594E8D077B8B7FE5F115B /* BlockModeOptions.swift */; };
-		A12EFA59B229AEDF9A2899107808B6D3 /* NoPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F9406CB4AA3717A53B20C9D1AA6B26 /* NoPadding.swift */; };
-		A20B2130FE06AF6FB7BC1113D87BE0C8 /* PBKDF2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37389911A0C9D8712C398147F54ED6FE /* PBKDF2.swift */; };
-		A4B4F6EA3D0E7CF4AF092D74157BCDEE /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3717FB1A4DC244652A7EDC52CDFFA9BD /* Collection+Extension.swift */; };
-		A4D770DFC0A9A935F9F782B23C94CA22 /* ChaCha20+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF4CE480FD5C044D581D11BEF98AC4B /* ChaCha20+Foundation.swift */; };
-		A5A99C13D66F7BAEF86158639401BA22 /* ChaCha20.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093353E34A4966E422BB0E6FCE4DFD4F /* ChaCha20.swift */; };
-		A80462F739F0F1123F7AE8E2B0D20EAA /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618517A41BC5096A32A383F308C8C10F /* Utils.swift */; };
-		AD2AB8DC352EDA965E89BAF6FA28FE36 /* Bit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFEE7D4A76F2995A31AB4134C74C987 /* Bit.swift */; };
-		B1A098096EC6A1B21635846DC11DDAA4 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8666823A46855D4A3E4CC967B49603 /* String+Extension.swift */; };
-		B1C7BEC058E5E835BFF9D6B5FA8FE099 /* UInt16+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F73045195D89B6DDB661D7A3926A6B5 /* UInt16+Extension.swift */; };
-		B1D71E4B331FC2C4D6848D819A5105E6 /* Dono.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4395896C4E5063A1B4AFD30327ADAB40 /* Dono.swift */; };
-		B2388805CE37FECEDDB916943CA5A5E9 /* SwiftHEXColors-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 803F6C08D410AE77D4C7152FE539051B /* SwiftHEXColors-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C12DAE8AE95556F2631612EDFC4FDA19 /* RFOverlayScrollView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6817CB0EF00DBC9B54FCFDDE48B02DC6 /* RFOverlayScrollView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C39F9FC28D7ACA1388603D807B9BFFA6 /* String+FoundationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79FBB4EF12F121489FE606A0043D615 /* String+FoundationExtension.swift */; };
-		C5FA5BB57B072A5FEB8AA98512C494EE /* CSArrayType+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA65CC3FDAE05B49BF7734C4865FE142 /* CSArrayType+Foundation.swift */; };
-		C711B78A3C8AA2B1E66699028CDAF1A8 /* IntegerConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76777FE4516F4FDAF16DAA16E47C0EFD /* IntegerConvertible.swift */; };
-		C7E0E2BB18EBF99886899440DBE0A301 /* DonoCore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC93890F454BE6449858C9B71FFE7F27 /* DonoCore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D0E928BAE30E4381CED44474FFD12933 /* RandomAccessCryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932AC93512DFD4B229CA4BAB468DA531 /* RandomAccessCryptor.swift */; };
-		D5202D82631713E699BD8F3B4ECA1C19 /* RFOverlayScroller.h in Headers */ = {isa = PBXBuildFile; fileRef = 053D8F4BFAEC250BA99A79F99A8D165A /* RFOverlayScroller.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D61F9722ED2D2CC504936FA997FE6109 /* BlockMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0492159E1C6ADB1A4A0841331A915E1B /* BlockMode.swift */; };
-		D624F4928C09DE21A6607E4771C42429 /* ZeroPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBCB98CD4AABA6CA0D445A2079D4241 /* ZeroPadding.swift */; };
-		DD47682286C952A91E1F21F0D5408FFB /* CTR.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D1245F98F3F007A51D732322251955 /* CTR.swift */; };
-		DF4C73A4CEBC6BCED7067B0DE1662010 /* Checksum.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7B5A7C4381B04642091EB4457790A8 /* Checksum.swift */; };
-		E0C56796BC4198CB4231D77536F8F648 /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC715606C407487E1440CAC8CBFFFC21 /* HMAC.swift */; };
-		E1DA1CF8EC2BABAFE780839CFB5C64DA /* SwiftHEXColors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF92C0D33EA2BB3B645D5096DDDD0B3 /* SwiftHEXColors-dummy.m */; };
+		82F30FEFF35F92ACBC160B82666AF67E /* Updatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F927052BD05E5821A927BE5847265740 /* Updatable.swift */; };
+		8859154833243536AEE696FEB4F63245 /* BytesSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8833A6064F0B1EBAE15E4279FC56C4C /* BytesSequence.swift */; };
+		89986F43459788E7ADAE412C38D457C6 /* UInt8+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF60E57F069A0C27AC7DC93A6890FEC4 /* UInt8+Extension.swift */; };
+		9310F4B12ED0840040DD866F9247BB2F /* KeychainSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C952AB58CF13A2F084BFCAEAED591E2E /* KeychainSwift-dummy.m */; };
+		9F9E687DE853E6AEB230A3AEDC1BCB00 /* BlockModeOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E083D6EB0C47A05C735C2B4CE3CB258 /* BlockModeOptions.swift */; };
+		A12EFA59B229AEDF9A2899107808B6D3 /* NoPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95877DF6C4635B1CFFB167089208498E /* NoPadding.swift */; };
+		A20B2130FE06AF6FB7BC1113D87BE0C8 /* PBKDF2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3970C274D3DD62FCD660DA871D10A28 /* PBKDF2.swift */; };
+		A4B4F6EA3D0E7CF4AF092D74157BCDEE /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D77425C0055F0F483BFB431837CE596 /* Collection+Extension.swift */; };
+		A4D770DFC0A9A935F9F782B23C94CA22 /* ChaCha20+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF15EEA158552025C2E744183C73FC2F /* ChaCha20+Foundation.swift */; };
+		A5A99C13D66F7BAEF86158639401BA22 /* ChaCha20.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DE47DC46DE7D63BFCDC0928D57C3E1 /* ChaCha20.swift */; };
+		A80462F739F0F1123F7AE8E2B0D20EAA /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5F4B46D977E79FE546369E32ACAF97 /* Utils.swift */; };
+		A96612EB1CFCB2B32C4C01A480608855 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58F0ED5A9D5B4038298584A690EA0EC /* StringExtensions.swift */; };
+		AD2AB8DC352EDA965E89BAF6FA28FE36 /* Bit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D293A38754AFD38C4617FEF2DAF6E346 /* Bit.swift */; };
+		B1A098096EC6A1B21635846DC11DDAA4 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D76EAD8B0060772AD590867A3010012 /* String+Extension.swift */; };
+		B1C7BEC058E5E835BFF9D6B5FA8FE099 /* UInt16+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012474EDFD5D31058D93BC700AE25464 /* UInt16+Extension.swift */; };
+		B2388805CE37FECEDDB916943CA5A5E9 /* SwiftHEXColors-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9A8A14CB99727161E2DC0E07CF0D00A /* SwiftHEXColors-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5F2AA22706FB2CCA96D6473E312A15A /* Dono.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB30A5C809F2117C8CFB8424AD46F346 /* Dono.swift */; };
+		C12DAE8AE95556F2631612EDFC4FDA19 /* RFOverlayScrollView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C098F88192E5353F0AB83D1557A4C61 /* RFOverlayScrollView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C39F9FC28D7ACA1388603D807B9BFFA6 /* String+FoundationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2770D0763FD8BDBF5FDD9007FAD00CF /* String+FoundationExtension.swift */; };
+		C5FA5BB57B072A5FEB8AA98512C494EE /* CSArrayType+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A4E61F9A9B95773F8AC5462A5D8E5F /* CSArrayType+Foundation.swift */; };
+		C711B78A3C8AA2B1E66699028CDAF1A8 /* IntegerConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759687B27923B05FCB6C9E6E8F57B303 /* IntegerConvertible.swift */; };
+		D0E928BAE30E4381CED44474FFD12933 /* RandomAccessCryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91ECABFCB28F699047C6EAF5089C22FB /* RandomAccessCryptor.swift */; };
+		D5202D82631713E699BD8F3B4ECA1C19 /* RFOverlayScroller.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3D3A8BFFD5E10FCABD2B9F0804D52C /* RFOverlayScroller.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D61F9722ED2D2CC504936FA997FE6109 /* BlockMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA36EF8A0258A98D90B578492D5B0852 /* BlockMode.swift */; };
+		D624F4928C09DE21A6607E4771C42429 /* ZeroPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E02CCAD0223B30D2A83E19C93F1E37 /* ZeroPadding.swift */; };
+		DD47682286C952A91E1F21F0D5408FFB /* CTR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A03CA5E64B5B88DB71F0C5C68FB3EF6 /* CTR.swift */; };
+		DF4C73A4CEBC6BCED7067B0DE1662010 /* Checksum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C319B8A0AF49530201BEAAD19ACB609 /* Checksum.swift */; };
+		E0C56796BC4198CB4231D77536F8F648 /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E52F20705BDE1FCD4A02F47A3A8620 /* HMAC.swift */; };
+		E1DA1CF8EC2BABAFE780839CFB5C64DA /* SwiftHEXColors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1230EEB1EC5DE22AC9DF0B2D7CD428 /* SwiftHEXColors-dummy.m */; };
 		E7DF915BFC085ACCB7FA902619150A74 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4B420FDCF6BAE25B046141327C0C92 /* Cocoa.framework */; };
-		E9A6320DE0E0623A6CADF2C009F7E6AC /* RFOverlayScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = EB550BC86D87B5A3525556400CCC4A2B /* RFOverlayScroller.m */; };
-		EAE3F3AF580405305F7DC3E0222A8F65 /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070C579464D8A3EB317128CB81F2EC8F /* Int+Extension.swift */; };
-		EAEF24292DA942787D93869A83BA8D9A /* Utils+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223772E7A69969CCBD926686923B4FCB /* Utils+Foundation.swift */; };
+		E9A6320DE0E0623A6CADF2C009F7E6AC /* RFOverlayScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 355E8F84A08CFC8AC60DB8B9F15E6416 /* RFOverlayScroller.m */; };
+		EAE3F3AF580405305F7DC3E0222A8F65 /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A56D61960B08A3132D33C7CEAB30C5 /* Int+Extension.swift */; };
+		EAEF24292DA942787D93869A83BA8D9A /* Utils+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14EA7C5BAF59402A6182B03C41006D /* Utils+Foundation.swift */; };
 		EDA097D40A9129E9D3296E9C6B850B6A /* Pods-Dono-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C848E2366269A9E95E09508E953C321B /* Pods-Dono-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE610CE406F1170DAB58AC647C53F0FE /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBE21ECB4066965C4AAA0F09687200F /* MD5.swift */; };
+		EE610CE406F1170DAB58AC647C53F0FE /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716744C2A766CEDAB55040A6BFC0A3D0 /* MD5.swift */; };
+		EFBA4008158640E7EA48CCF22373637D /* DonoConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E82963AF14F12E10FA6174E1919266 /* DonoConstants.swift */; };
 		F1E9EC181C098DA41B2026DAFF73D544 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4B420FDCF6BAE25B046141327C0C92 /* Cocoa.framework */; };
-		F342F573329551A0703E7BC45CD3977A /* CryptoSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB868E9B49F5F8D56815ADBE8A0CF443 /* CryptoSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F37FA7447EE5720CCBFE76B2BDF47D9D /* BlockCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DBA6F875DBEF8174D39F719C776259 /* BlockCipher.swift */; };
-		F37FFD2949055703A53A4FADD589CAAA /* Cryptors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FD5FCDD57E258655C31170FD84576F /* Cryptors.swift */; };
-		F48174638CFEE5548318976DCCED6127 /* Rabbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5764DF56921CD25F963C9A56EAFF5B35 /* Rabbit.swift */; };
-		F7B6FE10BE8FB3C866B49C37B7FE5429 /* PCBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC3012705F2A560F9DACCE736E744F7 /* PCBC.swift */; };
-		F8904E306CB1005995BF7050D401C433 /* UInt32+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1354F93EF838FF72486589973A2E0541 /* UInt32+Extension.swift */; };
-		FAF6557694F1549664A0E2632F7E943C /* PBKDF1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586A522F6DE853FF0CED7367F08D7367 /* PBKDF1.swift */; };
-		FB58115DAA39D50FE06E2978E1BBE453 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70502C425C5F36535BEAAE7AA3103923 /* CryptoSwift.framework */; };
+		F342F573329551A0703E7BC45CD3977A /* CryptoSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE56FCB9A59B0A83911FC231976DA3C9 /* CryptoSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F37FA7447EE5720CCBFE76B2BDF47D9D /* BlockCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5018F5C041F0816076DDA931782EA6 /* BlockCipher.swift */; };
+		F37FFD2949055703A53A4FADD589CAAA /* Cryptors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EE21A7BF3DA07560BBBA8DE8653A9D /* Cryptors.swift */; };
+		F48174638CFEE5548318976DCCED6127 /* Rabbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A810D95752DD17C8F3A9B2623945F0D9 /* Rabbit.swift */; };
+		F7B6FE10BE8FB3C866B49C37B7FE5429 /* PCBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBCF5B8690C5867175F7342A0442875 /* PCBC.swift */; };
+		F8904E306CB1005995BF7050D401C433 /* UInt32+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB626225CC586D68F8D025748F51091B /* UInt32+Extension.swift */; };
+		FAF6557694F1549664A0E2632F7E943C /* PBKDF1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348532DB3BE979F9DA91ED6631592CEE /* PBKDF1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,6 +124,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 6724AF0CD84B98AB78EB86AFB277F98C;
 			remoteInfo = RFOverlayScrollView;
+		};
+		2AF833CB84373089B344759E7309B915 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AD93D3402568ECD5C1D97070CD692C0;
+			remoteInfo = CryptoSwift;
 		};
 		4DC4009159D6EF2BEBF3182DAD9C0406 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -145,172 +153,166 @@
 			remoteGlobalIDString = 481C108BFFA84341B354FFC13290723D;
 			remoteInfo = SwiftHEXColors;
 		};
-		D0F49302079D6FCAB6197BAF4E12BAB2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0AD93D3402568ECD5C1D97070CD692C0;
-			remoteInfo = CryptoSwift;
-		};
 		E3D91B8FFAD1FD5E19FE9C2C378A9EBD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8A0CE54DB1D267BF7E47738D651A9563;
+			remoteGlobalIDString = F913352D9A3AEADC562404AB0EB4E130;
 			remoteInfo = DonoCore;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02C49C15EFE0F43701585457C493117A /* KeychainSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainSwift-prefix.pch"; sourceTree = "<group>"; };
+		012474EDFD5D31058D93BC700AE25464 /* UInt16+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UInt16+Extension.swift"; path = "Sources/CryptoSwift/UInt16+Extension.swift"; sourceTree = "<group>"; };
+		01E02CCAD0223B30D2A83E19C93F1E37 /* ZeroPadding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZeroPadding.swift; path = Sources/CryptoSwift/ZeroPadding.swift; sourceTree = "<group>"; };
 		034F09CAAF0B996A3F48F0CB4353C1FA /* Pods-DonoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DonoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		0492159E1C6ADB1A4A0841331A915E1B /* BlockMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockMode.swift; path = Sources/CryptoSwift/BlockMode/BlockMode.swift; sourceTree = "<group>"; };
-		053D8F4BFAEC250BA99A79F99A8D165A /* RFOverlayScroller.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RFOverlayScroller.h; path = RFOverlayScrollView/RFOverlayScroller.h; sourceTree = "<group>"; };
-		070C579464D8A3EB317128CB81F2EC8F /* Int+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+Extension.swift"; path = "Sources/CryptoSwift/Int+Extension.swift"; sourceTree = "<group>"; };
-		0760510C1BE7489CAE0B0935E67B3A7E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		093353E34A4966E422BB0E6FCE4DFD4F /* ChaCha20.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChaCha20.swift; path = Sources/CryptoSwift/ChaCha20.swift; sourceTree = "<group>"; };
-		0A0133DB7AC521DD2EA44CFEE8C2D110 /* RFOverlayScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RFOverlayScrollView.h; path = RFOverlayScrollView/RFOverlayScrollView.h; sourceTree = "<group>"; };
+		0A14EA7C5BAF59402A6182B03C41006D /* Utils+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Utils+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/Utils+Foundation.swift"; sourceTree = "<group>"; };
+		0DBCF5B8690C5867175F7342A0442875 /* PCBC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PCBC.swift; path = Sources/CryptoSwift/BlockMode/PCBC.swift; sourceTree = "<group>"; };
 		0FE55AAA53E505D5DBF33EA2E8E8DF6F /* Pods-Dono.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Dono.modulemap"; sourceTree = "<group>"; };
-		106BD277DF6402EE701FCD3F7A25D1D3 /* KeychainSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainSwift.swift; path = KeychainSwift/KeychainSwift.swift; sourceTree = "<group>"; };
-		1354F93EF838FF72486589973A2E0541 /* UInt32+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UInt32+Extension.swift"; path = "Sources/CryptoSwift/UInt32+Extension.swift"; sourceTree = "<group>"; };
+		13DE47DC46DE7D63BFCDC0928D57C3E1 /* ChaCha20.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChaCha20.swift; path = Sources/CryptoSwift/ChaCha20.swift; sourceTree = "<group>"; };
+		1420B2F6D946C118863FFF38CABC44AB /* SHA2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHA2.swift; path = Sources/CryptoSwift/SHA2.swift; sourceTree = "<group>"; };
+		14C6DA119D9788EB8DFE8E77C7F85847 /* Rabbit+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Rabbit+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/Rabbit+Foundation.swift"; sourceTree = "<group>"; };
 		155419CB5CD92CB1BF4C5E9D97F0B747 /* SwiftHEXColors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftHEXColors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		156088C021FF4AAB85C707BB64AC9DD3 /* Rabbit+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Rabbit+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/Rabbit+Foundation.swift"; sourceTree = "<group>"; };
-		15CC45AD48A6F010C5BEBFB02E6E1BC6 /* BytesSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BytesSequence.swift; path = Sources/CryptoSwift/BytesSequence.swift; sourceTree = "<group>"; };
-		16FCB99A6B172523939EA1DEE92C07D1 /* SwiftHEXColors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftHEXColors.h; path = Sources/SwiftHEXColors.h; sourceTree = "<group>"; };
+		162102A379C5E48231AE51759CC64932 /* KeychainSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeychainSwift.xcconfig; sourceTree = "<group>"; };
+		187D5BCD7565416A85380A9BC8CA9CA7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A0463F2E98C3B918EF9D87BA205F974 /* RFOverlayScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RFOverlayScrollView.h; path = RFOverlayScrollView/RFOverlayScrollView.h; sourceTree = "<group>"; };
 		1B723AC7958876491ADC4242DD78CBF5 /* Pods-DonoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DonoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1C7B937627E7827E76B2BC89C330193B /* SwiftyUserDefaults-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyUserDefaults-prefix.pch"; sourceTree = "<group>"; };
-		1D9D45DDFD48667D18A24F403C2457B1 /* DonoCore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DonoCore.modulemap; sourceTree = "<group>"; };
-		1F854240B7B14281AA90023D2B69BF30 /* SwiftHEXColors-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftHEXColors-prefix.pch"; sourceTree = "<group>"; };
-		223772E7A69969CCBD926686923B4FCB /* Utils+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Utils+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/Utils+Foundation.swift"; sourceTree = "<group>"; };
 		2296E6B2A6AFCA1A79C6E66F84945CDE /* CryptoSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CryptoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2453F012BC6EDE69A57C465837170035 /* Pods-DonoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DonoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		24BAEC79E45BBEA6EAB9A78CD64529F5 /* Cipher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cipher.swift; path = Sources/CryptoSwift/Cipher.swift; sourceTree = "<group>"; };
+		26A4E61F9A9B95773F8AC5462A5D8E5F /* CSArrayType+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CSArrayType+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/CSArrayType+Foundation.swift"; sourceTree = "<group>"; };
+		27B43EE0B66AA3EFF6A57C6B81E31D94 /* Authenticator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Authenticator.swift; path = Sources/CryptoSwift/Authenticator.swift; sourceTree = "<group>"; };
+		28E52F20705BDE1FCD4A02F47A3A8620 /* HMAC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HMAC.swift; path = Sources/CryptoSwift/HMAC.swift; sourceTree = "<group>"; };
+		28ECC72DBFAB33C1603FA89CDCAFF550 /* CryptoSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CryptoSwift.xcconfig; sourceTree = "<group>"; };
+		2BD403E2A2E9EB69E57E0F87A5142018 /* RFOverlayScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RFOverlayScrollView-prefix.pch"; sourceTree = "<group>"; };
+		2C098F88192E5353F0AB83D1557A4C61 /* RFOverlayScrollView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RFOverlayScrollView-umbrella.h"; sourceTree = "<group>"; };
 		2C7E658246B960AF6C634AACE372C70C /* Pods-Dono-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Dono-dummy.m"; sourceTree = "<group>"; };
+		2CB85B95671651136F4BA479D69E105B /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/CryptoSwift/Operators.swift; sourceTree = "<group>"; };
+		2CCEC2B8417B3F2FAD377426B28889A5 /* DonoCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DonoCore-umbrella.h"; sourceTree = "<group>"; };
 		2D4B420FDCF6BAE25B046141327C0C92 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		2E4C06ACD7C4B0469C36BEADD2F525AD /* PKCS5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKCS5.swift; path = Sources/CryptoSwift/PKCS5/PKCS5.swift; sourceTree = "<group>"; };
+		2EBB7A871BC61DFACCE42868D4A37217 /* CryptoSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CryptoSwift.modulemap; sourceTree = "<group>"; };
+		303120B195981DAA8B8CA9296F3EC44E /* OFB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OFB.swift; path = Sources/CryptoSwift/BlockMode/OFB.swift; sourceTree = "<group>"; };
 		3042E350BCAB62D196BEC59E22161FF8 /* Pods-Dono-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Dono-acknowledgements.plist"; sourceTree = "<group>"; };
+		30B68D57502914A9B8685A560D6F8EC5 /* SecureBytes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecureBytes.swift; path = Sources/CryptoSwift/SecureBytes.swift; sourceTree = "<group>"; };
 		311B68C82D8EDDCBAFB924CA58472562 /* Pods-DonoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DonoUITests-umbrella.h"; sourceTree = "<group>"; };
 		326196B6EAF5E22A40BAAE6CBF0C1099 /* Pods-Dono-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Dono-resources.sh"; sourceTree = "<group>"; };
-		34C8760EF0273ACA67E69288C0A004D8 /* TegKeychainConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TegKeychainConstants.swift; path = KeychainSwift/TegKeychainConstants.swift; sourceTree = "<group>"; };
-		36AAEA1AF8A6595E64CA5E2EB96F02CD /* Authenticator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Authenticator.swift; path = Sources/CryptoSwift/Authenticator.swift; sourceTree = "<group>"; };
-		3717FB1A4DC244652A7EDC52CDFFA9BD /* Collection+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Collection+Extension.swift"; path = "Sources/CryptoSwift/Collection+Extension.swift"; sourceTree = "<group>"; };
-		37389911A0C9D8712C398147F54ED6FE /* PBKDF2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PBKDF2.swift; path = Sources/CryptoSwift/PKCS5/PBKDF2.swift; sourceTree = "<group>"; };
-		38A70D3A8B64E7332C065D048E74A2FF /* BlockModeWorker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockModeWorker.swift; path = Sources/CryptoSwift/BlockMode/BlockModeWorker.swift; sourceTree = "<group>"; };
-		39F098FC60DD6B5666CFDCFCB4CFEB32 /* Generics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Generics.swift; path = Sources/CryptoSwift/Generics.swift; sourceTree = "<group>"; };
-		3D3B03A7FCD40F7C067BA18DEABB9CC5 /* UInt64+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UInt64+Extension.swift"; path = "Sources/CryptoSwift/UInt64+Extension.swift"; sourceTree = "<group>"; };
-		3D81496B0755CA709F5B8D6EAFA06DAC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F73045195D89B6DDB661D7A3926A6B5 /* UInt16+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UInt16+Extension.swift"; path = "Sources/CryptoSwift/UInt16+Extension.swift"; sourceTree = "<group>"; };
-		3FEAA141B09CDC2B85F6547EC147D1E6 /* RFOverlayScrollView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RFOverlayScrollView.xcconfig; sourceTree = "<group>"; };
-		41AD60F6F063C88FF6F8B7A10BDD870F /* CFB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CFB.swift; path = Sources/CryptoSwift/BlockMode/CFB.swift; sourceTree = "<group>"; };
-		41EF3F5B2FC1EE8FFBCD3B6691F16373 /* KeychainSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeychainSwift.xcconfig; sourceTree = "<group>"; };
-		4395896C4E5063A1B4AFD30327ADAB40 /* Dono.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dono.swift; path = DonoCore/Dono.swift; sourceTree = "<group>"; };
-		43DBA6F875DBEF8174D39F719C776259 /* BlockCipher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockCipher.swift; path = Sources/CryptoSwift/BlockCipher.swift; sourceTree = "<group>"; };
-		4401218FBF0D067198C9563623BD09C0 /* CryptoSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CryptoSwift.xcconfig; sourceTree = "<group>"; };
-		444D1BA4CB55CC22360AE12542D2333E /* SwiftHEXColors.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftHEXColors.xcconfig; sourceTree = "<group>"; };
-		45434ED3A174410909B9F4DF8DB9E1B8 /* Digest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Digest.swift; path = Sources/CryptoSwift/Digest.swift; sourceTree = "<group>"; };
-		461016DED66D48163B3E1A41936EADFA /* PKCS5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKCS5.swift; path = Sources/CryptoSwift/PKCS5/PKCS5.swift; sourceTree = "<group>"; };
-		48F2C764006C43A719650928347DB208 /* Data+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Extension.swift"; path = "Sources/CryptoSwift/Foundation/Data+Extension.swift"; sourceTree = "<group>"; };
-		49EA7DB722675E4B14ABC04C3BE039A6 /* CBC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CBC.swift; path = Sources/CryptoSwift/BlockMode/CBC.swift; sourceTree = "<group>"; };
-		4A49D896767DA839B5F4300D699FA346 /* DonoCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DonoCore-prefix.pch"; sourceTree = "<group>"; };
-		4C8607EB07998CA24C251F3ED77952DA /* SHA1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHA1.swift; path = Sources/CryptoSwift/SHA1.swift; sourceTree = "<group>"; };
-		4DC3012705F2A560F9DACCE736E744F7 /* PCBC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PCBC.swift; path = Sources/CryptoSwift/BlockMode/PCBC.swift; sourceTree = "<group>"; };
-		520275D7B01D92A10F995F19E139ED40 /* RFOverlayScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RFOverlayScrollView.m; path = RFOverlayScrollView/RFOverlayScrollView.m; sourceTree = "<group>"; };
+		326D7C5158E5E5693C910A378CE7D5CC /* Poly1305.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Poly1305.swift; path = Sources/CryptoSwift/Poly1305.swift; sourceTree = "<group>"; };
+		348532DB3BE979F9DA91ED6631592CEE /* PBKDF1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PBKDF1.swift; path = Sources/CryptoSwift/PKCS5/PBKDF1.swift; sourceTree = "<group>"; };
+		355E8F84A08CFC8AC60DB8B9F15E6416 /* RFOverlayScroller.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RFOverlayScroller.m; path = RFOverlayScrollView/RFOverlayScroller.m; sourceTree = "<group>"; };
+		3610B6C634E534B4A03D9A3F2B33E770 /* HMAC+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HMAC+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/HMAC+Foundation.swift"; sourceTree = "<group>"; };
+		36EE21A7BF3DA07560BBBA8DE8653A9D /* Cryptors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cryptors.swift; path = Sources/CryptoSwift/Cryptors.swift; sourceTree = "<group>"; };
+		38AFA37FA73186E99A58CB584C4CD4E5 /* Cipher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cipher.swift; path = Sources/CryptoSwift/Cipher.swift; sourceTree = "<group>"; };
+		39C3D4A460A3ECCC5BF087BF5ABB3FD1 /* RFOverlayScrollView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RFOverlayScrollView.modulemap; sourceTree = "<group>"; };
+		3E083D6EB0C47A05C735C2B4CE3CB258 /* BlockModeOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockModeOptions.swift; path = Sources/CryptoSwift/BlockMode/BlockModeOptions.swift; sourceTree = "<group>"; };
+		3E1230EEB1EC5DE22AC9DF0B2D7CD428 /* SwiftHEXColors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftHEXColors-dummy.m"; sourceTree = "<group>"; };
+		41A6118388CDBB640E6CE813818D6D3D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		424B119154F4B8B2A28DA2F1CDDA9F3A /* AES.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AES.swift; path = Sources/CryptoSwift/AES.swift; sourceTree = "<group>"; };
+		44B89AE9206434A96196A3172ED8220A /* SwiftyUserDefaults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyUserDefaults.swift; path = Sources/SwiftyUserDefaults.swift; sourceTree = "<group>"; };
+		4BAF46FB4EDA3A90F5EEDCEC807154FF /* SHA1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHA1.swift; path = Sources/CryptoSwift/SHA1.swift; sourceTree = "<group>"; };
+		5298D739AAC415B81ECD43E10F98BF47 /* Multiplatform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Multiplatform.swift; path = Sources/CryptoSwift/Multiplatform.swift; sourceTree = "<group>"; };
 		52D045C0559336B060D839CA7DA0B16D /* Pods-Dono.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dono.release.xcconfig"; sourceTree = "<group>"; };
 		56A88371D93DF39EE45132009181420E /* DonoCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DonoCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5764DF56921CD25F963C9A56EAFF5B35 /* Rabbit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Rabbit.swift; path = Sources/CryptoSwift/Rabbit.swift; sourceTree = "<group>"; };
 		57C504560292894AE6204E4EC25278C5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57F083A25AA591CB41E9A7295CBC9F7C /* DonoCore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DonoCore.modulemap; sourceTree = "<group>"; };
 		5836D69DE694EB83E268CD4C9D4D3959 /* Pods-DonoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DonoTests-resources.sh"; sourceTree = "<group>"; };
-		586A522F6DE853FF0CED7367F08D7367 /* PBKDF1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PBKDF1.swift; path = Sources/CryptoSwift/PKCS5/PBKDF1.swift; sourceTree = "<group>"; };
-		5B2DA78938EB748C5F72B64C486F26C6 /* RandomAccessBlockModeWorker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RandomAccessBlockModeWorker.swift; path = Sources/CryptoSwift/BlockMode/RandomAccessBlockModeWorker.swift; sourceTree = "<group>"; };
-		5CFEE7D4A76F2995A31AB4134C74C987 /* Bit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bit.swift; path = Sources/CryptoSwift/Bit.swift; sourceTree = "<group>"; };
-		6017688869CCBF0A12FAE2ABDD4B6220 /* RFOverlayScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RFOverlayScrollView-prefix.pch"; sourceTree = "<group>"; };
+		5D09A658A576230F4FEAB9B71522B1B6 /* CFB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CFB.swift; path = Sources/CryptoSwift/BlockMode/CFB.swift; sourceTree = "<group>"; };
 		6114B85183614152B7B6D02CBEADBF58 /* Pods-Dono-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Dono-acknowledgements.markdown"; sourceTree = "<group>"; };
-		618517A41BC5096A32A383F308C8C10F /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Sources/CryptoSwift/Utils.swift; sourceTree = "<group>"; };
 		65A22161EEAA1F9FE599F1D36E944010 /* Pods-DonoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DonoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6744721105E0BD3E31D4F3108CD09E84 /* Pods-DonoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DonoTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6817CB0EF00DBC9B54FCFDDE48B02DC6 /* RFOverlayScrollView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RFOverlayScrollView-umbrella.h"; sourceTree = "<group>"; };
+		68E48134A20A7B827A161C1B1287A1B3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68FFC5D7A9EC50F12DD21EECE34CD8F4 /* Pods-DonoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DonoUITests.modulemap"; sourceTree = "<group>"; };
+		6D5D77AA96C7F7DB0DE5D2C77D83FC09 /* SwiftyUserDefaults-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyUserDefaults-prefix.pch"; sourceTree = "<group>"; };
+		6D77425C0055F0F483BFB431837CE596 /* Collection+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Collection+Extension.swift"; path = "Sources/CryptoSwift/Collection+Extension.swift"; sourceTree = "<group>"; };
 		70502C425C5F36535BEAAE7AA3103923 /* CryptoSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CryptoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70FFE744FEA0AE301D36FA5B32B8DBAE /* Pods-DonoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DonoTests-frameworks.sh"; sourceTree = "<group>"; };
-		719E03F8610079712B58A8A03E366A5B /* SHA2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHA2.swift; path = Sources/CryptoSwift/SHA2.swift; sourceTree = "<group>"; };
+		716744C2A766CEDAB55040A6BFC0A3D0 /* MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MD5.swift; path = Sources/CryptoSwift/MD5.swift; sourceTree = "<group>"; };
+		724D8D9647A9D86D98E9C2B13A7B10E3 /* SwiftHEXColors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftHEXColors.h; path = Sources/SwiftHEXColors.h; sourceTree = "<group>"; };
 		74243B8F0051D9DAEE5BE8187A590F1B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		753C8BFE80AB2BE55D4FD9593A82AB14 /* AES.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AES.swift; path = Sources/CryptoSwift/AES.swift; sourceTree = "<group>"; };
-		76777FE4516F4FDAF16DAA16E47C0EFD /* IntegerConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IntegerConvertible.swift; path = Sources/CryptoSwift/IntegerConvertible.swift; sourceTree = "<group>"; };
-		790E993980F20CBFE8AEAD8CAAAA4C3C /* DonoCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DonoCore.xcconfig; sourceTree = "<group>"; };
+		759687B27923B05FCB6C9E6E8F57B303 /* IntegerConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IntegerConvertible.swift; path = Sources/CryptoSwift/IntegerConvertible.swift; sourceTree = "<group>"; };
+		7A03CA5E64B5B88DB71F0C5C68FB3EF6 /* CTR.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CTR.swift; path = Sources/CryptoSwift/BlockMode/CTR.swift; sourceTree = "<group>"; };
+		7A5018F5C041F0816076DDA931782EA6 /* BlockCipher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockCipher.swift; path = Sources/CryptoSwift/BlockCipher.swift; sourceTree = "<group>"; };
 		7A6F6DEC51115805AD75ABB37ADAF30C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7B9CDE6DDE70BA1C9BF1004E2E592F7D /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/CryptoSwift/Operators.swift; sourceTree = "<group>"; };
-		7D034481187B195EA705E72802D69276 /* KeychainSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeychainSwift-dummy.m"; sourceTree = "<group>"; };
-		7D3A236FBF2C68BDFD5309A5F558214A /* SwiftHEXColors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftHEXColors.swift; path = Sources/SwiftHEXColors.swift; sourceTree = "<group>"; };
-		803F6C08D410AE77D4C7152FE539051B /* SwiftHEXColors-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftHEXColors-umbrella.h"; sourceTree = "<group>"; };
-		807564CA2BDC3FFB6444EA6506B75434 /* Multiplatform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Multiplatform.swift; path = Sources/CryptoSwift/Multiplatform.swift; sourceTree = "<group>"; };
-		83FD5FCDD57E258655C31170FD84576F /* Cryptors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cryptors.swift; path = Sources/CryptoSwift/Cryptors.swift; sourceTree = "<group>"; };
-		8978580F51FA50319D29B57020CA5D39 /* KeychainSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainSwift-umbrella.h"; sourceTree = "<group>"; };
-		8BF4CE480FD5C044D581D11BEF98AC4B /* ChaCha20+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ChaCha20+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/ChaCha20+Foundation.swift"; sourceTree = "<group>"; };
-		8C91069B08A58B0CE822689C745F6331 /* SwiftyUserDefaults-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyUserDefaults-dummy.m"; sourceTree = "<group>"; };
-		914B45B3F0FF9EC16311A31F9A31D3C1 /* DigestType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DigestType.swift; path = Sources/CryptoSwift/DigestType.swift; sourceTree = "<group>"; };
-		932AC93512DFD4B229CA4BAB468DA531 /* RandomAccessCryptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RandomAccessCryptor.swift; path = Sources/CryptoSwift/RandomAccessCryptor.swift; sourceTree = "<group>"; };
+		7DB5F14936985C1B5B765AA337E3CF49 /* SwiftHEXColors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftHEXColors.swift; path = Sources/SwiftHEXColors.swift; sourceTree = "<group>"; };
+		85E29F6DAD1925D9276FA9622499748C /* SwiftHEXColors.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftHEXColors.modulemap; sourceTree = "<group>"; };
+		86A317398DE293C6954B7A56E73321AE /* KeychainSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainSwift-umbrella.h"; sourceTree = "<group>"; };
+		88982DC143D986BD12581B0265296B2B /* BlockModeWorker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockModeWorker.swift; path = Sources/CryptoSwift/BlockMode/BlockModeWorker.swift; sourceTree = "<group>"; };
+		897CED8DB6500B2E80019452E69F62D6 /* CSArrayType+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CSArrayType+Extensions.swift"; path = "Sources/CryptoSwift/CSArrayType+Extensions.swift"; sourceTree = "<group>"; };
+		8C319B8A0AF49530201BEAAD19ACB609 /* Checksum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Checksum.swift; path = Sources/CryptoSwift/Checksum.swift; sourceTree = "<group>"; };
+		91ECABFCB28F699047C6EAF5089C22FB /* RandomAccessCryptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RandomAccessCryptor.swift; path = Sources/CryptoSwift/RandomAccessCryptor.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		993067C58C1BDD72D9A39A2C9B33EA44 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93B27BA650110DFE53DE1C0393A13EE6 /* SwiftyUserDefaults-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyUserDefaults-dummy.m"; sourceTree = "<group>"; };
+		942FFAF763133CDA87E8EEFBB92654C1 /* SwiftHEXColors-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftHEXColors-prefix.pch"; sourceTree = "<group>"; };
+		95877DF6C4635B1CFFB167089208498E /* NoPadding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NoPadding.swift; path = Sources/CryptoSwift/NoPadding.swift; sourceTree = "<group>"; };
+		9646D1CCCC7B57876FFADB332C8363A1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96827BC0F76A1349B0849D8CECCA91A0 /* DonoCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DonoCore-dummy.m"; sourceTree = "<group>"; };
+		989E1B203CFDF7304A732E90C2B8C8D9 /* RFOverlayScrollView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RFOverlayScrollView.xcconfig; sourceTree = "<group>"; };
 		9C563DFFB9990421AC3997E00FA0B6D1 /* Pods-DonoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DonoUITests-resources.sh"; sourceTree = "<group>"; };
 		9D5FF55FAA2122854A1615F6E88D78C5 /* Pods-Dono-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Dono-frameworks.sh"; sourceTree = "<group>"; };
-		9DE5127CC38D4FA2271A564554069FB7 /* RFOverlayScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RFOverlayScrollView-dummy.m"; sourceTree = "<group>"; };
-		9DE75228D6750CBEC5D984EF6705AF2E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9F13FCEE185D52FC960B0656C633E254 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9FF92C0D33EA2BB3B645D5096DDDD0B3 /* SwiftHEXColors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftHEXColors-dummy.m"; sourceTree = "<group>"; };
-		A4F216B0C035A620CBEA3807C086AE2E /* SwiftHEXColors.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftHEXColors.modulemap; sourceTree = "<group>"; };
+		9D76EAD8B0060772AD590867A3010012 /* String+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Extension.swift"; path = "Sources/CryptoSwift/String+Extension.swift"; sourceTree = "<group>"; };
+		A402A54E8F46963103531F28379FCD8A /* Array+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Extension.swift"; path = "Sources/CryptoSwift/Array+Extension.swift"; sourceTree = "<group>"; };
 		A4FD9C84E039EC054DF1949E38204A54 /* Pods-DonoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DonoUITests.release.xcconfig"; sourceTree = "<group>"; };
-		A74E1EF7CDE9B118A4214AB103F00041 /* PKCS7.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKCS7.swift; path = Sources/CryptoSwift/PKCS7.swift; sourceTree = "<group>"; };
-		A96CDB7369BA4DB05230038F363CC18E /* CryptoSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CryptoSwift.modulemap; sourceTree = "<group>"; };
-		AC715606C407487E1440CAC8CBFFFC21 /* HMAC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HMAC.swift; path = Sources/CryptoSwift/HMAC.swift; sourceTree = "<group>"; };
+		A67CA610865BEC1557B687D3D081D5E3 /* Padding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Padding.swift; path = Sources/CryptoSwift/Padding.swift; sourceTree = "<group>"; };
+		A6A73EEA5EB24E72CD31D5914713A058 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A810D95752DD17C8F3A9B2623945F0D9 /* Rabbit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Rabbit.swift; path = Sources/CryptoSwift/Rabbit.swift; sourceTree = "<group>"; };
+		A8208229466D6741C6034DF5873F4A01 /* KeychainSwiftAccessOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainSwiftAccessOptions.swift; path = KeychainSwift/KeychainSwiftAccessOptions.swift; sourceTree = "<group>"; };
+		A8382907C169EE34EF2B9596B2E46A29 /* Data+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Extension.swift"; path = "Sources/CryptoSwift/Foundation/Data+Extension.swift"; sourceTree = "<group>"; };
+		A996CEF6D5D6C862F20628AE1E5311A2 /* RFOverlayScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RFOverlayScrollView.m; path = RFOverlayScrollView/RFOverlayScrollView.m; sourceTree = "<group>"; };
+		AC73459E7D6DFE06F5E61CE78CFE928F /* ECB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ECB.swift; path = Sources/CryptoSwift/BlockMode/ECB.swift; sourceTree = "<group>"; };
+		ADD312A5FD8DD176FA4F084584E6CD6A /* SwiftyUserDefaults.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyUserDefaults.xcconfig; sourceTree = "<group>"; };
 		AE0E58AB0B587007DEE5798FF05A587F /* Pods-DonoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DonoTests.release.xcconfig"; sourceTree = "<group>"; };
 		B0BCCABCC7DFD8168131F4E4893E71AF /* KeychainSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KeychainSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B555A8BF41DBFFE00F5D53502392E5DB /* SecureBytes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecureBytes.swift; path = Sources/CryptoSwift/SecureBytes.swift; sourceTree = "<group>"; };
-		B7290C75082F7E816A962D45847FB1AF /* OFB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OFB.swift; path = Sources/CryptoSwift/BlockMode/OFB.swift; sourceTree = "<group>"; };
-		B808DD9F7E0326501FA9FB8C01AF6F33 /* SwiftyUserDefaults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyUserDefaults.swift; path = Sources/SwiftyUserDefaults.swift; sourceTree = "<group>"; };
+		B24C6EC7395141EF46EA1AE882453CC3 /* DigestType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DigestType.swift; path = Sources/CryptoSwift/DigestType.swift; sourceTree = "<group>"; };
+		B3BA5621791DBC7C0AF28ED1A9F534F0 /* Generics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Generics.swift; path = Sources/CryptoSwift/Generics.swift; sourceTree = "<group>"; };
+		B433827DA4B351E55F091D8FE7C38B2E /* DonoCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DonoCore.xcconfig; sourceTree = "<group>"; };
+		B62DF715B2EEE9E45BE6FB7D8964AC03 /* KeychainSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KeychainSwift.modulemap; sourceTree = "<group>"; };
 		B8E3C620D550B9F346E893C313EE58E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		BAAB0598985231157577159E8F27E784 /* CryptoSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CryptoSwift-prefix.pch"; sourceTree = "<group>"; };
-		BAAE5A995D4594E8D077B8B7FE5F115B /* BlockModeOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockModeOptions.swift; path = Sources/CryptoSwift/BlockMode/BlockModeOptions.swift; sourceTree = "<group>"; };
-		BD955C904B079B39F15D819681A08ED4 /* DonoCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DonoCore-dummy.m"; sourceTree = "<group>"; };
+		B9A8A14CB99727161E2DC0E07CF0D00A /* SwiftHEXColors-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftHEXColors-umbrella.h"; sourceTree = "<group>"; };
+		BA36EF8A0258A98D90B578492D5B0852 /* BlockMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockMode.swift; path = Sources/CryptoSwift/BlockMode/BlockMode.swift; sourceTree = "<group>"; };
+		BB626225CC586D68F8D025748F51091B /* UInt32+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UInt32+Extension.swift"; path = "Sources/CryptoSwift/UInt32+Extension.swift"; sourceTree = "<group>"; };
+		BC6449F6FC0498C36EF3E0734528BB07 /* KeychainSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainSwift-prefix.pch"; sourceTree = "<group>"; };
+		BD69E10E337E8F9F7C5531B67CB3DFFF /* PKCS7.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKCS7.swift; path = Sources/CryptoSwift/PKCS7.swift; sourceTree = "<group>"; };
 		BEF1E346097E0E9B76AE62FBFF93CC69 /* Pods-DonoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DonoUITests-frameworks.sh"; sourceTree = "<group>"; };
-		BFF0680BB0892DD85160269645BA0F19 /* Poly1305.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Poly1305.swift; path = Sources/CryptoSwift/Poly1305.swift; sourceTree = "<group>"; };
-		C01A6079CF6498D5A5AF6053147D5868 /* Array+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Extension.swift"; path = "Sources/CryptoSwift/Array+Extension.swift"; sourceTree = "<group>"; };
-		C04773DC690FC5C8865DBD3D036C4C57 /* UInt8+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UInt8+Extension.swift"; path = "Sources/CryptoSwift/UInt8+Extension.swift"; sourceTree = "<group>"; };
+		BF60E57F069A0C27AC7DC93A6890FEC4 /* UInt8+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UInt8+Extension.swift"; path = "Sources/CryptoSwift/UInt8+Extension.swift"; sourceTree = "<group>"; };
+		C0930E5992F5EC5BC1E46575F7214A5E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2770D0763FD8BDBF5FDD9007FAD00CF /* String+FoundationExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+FoundationExtension.swift"; path = "Sources/CryptoSwift/Foundation/String+FoundationExtension.swift"; sourceTree = "<group>"; };
+		C6A56D61960B08A3132D33C7CEAB30C5 /* Int+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+Extension.swift"; path = "Sources/CryptoSwift/Int+Extension.swift"; sourceTree = "<group>"; };
 		C848E2366269A9E95E09508E953C321B /* Pods-Dono-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Dono-umbrella.h"; sourceTree = "<group>"; };
+		C8833A6064F0B1EBAE15E4279FC56C4C /* BytesSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BytesSequence.swift; path = Sources/CryptoSwift/BytesSequence.swift; sourceTree = "<group>"; };
 		C89D367B10E13A42551D1E424E636BC0 /* Pods_DonoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DonoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC93890F454BE6449858C9B71FFE7F27 /* DonoCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DonoCore-umbrella.h"; sourceTree = "<group>"; };
-		CD744C39E12D2B950FCC605A54041CA6 /* KeychainSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KeychainSwift.modulemap; sourceTree = "<group>"; };
-		CD8666823A46855D4A3E4CC967B49603 /* String+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Extension.swift"; path = "Sources/CryptoSwift/String+Extension.swift"; sourceTree = "<group>"; };
+		C952AB58CF13A2F084BFCAEAED591E2E /* KeychainSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeychainSwift-dummy.m"; sourceTree = "<group>"; };
+		CB30A5C809F2117C8CFB8424AD46F346 /* Dono.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dono.swift; path = DonoCore/Dono.swift; sourceTree = "<group>"; };
+		CDBB5CB34971C12879C6CE9389D0B5BC /* Digest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Digest.swift; path = Sources/CryptoSwift/Digest.swift; sourceTree = "<group>"; };
+		CE56FCB9A59B0A83911FC231976DA3C9 /* CryptoSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CryptoSwift-umbrella.h"; sourceTree = "<group>"; };
 		CF2D41594E449BB1D665098E9EF3F7B7 /* Pods-DonoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DonoTests.modulemap"; sourceTree = "<group>"; };
 		D09D570DB70BCFB00B894E2C8C74B4E2 /* Pods-DonoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DonoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D3F9406CB4AA3717A53B20C9D1AA6B26 /* NoPadding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NoPadding.swift; path = Sources/CryptoSwift/NoPadding.swift; sourceTree = "<group>"; };
-		D668ABC4190BA9ACDCC676BCFEC41BFC /* RFOverlayScrollView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RFOverlayScrollView.modulemap; sourceTree = "<group>"; };
+		D293A38754AFD38C4617FEF2DAF6E346 /* Bit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bit.swift; path = Sources/CryptoSwift/Bit.swift; sourceTree = "<group>"; };
+		D66934A1CAC8F57CD27025A8D8082F00 /* KeychainSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainSwift.swift; path = KeychainSwift/KeychainSwift.swift; sourceTree = "<group>"; };
 		D719F79D3D63A659BC2344F3520FFEEC /* Pods-Dono.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dono.debug.xcconfig"; sourceTree = "<group>"; };
-		D79FBB4EF12F121489FE606A0043D615 /* String+FoundationExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+FoundationExtension.swift"; path = "Sources/CryptoSwift/Foundation/String+FoundationExtension.swift"; sourceTree = "<group>"; };
 		D8E9B7D638BD662FB27C1595C4BB1176 /* Pods-DonoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DonoTests-dummy.m"; sourceTree = "<group>"; };
-		D93A8B9B6F85F8A41DECE59624871862 /* CryptoSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CryptoSwift-dummy.m"; sourceTree = "<group>"; };
-		DBBE21ECB4066965C4AAA0F09687200F /* MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MD5.swift; path = Sources/CryptoSwift/MD5.swift; sourceTree = "<group>"; };
-		DDBCB98CD4AABA6CA0D445A2079D4241 /* ZeroPadding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZeroPadding.swift; path = Sources/CryptoSwift/ZeroPadding.swift; sourceTree = "<group>"; };
-		E0D1245F98F3F007A51D732322251955 /* CTR.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CTR.swift; path = Sources/CryptoSwift/BlockMode/CTR.swift; sourceTree = "<group>"; };
+		DAEB9ABE54E94A30772174FAF4E62821 /* RFOverlayScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RFOverlayScrollView-dummy.m"; sourceTree = "<group>"; };
+		DB7EF59F960A01CAA26D856CF5468CD4 /* SwiftyUserDefaults.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyUserDefaults.modulemap; sourceTree = "<group>"; };
+		DC29AEB5524F32B50FEA3137D216457B /* UInt64+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UInt64+Extension.swift"; path = "Sources/CryptoSwift/UInt64+Extension.swift"; sourceTree = "<group>"; };
+		DE3D3A8BFFD5E10FCABD2B9F0804D52C /* RFOverlayScroller.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RFOverlayScroller.h; path = RFOverlayScrollView/RFOverlayScroller.h; sourceTree = "<group>"; };
+		E1E82963AF14F12E10FA6174E1919266 /* DonoConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DonoConstants.swift; path = DonoCore/DonoConstants.swift; sourceTree = "<group>"; };
 		E21CAB5F3C9F3CD95AB449371AD04197 /* RFOverlayScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RFOverlayScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4C861313810249248C111E2C94CA685 /* SwiftyUserDefaults.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyUserDefaults.xcconfig; sourceTree = "<group>"; };
-		EA65CC3FDAE05B49BF7734C4865FE142 /* CSArrayType+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CSArrayType+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/CSArrayType+Foundation.swift"; sourceTree = "<group>"; };
-		EB550BC86D87B5A3525556400CCC4A2B /* RFOverlayScroller.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RFOverlayScroller.m; path = RFOverlayScrollView/RFOverlayScroller.m; sourceTree = "<group>"; };
-		EB7B5A7C4381B04642091EB4457790A8 /* Checksum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Checksum.swift; path = Sources/CryptoSwift/Checksum.swift; sourceTree = "<group>"; };
-		EB868E9B49F5F8D56815ADBE8A0CF443 /* CryptoSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CryptoSwift-umbrella.h"; sourceTree = "<group>"; };
-		EBD8782A7711FE0F70058C4057376179 /* Padding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Padding.swift; path = Sources/CryptoSwift/Padding.swift; sourceTree = "<group>"; };
-		ED72E7DE7A1B492F6FD28904D747DEE5 /* SwiftyUserDefaults-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyUserDefaults-umbrella.h"; sourceTree = "<group>"; };
-		EE2E01234571B156DA543A9E4F7C2DA0 /* Updatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Updatable.swift; path = Sources/CryptoSwift/Updatable.swift; sourceTree = "<group>"; };
-		EF9A7B68E96F75A09B2988DB3103E8B7 /* StringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = DonoCore/StringExtensions.swift; sourceTree = "<group>"; };
-		F1BA4064A895EE9CB6072B10755EB73B /* ECB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ECB.swift; path = Sources/CryptoSwift/BlockMode/ECB.swift; sourceTree = "<group>"; };
-		F2DA3D1696C21972435B63D87093ED07 /* CSArrayType+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CSArrayType+Extensions.swift"; path = "Sources/CryptoSwift/CSArrayType+Extensions.swift"; sourceTree = "<group>"; };
-		F400969AB6BC46BD196C213246E6AA63 /* SwiftyUserDefaults.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyUserDefaults.modulemap; sourceTree = "<group>"; };
+		E2AF58295D2EA7754760F384A03FF580 /* CryptoSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CryptoSwift-prefix.pch"; sourceTree = "<group>"; };
+		E693010D51469611092B07C5BE1DEA1F /* CBC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CBC.swift; path = Sources/CryptoSwift/BlockMode/CBC.swift; sourceTree = "<group>"; };
+		E6EC2AEF970B805585FB00BDB1ACB6CC /* SwiftHEXColors.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftHEXColors.xcconfig; sourceTree = "<group>"; };
+		E842F954B6A381574A579FE8AB7D3C3E /* SwiftyUserDefaults-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyUserDefaults-umbrella.h"; sourceTree = "<group>"; };
+		EA2170198DA8AB79772E1CE845950648 /* DonoCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DonoCore-prefix.pch"; sourceTree = "<group>"; };
+		ED5F4B46D977E79FE546369E32ACAF97 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Sources/CryptoSwift/Utils.swift; sourceTree = "<group>"; };
+		EF15EEA158552025C2E744183C73FC2F /* ChaCha20+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ChaCha20+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/ChaCha20+Foundation.swift"; sourceTree = "<group>"; };
+		F30CC53432D2AC5DA93AE57398500330 /* AES+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AES+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/AES+Foundation.swift"; sourceTree = "<group>"; };
+		F3970C274D3DD62FCD660DA871D10A28 /* PBKDF2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PBKDF2.swift; path = Sources/CryptoSwift/PKCS5/PBKDF2.swift; sourceTree = "<group>"; };
 		F40A3F2B2FEC76EDF3C7405D78521208 /* Pods_Dono.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dono.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F55DBF2D24DAFEE9FFE45F29839C612E /* SwiftyUserDefaults.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyUserDefaults.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5C05D5635C260A2FE688ADDC9BC6526 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F58F0ED5A9D5B4038298584A690EA0EC /* StringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = DonoCore/StringExtensions.swift; sourceTree = "<group>"; };
+		F5E2A6715EFBFDA2E74288204E308D95 /* TegKeychainConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TegKeychainConstants.swift; path = KeychainSwift/TegKeychainConstants.swift; sourceTree = "<group>"; };
 		F73397581010AAF4C775859DE5BA6D3D /* Pods_DonoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DonoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F927052BD05E5821A927BE5847265740 /* Updatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Updatable.swift; path = Sources/CryptoSwift/Updatable.swift; sourceTree = "<group>"; };
+		F97B863524BB6543B590261111687403 /* RandomAccessBlockModeWorker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RandomAccessBlockModeWorker.swift; path = Sources/CryptoSwift/BlockMode/RandomAccessBlockModeWorker.swift; sourceTree = "<group>"; };
 		F9EF4DDA322B78CF7B55F49082467D2D /* Pods-DonoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DonoTests-umbrella.h"; sourceTree = "<group>"; };
-		FD13B2DBBEA6EBCB34F794394EBCB492 /* KeychainSwiftAccessOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainSwiftAccessOptions.swift; path = KeychainSwift/KeychainSwiftAccessOptions.swift; sourceTree = "<group>"; };
-		FD9402BC4B87F0C95B1D05D310560CC1 /* AES+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AES+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/AES+Foundation.swift"; sourceTree = "<group>"; };
-		FDC5D0655E61A623597C705B02F37F9B /* HMAC+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HMAC+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/HMAC+Foundation.swift"; sourceTree = "<group>"; };
+		FF27383386629127F71EE53BF1AF2F90 /* CryptoSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CryptoSwift-dummy.m"; sourceTree = "<group>"; };
 		FF9C4C0F02D52F84672C280741B13A9E /* Pods-DonoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DonoUITests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -355,13 +357,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8CDD50FCF7CDBED91AC38B7A9607BE7C /* Frameworks */ = {
+		6DC08DA091CCA90943F22E173349CBD4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BFA6F7313945D0F19121AF568950BFB /* Cocoa.framework in Frameworks */,
-				FB58115DAA39D50FE06E2978E1BBE453 /* CryptoSwift.framework in Frameworks */,
-				6409E32B8CD7E680575A831B787BFE00 /* Foundation.framework in Frameworks */,
+				32ADDE795D7C3192AA3CBA7A946A9471 /* Cocoa.framework in Frameworks */,
+				03CEDF8A50EE4ADB297C65045492242B /* CryptoSwift.framework in Frameworks */,
+				09B11C85AF0722A37A27E55E348BAEED /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,51 +394,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0568E6ACCE8A8E9CDAD7D1AFF9F6E886 /* RFOverlayScrollView */ = {
+		01B7CBE98D90B510CAB1712ADF083062 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				053D8F4BFAEC250BA99A79F99A8D165A /* RFOverlayScroller.h */,
-				EB550BC86D87B5A3525556400CCC4A2B /* RFOverlayScroller.m */,
-				0A0133DB7AC521DD2EA44CFEE8C2D110 /* RFOverlayScrollView.h */,
-				520275D7B01D92A10F995F19E139ED40 /* RFOverlayScrollView.m */,
-				E44FE801FABE64CA201D328C9A3447F9 /* Support Files */,
+				A6A73EEA5EB24E72CD31D5914713A058 /* Info.plist */,
+				39C3D4A460A3ECCC5BF087BF5ABB3FD1 /* RFOverlayScrollView.modulemap */,
+				989E1B203CFDF7304A732E90C2B8C8D9 /* RFOverlayScrollView.xcconfig */,
+				DAEB9ABE54E94A30772174FAF4E62821 /* RFOverlayScrollView-dummy.m */,
+				2BD403E2A2E9EB69E57E0F87A5142018 /* RFOverlayScrollView-prefix.pch */,
+				2C098F88192E5353F0AB83D1557A4C61 /* RFOverlayScrollView-umbrella.h */,
 			);
-			path = RFOverlayScrollView;
+			name = "Support Files";
+			path = "../Target Support Files/RFOverlayScrollView";
 			sourceTree = "<group>";
 		};
-		063BB2CF934A334AC6B636D86C3DCD2C /* KeychainSwift */ = {
+		0BA8722764ED1E34A553FCCB69AFA15C /* KeychainSwift */ = {
 			isa = PBXGroup;
 			children = (
-				106BD277DF6402EE701FCD3F7A25D1D3 /* KeychainSwift.swift */,
-				FD13B2DBBEA6EBCB34F794394EBCB492 /* KeychainSwiftAccessOptions.swift */,
-				34C8760EF0273ACA67E69288C0A004D8 /* TegKeychainConstants.swift */,
-				C096FEFCA521B76D0470D4E4E2F20643 /* Support Files */,
+				D66934A1CAC8F57CD27025A8D8082F00 /* KeychainSwift.swift */,
+				A8208229466D6741C6034DF5873F4A01 /* KeychainSwiftAccessOptions.swift */,
+				F5E2A6715EFBFDA2E74288204E308D95 /* TegKeychainConstants.swift */,
+				1FC83CF2A96BB05BC0CDF1D2DC19A893 /* Support Files */,
 			);
 			path = KeychainSwift;
 			sourceTree = "<group>";
 		};
-		073C2ACAA579533C3DEFE439758FAB65 /* SwiftHEXColors */ = {
+		172248005DFF50ABBA0E9794E8DD576C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				16FCB99A6B172523939EA1DEE92C07D1 /* SwiftHEXColors.h */,
-				7D3A236FBF2C68BDFD5309A5F558214A /* SwiftHEXColors.swift */,
-				BA3FE3A371D580F941A7C753B2B0C05B /* Support Files */,
-			);
-			path = SwiftHEXColors;
-			sourceTree = "<group>";
-		};
-		14A8C7F4ADFDD01081332D397947E27E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A96CDB7369BA4DB05230038F363CC18E /* CryptoSwift.modulemap */,
-				4401218FBF0D067198C9563623BD09C0 /* CryptoSwift.xcconfig */,
-				D93A8B9B6F85F8A41DECE59624871862 /* CryptoSwift-dummy.m */,
-				BAAB0598985231157577159E8F27E784 /* CryptoSwift-prefix.pch */,
-				EB868E9B49F5F8D56815ADBE8A0CF443 /* CryptoSwift-umbrella.h */,
-				9F13FCEE185D52FC960B0656C633E254 /* Info.plist */,
+				57F083A25AA591CB41E9A7295CBC9F7C /* DonoCore.modulemap */,
+				B433827DA4B351E55F091D8FE7C38B2E /* DonoCore.xcconfig */,
+				96827BC0F76A1349B0849D8CECCA91A0 /* DonoCore-dummy.m */,
+				EA2170198DA8AB79772E1CE845950648 /* DonoCore-prefix.pch */,
+				2CCEC2B8417B3F2FAD377426B28889A5 /* DonoCore-umbrella.h */,
+				68E48134A20A7B827A161C1B1287A1B3 /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/CryptoSwift";
+			path = "../Target Support Files/DonoCore";
 			sourceTree = "<group>";
 		};
 		1BF3A305086F747FE8D3530A07CA261E /* Pods-DonoTests */ = {
@@ -457,28 +451,28 @@
 			path = "Target Support Files/Pods-DonoTests";
 			sourceTree = "<group>";
 		};
-		38BDC78F2EDF591A024E567E1149010A /* DonoCore */ = {
+		1FC83CF2A96BB05BC0CDF1D2DC19A893 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4395896C4E5063A1B4AFD30327ADAB40 /* Dono.swift */,
-				EF9A7B68E96F75A09B2988DB3103E8B7 /* StringExtensions.swift */,
-				3FB531A40BCDA39D06E3DFB8D69CCA3A /* Support Files */,
-			);
-			path = DonoCore;
-			sourceTree = "<group>";
-		};
-		3FB531A40BCDA39D06E3DFB8D69CCA3A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1D9D45DDFD48667D18A24F403C2457B1 /* DonoCore.modulemap */,
-				790E993980F20CBFE8AEAD8CAAAA4C3C /* DonoCore.xcconfig */,
-				BD955C904B079B39F15D819681A08ED4 /* DonoCore-dummy.m */,
-				4A49D896767DA839B5F4300D699FA346 /* DonoCore-prefix.pch */,
-				CC93890F454BE6449858C9B71FFE7F27 /* DonoCore-umbrella.h */,
-				0760510C1BE7489CAE0B0935E67B3A7E /* Info.plist */,
+				C0930E5992F5EC5BC1E46575F7214A5E /* Info.plist */,
+				B62DF715B2EEE9E45BE6FB7D8964AC03 /* KeychainSwift.modulemap */,
+				162102A379C5E48231AE51759CC64932 /* KeychainSwift.xcconfig */,
+				C952AB58CF13A2F084BFCAEAED591E2E /* KeychainSwift-dummy.m */,
+				BC6449F6FC0498C36EF3E0734528BB07 /* KeychainSwift-prefix.pch */,
+				86A317398DE293C6954B7A56E73321AE /* KeychainSwift-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/DonoCore";
+			path = "../Target Support Files/KeychainSwift";
+			sourceTree = "<group>";
+		};
+		512BFF445CCA8F1F48F2055D9E259238 /* SwiftHEXColors */ = {
+			isa = PBXGroup;
+			children = (
+				724D8D9647A9D86D98E9C2B13A7B10E3 /* SwiftHEXColors.h */,
+				7DB5F14936985C1B5B765AA337E3CF49 /* SwiftHEXColors.swift */,
+				8F48353BAD268DAC0F42B74864EF9724 /* Support Files */,
+			);
+			path = SwiftHEXColors;
 			sourceTree = "<group>";
 		};
 		52EC38F22F7C38593D0C06D51BFC4075 /* Targets Support Files */ = {
@@ -489,73 +483,6 @@
 				9FF5047F1F7378D1CFD1CCAAE022B068 /* Pods-DonoUITests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		59A0BEB2FB6B4FB4E1DA5A0B909A8316 /* CryptoSwift */ = {
-			isa = PBXGroup;
-			children = (
-				753C8BFE80AB2BE55D4FD9593A82AB14 /* AES.swift */,
-				FD9402BC4B87F0C95B1D05D310560CC1 /* AES+Foundation.swift */,
-				C01A6079CF6498D5A5AF6053147D5868 /* Array+Extension.swift */,
-				36AAEA1AF8A6595E64CA5E2EB96F02CD /* Authenticator.swift */,
-				5CFEE7D4A76F2995A31AB4134C74C987 /* Bit.swift */,
-				43DBA6F875DBEF8174D39F719C776259 /* BlockCipher.swift */,
-				0492159E1C6ADB1A4A0841331A915E1B /* BlockMode.swift */,
-				BAAE5A995D4594E8D077B8B7FE5F115B /* BlockModeOptions.swift */,
-				38A70D3A8B64E7332C065D048E74A2FF /* BlockModeWorker.swift */,
-				15CC45AD48A6F010C5BEBFB02E6E1BC6 /* BytesSequence.swift */,
-				49EA7DB722675E4B14ABC04C3BE039A6 /* CBC.swift */,
-				41AD60F6F063C88FF6F8B7A10BDD870F /* CFB.swift */,
-				093353E34A4966E422BB0E6FCE4DFD4F /* ChaCha20.swift */,
-				8BF4CE480FD5C044D581D11BEF98AC4B /* ChaCha20+Foundation.swift */,
-				EB7B5A7C4381B04642091EB4457790A8 /* Checksum.swift */,
-				24BAEC79E45BBEA6EAB9A78CD64529F5 /* Cipher.swift */,
-				3717FB1A4DC244652A7EDC52CDFFA9BD /* Collection+Extension.swift */,
-				83FD5FCDD57E258655C31170FD84576F /* Cryptors.swift */,
-				F2DA3D1696C21972435B63D87093ED07 /* CSArrayType+Extensions.swift */,
-				EA65CC3FDAE05B49BF7734C4865FE142 /* CSArrayType+Foundation.swift */,
-				E0D1245F98F3F007A51D732322251955 /* CTR.swift */,
-				48F2C764006C43A719650928347DB208 /* Data+Extension.swift */,
-				45434ED3A174410909B9F4DF8DB9E1B8 /* Digest.swift */,
-				914B45B3F0FF9EC16311A31F9A31D3C1 /* DigestType.swift */,
-				F1BA4064A895EE9CB6072B10755EB73B /* ECB.swift */,
-				39F098FC60DD6B5666CFDCFCB4CFEB32 /* Generics.swift */,
-				AC715606C407487E1440CAC8CBFFFC21 /* HMAC.swift */,
-				FDC5D0655E61A623597C705B02F37F9B /* HMAC+Foundation.swift */,
-				070C579464D8A3EB317128CB81F2EC8F /* Int+Extension.swift */,
-				76777FE4516F4FDAF16DAA16E47C0EFD /* IntegerConvertible.swift */,
-				DBBE21ECB4066965C4AAA0F09687200F /* MD5.swift */,
-				807564CA2BDC3FFB6444EA6506B75434 /* Multiplatform.swift */,
-				D3F9406CB4AA3717A53B20C9D1AA6B26 /* NoPadding.swift */,
-				B7290C75082F7E816A962D45847FB1AF /* OFB.swift */,
-				7B9CDE6DDE70BA1C9BF1004E2E592F7D /* Operators.swift */,
-				EBD8782A7711FE0F70058C4057376179 /* Padding.swift */,
-				586A522F6DE853FF0CED7367F08D7367 /* PBKDF1.swift */,
-				37389911A0C9D8712C398147F54ED6FE /* PBKDF2.swift */,
-				4DC3012705F2A560F9DACCE736E744F7 /* PCBC.swift */,
-				461016DED66D48163B3E1A41936EADFA /* PKCS5.swift */,
-				A74E1EF7CDE9B118A4214AB103F00041 /* PKCS7.swift */,
-				BFF0680BB0892DD85160269645BA0F19 /* Poly1305.swift */,
-				5764DF56921CD25F963C9A56EAFF5B35 /* Rabbit.swift */,
-				156088C021FF4AAB85C707BB64AC9DD3 /* Rabbit+Foundation.swift */,
-				5B2DA78938EB748C5F72B64C486F26C6 /* RandomAccessBlockModeWorker.swift */,
-				932AC93512DFD4B229CA4BAB468DA531 /* RandomAccessCryptor.swift */,
-				B555A8BF41DBFFE00F5D53502392E5DB /* SecureBytes.swift */,
-				4C8607EB07998CA24C251F3ED77952DA /* SHA1.swift */,
-				719E03F8610079712B58A8A03E366A5B /* SHA2.swift */,
-				CD8666823A46855D4A3E4CC967B49603 /* String+Extension.swift */,
-				D79FBB4EF12F121489FE606A0043D615 /* String+FoundationExtension.swift */,
-				3F73045195D89B6DDB661D7A3926A6B5 /* UInt16+Extension.swift */,
-				1354F93EF838FF72486589973A2E0541 /* UInt32+Extension.swift */,
-				3D3B03A7FCD40F7C067BA18DEABB9CC5 /* UInt64+Extension.swift */,
-				C04773DC690FC5C8865DBD3D036C4C57 /* UInt8+Extension.swift */,
-				EE2E01234571B156DA543A9E4F7C2DA0 /* Updatable.swift */,
-				618517A41BC5096A32A383F308C8C10F /* Utils.swift */,
-				223772E7A69969CCBD926686923B4FCB /* Utils+Foundation.swift */,
-				DDBCB98CD4AABA6CA0D445A2079D4241 /* ZeroPadding.swift */,
-				14A8C7F4ADFDD01081332D397947E27E /* Support Files */,
-			);
-			path = CryptoSwift;
 			sourceTree = "<group>";
 		};
 		67E9E85E71DA51183ABE3FDD36B8EACA /* Products */ = {
@@ -588,10 +515,45 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				AF6BFDECBAF21DDD715D8D3973832259 /* Frameworks */,
-				C047DE7B7F8D248E7EF5722DB9F2F861 /* Pods */,
+				C9610D3FD34E68008DA1127DB153AE0B /* Pods */,
 				67E9E85E71DA51183ABE3FDD36B8EACA /* Products */,
 				52EC38F22F7C38593D0C06D51BFC4075 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		81F9E832326D6324EECCE54F6395A78A /* SwiftyUserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				44B89AE9206434A96196A3172ED8220A /* SwiftyUserDefaults.swift */,
+				AF56D30742E868A15D25D9F2EBA8A58C /* Support Files */,
+			);
+			path = SwiftyUserDefaults;
+			sourceTree = "<group>";
+		};
+		8EA853673C52053F5E8C5C1E199F459C /* RFOverlayScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				DE3D3A8BFFD5E10FCABD2B9F0804D52C /* RFOverlayScroller.h */,
+				355E8F84A08CFC8AC60DB8B9F15E6416 /* RFOverlayScroller.m */,
+				1A0463F2E98C3B918EF9D87BA205F974 /* RFOverlayScrollView.h */,
+				A996CEF6D5D6C862F20628AE1E5311A2 /* RFOverlayScrollView.m */,
+				01B7CBE98D90B510CAB1712ADF083062 /* Support Files */,
+			);
+			path = RFOverlayScrollView;
+			sourceTree = "<group>";
+		};
+		8F48353BAD268DAC0F42B74864EF9724 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				41A6118388CDBB640E6CE813818D6D3D /* Info.plist */,
+				85E29F6DAD1925D9276FA9622499748C /* SwiftHEXColors.modulemap */,
+				E6EC2AEF970B805585FB00BDB1ACB6CC /* SwiftHEXColors.xcconfig */,
+				3E1230EEB1EC5DE22AC9DF0B2D7CD428 /* SwiftHEXColors-dummy.m */,
+				942FFAF763133CDA87E8EEFBB92654C1 /* SwiftHEXColors-prefix.pch */,
+				B9A8A14CB99727161E2DC0E07CF0D00A /* SwiftHEXColors-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftHEXColors";
 			sourceTree = "<group>";
 		};
 		910405E80C6B3D896FE206534FD5962C /* Pods-Dono */ = {
@@ -630,6 +592,20 @@
 			path = "Target Support Files/Pods-DonoUITests";
 			sourceTree = "<group>";
 		};
+		AF56D30742E868A15D25D9F2EBA8A58C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				187D5BCD7565416A85380A9BC8CA9CA7 /* Info.plist */,
+				DB7EF59F960A01CAA26D856CF5468CD4 /* SwiftyUserDefaults.modulemap */,
+				ADD312A5FD8DD176FA4F084584E6CD6A /* SwiftyUserDefaults.xcconfig */,
+				93B27BA650110DFE53DE1C0393A13EE6 /* SwiftyUserDefaults-dummy.m */,
+				6D5D77AA96C7F7DB0DE5D2C77D83FC09 /* SwiftyUserDefaults-prefix.pch */,
+				E842F954B6A381574A579FE8AB7D3C3E /* SwiftyUserDefaults-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyUserDefaults";
+			sourceTree = "<group>";
+		};
 		AF6BFDECBAF21DDD715D8D3973832259 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -639,100 +615,127 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BA3FE3A371D580F941A7C753B2B0C05B /* Support Files */ = {
+		BC0D0C6CEE09DC2C156AB9686AE102AC /* DonoCore */ = {
 			isa = PBXGroup;
 			children = (
-				F5C05D5635C260A2FE688ADDC9BC6526 /* Info.plist */,
-				A4F216B0C035A620CBEA3807C086AE2E /* SwiftHEXColors.modulemap */,
-				444D1BA4CB55CC22360AE12542D2333E /* SwiftHEXColors.xcconfig */,
-				9FF92C0D33EA2BB3B645D5096DDDD0B3 /* SwiftHEXColors-dummy.m */,
-				1F854240B7B14281AA90023D2B69BF30 /* SwiftHEXColors-prefix.pch */,
-				803F6C08D410AE77D4C7152FE539051B /* SwiftHEXColors-umbrella.h */,
+				CB30A5C809F2117C8CFB8424AD46F346 /* Dono.swift */,
+				E1E82963AF14F12E10FA6174E1919266 /* DonoConstants.swift */,
+				F58F0ED5A9D5B4038298584A690EA0EC /* StringExtensions.swift */,
+				172248005DFF50ABBA0E9794E8DD576C /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SwiftHEXColors";
+			path = DonoCore;
 			sourceTree = "<group>";
 		};
-		C047DE7B7F8D248E7EF5722DB9F2F861 /* Pods */ = {
+		C1DA16783DBD64A1F098A225F312EBA1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				59A0BEB2FB6B4FB4E1DA5A0B909A8316 /* CryptoSwift */,
-				38BDC78F2EDF591A024E567E1149010A /* DonoCore */,
-				063BB2CF934A334AC6B636D86C3DCD2C /* KeychainSwift */,
-				0568E6ACCE8A8E9CDAD7D1AFF9F6E886 /* RFOverlayScrollView */,
-				073C2ACAA579533C3DEFE439758FAB65 /* SwiftHEXColors */,
-				DC8E95856DCD20E1CA74C3D43AD39D25 /* SwiftyUserDefaults */,
+				2EBB7A871BC61DFACCE42868D4A37217 /* CryptoSwift.modulemap */,
+				28ECC72DBFAB33C1603FA89CDCAFF550 /* CryptoSwift.xcconfig */,
+				FF27383386629127F71EE53BF1AF2F90 /* CryptoSwift-dummy.m */,
+				E2AF58295D2EA7754760F384A03FF580 /* CryptoSwift-prefix.pch */,
+				CE56FCB9A59B0A83911FC231976DA3C9 /* CryptoSwift-umbrella.h */,
+				9646D1CCCC7B57876FFADB332C8363A1 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CryptoSwift";
+			sourceTree = "<group>";
+		};
+		C9610D3FD34E68008DA1127DB153AE0B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB67EC268C24780F4F1F8EECEC457555 /* CryptoSwift */,
+				BC0D0C6CEE09DC2C156AB9686AE102AC /* DonoCore */,
+				0BA8722764ED1E34A553FCCB69AFA15C /* KeychainSwift */,
+				8EA853673C52053F5E8C5C1E199F459C /* RFOverlayScrollView */,
+				512BFF445CCA8F1F48F2055D9E259238 /* SwiftHEXColors */,
+				81F9E832326D6324EECCE54F6395A78A /* SwiftyUserDefaults */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		C096FEFCA521B76D0470D4E4E2F20643 /* Support Files */ = {
+		FB67EC268C24780F4F1F8EECEC457555 /* CryptoSwift */ = {
 			isa = PBXGroup;
 			children = (
-				993067C58C1BDD72D9A39A2C9B33EA44 /* Info.plist */,
-				CD744C39E12D2B950FCC605A54041CA6 /* KeychainSwift.modulemap */,
-				41EF3F5B2FC1EE8FFBCD3B6691F16373 /* KeychainSwift.xcconfig */,
-				7D034481187B195EA705E72802D69276 /* KeychainSwift-dummy.m */,
-				02C49C15EFE0F43701585457C493117A /* KeychainSwift-prefix.pch */,
-				8978580F51FA50319D29B57020CA5D39 /* KeychainSwift-umbrella.h */,
+				424B119154F4B8B2A28DA2F1CDDA9F3A /* AES.swift */,
+				F30CC53432D2AC5DA93AE57398500330 /* AES+Foundation.swift */,
+				A402A54E8F46963103531F28379FCD8A /* Array+Extension.swift */,
+				27B43EE0B66AA3EFF6A57C6B81E31D94 /* Authenticator.swift */,
+				D293A38754AFD38C4617FEF2DAF6E346 /* Bit.swift */,
+				7A5018F5C041F0816076DDA931782EA6 /* BlockCipher.swift */,
+				BA36EF8A0258A98D90B578492D5B0852 /* BlockMode.swift */,
+				3E083D6EB0C47A05C735C2B4CE3CB258 /* BlockModeOptions.swift */,
+				88982DC143D986BD12581B0265296B2B /* BlockModeWorker.swift */,
+				C8833A6064F0B1EBAE15E4279FC56C4C /* BytesSequence.swift */,
+				E693010D51469611092B07C5BE1DEA1F /* CBC.swift */,
+				5D09A658A576230F4FEAB9B71522B1B6 /* CFB.swift */,
+				13DE47DC46DE7D63BFCDC0928D57C3E1 /* ChaCha20.swift */,
+				EF15EEA158552025C2E744183C73FC2F /* ChaCha20+Foundation.swift */,
+				8C319B8A0AF49530201BEAAD19ACB609 /* Checksum.swift */,
+				38AFA37FA73186E99A58CB584C4CD4E5 /* Cipher.swift */,
+				6D77425C0055F0F483BFB431837CE596 /* Collection+Extension.swift */,
+				36EE21A7BF3DA07560BBBA8DE8653A9D /* Cryptors.swift */,
+				897CED8DB6500B2E80019452E69F62D6 /* CSArrayType+Extensions.swift */,
+				26A4E61F9A9B95773F8AC5462A5D8E5F /* CSArrayType+Foundation.swift */,
+				7A03CA5E64B5B88DB71F0C5C68FB3EF6 /* CTR.swift */,
+				A8382907C169EE34EF2B9596B2E46A29 /* Data+Extension.swift */,
+				CDBB5CB34971C12879C6CE9389D0B5BC /* Digest.swift */,
+				B24C6EC7395141EF46EA1AE882453CC3 /* DigestType.swift */,
+				AC73459E7D6DFE06F5E61CE78CFE928F /* ECB.swift */,
+				B3BA5621791DBC7C0AF28ED1A9F534F0 /* Generics.swift */,
+				28E52F20705BDE1FCD4A02F47A3A8620 /* HMAC.swift */,
+				3610B6C634E534B4A03D9A3F2B33E770 /* HMAC+Foundation.swift */,
+				C6A56D61960B08A3132D33C7CEAB30C5 /* Int+Extension.swift */,
+				759687B27923B05FCB6C9E6E8F57B303 /* IntegerConvertible.swift */,
+				716744C2A766CEDAB55040A6BFC0A3D0 /* MD5.swift */,
+				5298D739AAC415B81ECD43E10F98BF47 /* Multiplatform.swift */,
+				95877DF6C4635B1CFFB167089208498E /* NoPadding.swift */,
+				303120B195981DAA8B8CA9296F3EC44E /* OFB.swift */,
+				2CB85B95671651136F4BA479D69E105B /* Operators.swift */,
+				A67CA610865BEC1557B687D3D081D5E3 /* Padding.swift */,
+				348532DB3BE979F9DA91ED6631592CEE /* PBKDF1.swift */,
+				F3970C274D3DD62FCD660DA871D10A28 /* PBKDF2.swift */,
+				0DBCF5B8690C5867175F7342A0442875 /* PCBC.swift */,
+				2E4C06ACD7C4B0469C36BEADD2F525AD /* PKCS5.swift */,
+				BD69E10E337E8F9F7C5531B67CB3DFFF /* PKCS7.swift */,
+				326D7C5158E5E5693C910A378CE7D5CC /* Poly1305.swift */,
+				A810D95752DD17C8F3A9B2623945F0D9 /* Rabbit.swift */,
+				14C6DA119D9788EB8DFE8E77C7F85847 /* Rabbit+Foundation.swift */,
+				F97B863524BB6543B590261111687403 /* RandomAccessBlockModeWorker.swift */,
+				91ECABFCB28F699047C6EAF5089C22FB /* RandomAccessCryptor.swift */,
+				30B68D57502914A9B8685A560D6F8EC5 /* SecureBytes.swift */,
+				4BAF46FB4EDA3A90F5EEDCEC807154FF /* SHA1.swift */,
+				1420B2F6D946C118863FFF38CABC44AB /* SHA2.swift */,
+				9D76EAD8B0060772AD590867A3010012 /* String+Extension.swift */,
+				C2770D0763FD8BDBF5FDD9007FAD00CF /* String+FoundationExtension.swift */,
+				012474EDFD5D31058D93BC700AE25464 /* UInt16+Extension.swift */,
+				BB626225CC586D68F8D025748F51091B /* UInt32+Extension.swift */,
+				DC29AEB5524F32B50FEA3137D216457B /* UInt64+Extension.swift */,
+				BF60E57F069A0C27AC7DC93A6890FEC4 /* UInt8+Extension.swift */,
+				F927052BD05E5821A927BE5847265740 /* Updatable.swift */,
+				ED5F4B46D977E79FE546369E32ACAF97 /* Utils.swift */,
+				0A14EA7C5BAF59402A6182B03C41006D /* Utils+Foundation.swift */,
+				01E02CCAD0223B30D2A83E19C93F1E37 /* ZeroPadding.swift */,
+				C1DA16783DBD64A1F098A225F312EBA1 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/KeychainSwift";
-			sourceTree = "<group>";
-		};
-		CDB445CD59246437B96A292AAA18C0C6 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9DE75228D6750CBEC5D984EF6705AF2E /* Info.plist */,
-				F400969AB6BC46BD196C213246E6AA63 /* SwiftyUserDefaults.modulemap */,
-				E4C861313810249248C111E2C94CA685 /* SwiftyUserDefaults.xcconfig */,
-				8C91069B08A58B0CE822689C745F6331 /* SwiftyUserDefaults-dummy.m */,
-				1C7B937627E7827E76B2BC89C330193B /* SwiftyUserDefaults-prefix.pch */,
-				ED72E7DE7A1B492F6FD28904D747DEE5 /* SwiftyUserDefaults-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SwiftyUserDefaults";
-			sourceTree = "<group>";
-		};
-		DC8E95856DCD20E1CA74C3D43AD39D25 /* SwiftyUserDefaults */ = {
-			isa = PBXGroup;
-			children = (
-				B808DD9F7E0326501FA9FB8C01AF6F33 /* SwiftyUserDefaults.swift */,
-				CDB445CD59246437B96A292AAA18C0C6 /* Support Files */,
-			);
-			path = SwiftyUserDefaults;
-			sourceTree = "<group>";
-		};
-		E44FE801FABE64CA201D328C9A3447F9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3D81496B0755CA709F5B8D6EAFA06DAC /* Info.plist */,
-				D668ABC4190BA9ACDCC676BCFEC41BFC /* RFOverlayScrollView.modulemap */,
-				3FEAA141B09CDC2B85F6547EC147D1E6 /* RFOverlayScrollView.xcconfig */,
-				9DE5127CC38D4FA2271A564554069FB7 /* RFOverlayScrollView-dummy.m */,
-				6017688869CCBF0A12FAE2ABDD4B6220 /* RFOverlayScrollView-prefix.pch */,
-				6817CB0EF00DBC9B54FCFDDE48B02DC6 /* RFOverlayScrollView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/RFOverlayScrollView";
+			path = CryptoSwift;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		1A9462A957C61A735ECA9B22540093F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				792AFEAD96F4E5887F869AD2DAD6D976 /* DonoCore-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		397B013A7D658F3FC9E30AE541EE390C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3E4913CF67EFF54EBB1D2CDE956A2604 /* Pods-DonoTests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4F2E202204E5F8B0763EB850E6004AC9 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C7E0E2BB18EBF99886899440DBE0A301 /* DonoCore-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -940,18 +943,18 @@
 			productReference = E21CAB5F3C9F3CD95AB449371AD04197 /* RFOverlayScrollView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8A0CE54DB1D267BF7E47738D651A9563 /* DonoCore */ = {
+		F913352D9A3AEADC562404AB0EB4E130 /* DonoCore */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 783A87D0D3B134F0FDE75647A819633F /* Build configuration list for PBXNativeTarget "DonoCore" */;
+			buildConfigurationList = DFF61D589EAC5F21C86567212794A53D /* Build configuration list for PBXNativeTarget "DonoCore" */;
 			buildPhases = (
-				F83299CB0E273E764C5EE65275CEBB50 /* Sources */,
-				8CDD50FCF7CDBED91AC38B7A9607BE7C /* Frameworks */,
-				4F2E202204E5F8B0763EB850E6004AC9 /* Headers */,
+				C61C22035F8427773CEFE2F281E8C9A5 /* Sources */,
+				6DC08DA091CCA90943F22E173349CBD4 /* Frameworks */,
+				1A9462A957C61A735ECA9B22540093F1 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F82D009E4151A1EF34784BAD3C93E69C /* PBXTargetDependency */,
+				27930B55E1AB5BDCAD8C87D1B4A45B5B /* PBXTargetDependency */,
 			);
 			name = DonoCore;
 			productName = DonoCore;
@@ -966,26 +969,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					0AD93D3402568ECD5C1D97070CD692C0 = {
-						LastSwiftMigration = 0800;
-					};
-					1A47B00106B7CD50F4A437701C8718AC = {
-						LastSwiftMigration = 0800;
-					};
-					481C108BFFA84341B354FFC13290723D = {
-						LastSwiftMigration = 0800;
-					};
-					4C698C648EE4D43C6B8BE0BE1FE91737 = {
-						LastSwiftMigration = 0800;
-					};
-					65D19242F88BCA2104B09609806FFEC3 = {
-						LastSwiftMigration = 0800;
-					};
-					8A0CE54DB1D267BF7E47738D651A9563 = {
-						LastSwiftMigration = 0800;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1000,7 +983,7 @@
 			projectRoot = "";
 			targets = (
 				0AD93D3402568ECD5C1D97070CD692C0 /* CryptoSwift */,
-				8A0CE54DB1D267BF7E47738D651A9563 /* DonoCore */,
+				F913352D9A3AEADC562404AB0EB4E130 /* DonoCore */,
 				4C698C648EE4D43C6B8BE0BE1FE91737 /* KeychainSwift */,
 				1A47B00106B7CD50F4A437701C8718AC /* Pods-Dono */,
 				1CCC2A6FEB52351D53D7B7951A9B62EA /* Pods-DonoTests */,
@@ -1104,6 +1087,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C61C22035F8427773CEFE2F281E8C9A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F2AA22706FB2CCA96D6473E312A15A /* Dono.swift in Sources */,
+				EFBA4008158640E7EA48CCF22373637D /* DonoConstants.swift in Sources */,
+				55B65F81DE9D9DA2E0626CE9420560F9 /* DonoCore-dummy.m in Sources */,
+				A96612EB1CFCB2B32C4C01A480608855 /* StringExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CD3922EAF0CA78D8F3BDA7250E01A73A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1120,16 +1114,6 @@
 			files = (
 				E1DA1CF8EC2BABAFE780839CFB5C64DA /* SwiftHEXColors-dummy.m in Sources */,
 				7B0B7C7F46173439AF5716418A199675 /* SwiftHEXColors.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F83299CB0E273E764C5EE65275CEBB50 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B1D71E4B331FC2C4D6848D819A5105E6 /* Dono.swift in Sources */,
-				21076A3FAA4C013C33393C8F8C57BF30 /* DonoCore-dummy.m in Sources */,
-				420D38B50074D21A5A4B3F508E1F85D3 /* StringExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1156,6 +1140,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		27930B55E1AB5BDCAD8C87D1B4A45B5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CryptoSwift;
+			target = 0AD93D3402568ECD5C1D97070CD692C0 /* CryptoSwift */;
+			targetProxy = 2AF833CB84373089B344759E7309B915 /* PBXContainerItemProxy */;
+		};
 		35A8CAB7D2B602B38922817D0E1F8139 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftHEXColors;
@@ -1189,21 +1179,176 @@
 		DD6E96826D533D06AD9F397511B809C2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DonoCore;
-			target = 8A0CE54DB1D267BF7E47738D651A9563 /* DonoCore */;
+			target = F913352D9A3AEADC562404AB0EB4E130 /* DonoCore */;
 			targetProxy = E3D91B8FFAD1FD5E19FE9C2C378A9EBD /* PBXContainerItemProxy */;
-		};
-		F82D009E4151A1EF34784BAD3C93E69C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CryptoSwift;
-			target = 0AD93D3402568ECD5C1D97070CD692C0 /* CryptoSwift */;
-			targetProxy = D0F49302079D6FCAB6197BAF4E12BAB2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		006A8B2EBB66E7979354FBFFAF847D71 /* Release */ = {
+		08AE4878DFACDB998E27C4AC7E6F7F8E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3FEAA141B09CDC2B85F6547EC147D1E6 /* RFOverlayScrollView.xcconfig */;
+			baseConfigurationReference = A4FD9C84E039EC054DF1949E38204A54 /* Pods-DonoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DonoUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-DonoUITests/Pods-DonoUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DonoUITests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		17F1ABEAAEC00C893B1555C2BE4587BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6EC2AEF970B805585FB00BDB1ACB6CC /* SwiftHEXColors.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftHEXColors/SwiftHEXColors-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftHEXColors/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/SwiftHEXColors/SwiftHEXColors.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftHEXColors;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1CC68EB6342407831F771193A4074F0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28ECC72DBFAB33C1603FA89CDCAFF550 /* CryptoSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CryptoSwift/CryptoSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CryptoSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/CryptoSwift/CryptoSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CryptoSwift;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2AFEFE0034E4EFBA2F7C9EF48948548A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28ECC72DBFAB33C1603FA89CDCAFF550 /* CryptoSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CryptoSwift/CryptoSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CryptoSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/CryptoSwift/CryptoSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CryptoSwift;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2E362F86079A1BD1A23420696EA146F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 162102A379C5E48231AE51759CC64932 /* KeychainSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KeychainSwift/KeychainSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeychainSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/KeychainSwift/KeychainSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = KeychainSwift;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3BAEA58EA74583A55C4A0148CE66ECA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 989E1B203CFDF7304A732E90C2B8C8D9 /* RFOverlayScrollView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1226,138 +1371,11 @@
 				PRODUCT_NAME = RFOverlayScrollView;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		0535F472DD104F33425164157437AFA5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41EF3F5B2FC1EE8FFBCD3B6691F16373 /* KeychainSwift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/KeychainSwift/KeychainSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KeychainSwift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/KeychainSwift/KeychainSwift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = KeychainSwift;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		0E95B5573128CC91F1B0A1D0F7BB92C1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE0E58AB0B587007DEE5798FF05A587F /* Pods-DonoTests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-DonoTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/Pods-DonoTests/Pods-DonoTests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_DonoTests;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		119BE4AD0D961553F143408055F47F1B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 790E993980F20CBFE8AEAD8CAAAA4C3C /* DonoCore.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DonoCore/DonoCore-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DonoCore/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MODULEMAP_FILE = "Target Support Files/DonoCore/DonoCore.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = DonoCore;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2029550611B3A522078365A66AC6AD57 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4C861313810249248C111E2C94CA685 /* SwiftyUserDefaults.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyUserDefaults/SwiftyUserDefaults-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyUserDefaults/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MODULEMAP_FILE = "Target Support Files/SwiftyUserDefaults/SwiftyUserDefaults.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SwiftyUserDefaults;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		4888EEFBEA04FABA2120470F4B676BBD /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1397,9 +1415,9 @@
 			};
 			name = Release;
 		};
-		4FA8352A092C8B03D041FC92D229C30B /* Debug */ = {
+		4F63CCA396917DC680FFBC8EDB08C22B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4401218FBF0D067198C9563623BD09C0 /* CryptoSwift.xcconfig */;
+			baseConfigurationReference = 65A22161EEAA1F9FE599F1D36E944010 /* Pods-DonoUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1412,26 +1430,158 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_VERSION = A;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CryptoSwift/CryptoSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CryptoSwift/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-DonoUITests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MODULEMAP_FILE = "Target Support Files/CryptoSwift/CryptoSwift.modulemap";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-DonoUITests/Pods-DonoUITests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = CryptoSwift;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DonoUITests;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 3;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		51EA51654B81DBAC1D843A0084364E42 /* Debug */ = {
+		56F846DBE8AB7ADFE76CABAE037E3C59 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3FEAA141B09CDC2B85F6547EC147D1E6 /* RFOverlayScrollView.xcconfig */;
+			baseConfigurationReference = 162102A379C5E48231AE51759CC64932 /* KeychainSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KeychainSwift/KeychainSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeychainSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/KeychainSwift/KeychainSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = KeychainSwift;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		68253E7230704D409537908C9F0F09E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE0E58AB0B587007DEE5798FF05A587F /* Pods-DonoTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DonoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-DonoTests/Pods-DonoTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DonoTests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		70F47DB7B5A2611F64AB70354526F0DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADD312A5FD8DD176FA4F084584E6CD6A /* SwiftyUserDefaults.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyUserDefaults/SwiftyUserDefaults-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyUserDefaults/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/SwiftyUserDefaults/SwiftyUserDefaults.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyUserDefaults;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DBF20AD86F41E0733421931025A36F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADD312A5FD8DD176FA4F084584E6CD6A /* SwiftyUserDefaults.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyUserDefaults/SwiftyUserDefaults-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyUserDefaults/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/SwiftyUserDefaults/SwiftyUserDefaults.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyUserDefaults;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		973299D23D429D8336CCECA84FA9EEC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 989E1B203CFDF7304A732E90C2B8C8D9 /* RFOverlayScrollView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1454,12 +1604,83 @@
 				PRODUCT_NAME = RFOverlayScrollView;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		54A84C320D2FEEE469C8CC4E3C8D8F80 /* Debug */ = {
+		AC024F532F4D29B1B746D901E39C0D6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D09D570DB70BCFB00B894E2C8C74B4E2 /* Pods-DonoTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DonoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-DonoTests/Pods-DonoTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DonoTests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BADBB8AF0CE682CD892F95E5A50F5099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52D045C0559336B060D839CA7DA0B16D /* Pods-Dono.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Dono/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-Dono/Pods-Dono.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Dono;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BC32501F7CAF248A655E5F8BF41F3E7B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D719F79D3D63A659BC2344F3520FFEEC /* Pods-Dono.debug.xcconfig */;
 			buildSettings = {
@@ -1489,81 +1710,15 @@
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 3;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		699E0E187A5857F5D677B10481D16925 /* Release */ = {
+		C231E7FAF65052FD05D7E83ADBB71777 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52D045C0559336B060D839CA7DA0B16D /* Pods-Dono.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Dono/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/Pods-Dono/Pods-Dono.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Dono;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		87005FF6C353B7353E4E0FF67AE2F1CB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4C861313810249248C111E2C94CA685 /* SwiftyUserDefaults.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyUserDefaults/SwiftyUserDefaults-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyUserDefaults/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MODULEMAP_FILE = "Target Support Files/SwiftyUserDefaults/SwiftyUserDefaults.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SwiftyUserDefaults;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D0E4BBDF44263AD98EE158607E38655F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 444D1BA4CB55CC22360AE12542D2333E /* SwiftHEXColors.xcconfig */;
+			baseConfigurationReference = B433827DA4B351E55F091D8FE7C38B2E /* DonoCore.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1576,31 +1731,31 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_VERSION = A;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftHEXColors/SwiftHEXColors-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftHEXColors/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/DonoCore/DonoCore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DonoCore/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MODULEMAP_FILE = "Target Support Files/SwiftHEXColors/SwiftHEXColors.modulemap";
+				MODULEMAP_FILE = "Target Support Files/DonoCore/DonoCore.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SwiftHEXColors;
+				PRODUCT_NAME = DonoCore;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 3;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		D44383638D8E97491D188783A79B6A0A /* Debug */ = {
+		CA69B945267A5285D9AE0D5C2E144B76 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65A22161EEAA1F9FE599F1D36E944010 /* Pods-DonoUITests.debug.xcconfig */;
+			baseConfigurationReference = B433827DA4B351E55F091D8FE7C38B2E /* DonoCore.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1608,24 +1763,21 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_VERSION = A;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-DonoUITests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/DonoCore/DonoCore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DonoCore/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/Pods-DonoUITests/Pods-DonoUITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_DonoUITests;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/DonoCore/DonoCore.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DonoCore;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		DA2E206EB90DF75A25332AE4AA713F31 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1669,109 +1821,14 @@
 			};
 			name = Debug;
 		};
-		DAF13AC828A648B5E6E08F8A1BB8FCA6 /* Release */ = {
+		F2189F704D3393A630544AA1A655455C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4401218FBF0D067198C9563623BD09C0 /* CryptoSwift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CryptoSwift/CryptoSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CryptoSwift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MODULEMAP_FILE = "Target Support Files/CryptoSwift/CryptoSwift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = CryptoSwift;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E05D0F894A28E8A699A4C4B437FD6910 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41EF3F5B2FC1EE8FFBCD3B6691F16373 /* KeychainSwift.xcconfig */;
+			baseConfigurationReference = E6EC2AEF970B805585FB00BDB1ACB6CC /* SwiftHEXColors.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/KeychainSwift/KeychainSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KeychainSwift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/KeychainSwift/KeychainSwift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = KeychainSwift;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E1E9F3A4EF41313B98B021EBC958EC38 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 790E993980F20CBFE8AEAD8CAAAA4C3C /* DonoCore.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DonoCore/DonoCore-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DonoCore/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MODULEMAP_FILE = "Target Support Files/DonoCore/DonoCore.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = DonoCore;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E8B70CD1123038C3DA6DD88A62E745EA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 444D1BA4CB55CC22360AE12542D2333E /* SwiftHEXColors.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1785,83 +1842,16 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MODULEMAP_FILE = "Target Support Files/SwiftHEXColors/SwiftHEXColors.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = SwiftHEXColors;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		EA4E1723E0628FE5A02FC4CDC6C71663 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D09D570DB70BCFB00B894E2C8C74B4E2 /* Pods-DonoTests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-DonoTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/Pods-DonoTests/Pods-DonoTests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_DonoTests;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		FFF3FD6F8F8E2A064F7C4D1E5FBCCAD0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4FD9C84E039EC054DF1949E38204A54 /* Pods-DonoUITests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-DonoUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/Pods-DonoUITests/Pods-DonoUITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_DonoUITests;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1869,8 +1859,8 @@
 		2CE2D93D29C8179D9EFA3EFAB29A86B1 /* Build configuration list for PBXNativeTarget "Pods-DonoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EA4E1723E0628FE5A02FC4CDC6C71663 /* Debug */,
-				0E95B5573128CC91F1B0A1D0F7BB92C1 /* Release */,
+				AC024F532F4D29B1B746D901E39C0D6D /* Debug */,
+				68253E7230704D409537908C9F0F09E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1887,8 +1877,8 @@
 		2F0511D7DBA8C37007ACA612AB04DB6D /* Build configuration list for PBXNativeTarget "RFOverlayScrollView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				51EA51654B81DBAC1D843A0084364E42 /* Debug */,
-				006A8B2EBB66E7979354FBFFAF847D71 /* Release */,
+				973299D23D429D8336CCECA84FA9EEC2 /* Debug */,
+				3BAEA58EA74583A55C4A0148CE66ECA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1896,17 +1886,8 @@
 		30F686D91DC1C66F21D9FED2310344DD /* Build configuration list for PBXNativeTarget "Pods-DonoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D44383638D8E97491D188783A79B6A0A /* Debug */,
-				FFF3FD6F8F8E2A064F7C4D1E5FBCCAD0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		783A87D0D3B134F0FDE75647A819633F /* Build configuration list for PBXNativeTarget "DonoCore" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E1E9F3A4EF41313B98B021EBC958EC38 /* Debug */,
-				119BE4AD0D961553F143408055F47F1B /* Release */,
+				4F63CCA396917DC680FFBC8EDB08C22B /* Debug */,
+				08AE4878DFACDB998E27C4AC7E6F7F8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1914,8 +1895,8 @@
 		81F8253C10878B22BC9F56E80BFCAD65 /* Build configuration list for PBXNativeTarget "Pods-Dono" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54A84C320D2FEEE469C8CC4E3C8D8F80 /* Debug */,
-				699E0E187A5857F5D677B10481D16925 /* Release */,
+				BC32501F7CAF248A655E5F8BF41F3E7B /* Debug */,
+				BADBB8AF0CE682CD892F95E5A50F5099 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1923,8 +1904,8 @@
 		ACB99C482F5F8B18D428B3FC70129732 /* Build configuration list for PBXNativeTarget "SwiftHEXColors" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D0E4BBDF44263AD98EE158607E38655F /* Debug */,
-				E8B70CD1123038C3DA6DD88A62E745EA /* Release */,
+				F2189F704D3393A630544AA1A655455C /* Debug */,
+				17F1ABEAAEC00C893B1555C2BE4587BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1932,8 +1913,8 @@
 		B02714B7FE36A98F9B7AB871B5BCD7BD /* Build configuration list for PBXNativeTarget "SwiftyUserDefaults" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2029550611B3A522078365A66AC6AD57 /* Debug */,
-				87005FF6C353B7353E4E0FF67AE2F1CB /* Release */,
+				8DBF20AD86F41E0733421931025A36F3 /* Debug */,
+				70F47DB7B5A2611F64AB70354526F0DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1941,8 +1922,8 @@
 		B6500F09FFD33E2D8329FED17B6822F0 /* Build configuration list for PBXNativeTarget "KeychainSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E05D0F894A28E8A699A4C4B437FD6910 /* Debug */,
-				0535F472DD104F33425164157437AFA5 /* Release */,
+				2E362F86079A1BD1A23420696EA146F2 /* Debug */,
+				56F846DBE8AB7ADFE76CABAE037E3C59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1950,8 +1931,17 @@
 		B93563D2DC81DDE71FFB6EFCFA0F7862 /* Build configuration list for PBXNativeTarget "CryptoSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4FA8352A092C8B03D041FC92D229C30B /* Debug */,
-				DAF13AC828A648B5E6E08F8A1BB8FCA6 /* Release */,
+				2AFEFE0034E4EFBA2F7C9EF48948548A /* Debug */,
+				1CC68EB6342407831F771193A4074F0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFF61D589EAC5F21C86567212794A53D /* Build configuration list for PBXNativeTarget "DonoCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C231E7FAF65052FD05D7E83ADBB71777 /* Debug */,
+				CA69B945267A5285D9AE0D5C2E144B76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
