@@ -1,11 +1,13 @@
 CODE_SIGN_IDENTITY =
 EMBEDDED_CONTENT_CONTAINS_SWIFT = YES
-FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/CryptoSwift" "$PODS_CONFIGURATION_BUILD_DIR/DonoCore" "$PODS_CONFIGURATION_BUILD_DIR/KeychainSwift" "$PODS_CONFIGURATION_BUILD_DIR/RFOverlayScrollView" "$PODS_CONFIGURATION_BUILD_DIR/SwiftHEXColors" "$PODS_CONFIGURATION_BUILD_DIR/SwiftyUserDefaults"
+FRAMEWORK_SEARCH_PATHS = $(inherited) ${PODS_ROOT}/IDZSwiftCommonCrypto/Frameworks/$(PLATFORM_NAME) "$PODS_CONFIGURATION_BUILD_DIR/CryptoSwift" "$PODS_CONFIGURATION_BUILD_DIR/DonoCore" "$PODS_CONFIGURATION_BUILD_DIR/IDZSwiftCommonCrypto" "$PODS_CONFIGURATION_BUILD_DIR/KeychainSwift" "$PODS_CONFIGURATION_BUILD_DIR/RFOverlayScrollView" "$PODS_CONFIGURATION_BUILD_DIR/SwiftHEXColors" "$PODS_CONFIGURATION_BUILD_DIR/SwiftyUserDefaults"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/../Frameworks' '@loader_path/Frameworks'
-OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/CryptoSwift/CryptoSwift.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/DonoCore/DonoCore.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/KeychainSwift/KeychainSwift.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/RFOverlayScrollView/RFOverlayScrollView.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/SwiftHEXColors/SwiftHEXColors.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/SwiftyUserDefaults/SwiftyUserDefaults.framework/Headers"
-OTHER_LDFLAGS = $(inherited) -framework "CryptoSwift" -framework "DonoCore" -framework "KeychainSwift" -framework "RFOverlayScrollView" -framework "SwiftHEXColors" -framework "SwiftyUserDefaults"
+OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/CryptoSwift/CryptoSwift.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/DonoCore/DonoCore.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/IDZSwiftCommonCrypto/IDZSwiftCommonCrypto.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/KeychainSwift/KeychainSwift.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/RFOverlayScrollView/RFOverlayScrollView.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/SwiftHEXColors/SwiftHEXColors.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/SwiftyUserDefaults/SwiftyUserDefaults.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "CryptoSwift" -framework "DonoCore" -framework "IDZSwiftCommonCrypto" -framework "KeychainSwift" -framework "RFOverlayScrollView" -framework "SwiftHEXColors" -framework "SwiftyUserDefaults"
 OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
 PODS_BUILD_DIR = $BUILD_DIR
 PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}/Pods
+SWIFT_INCLUDE_PATHS = ${PODS_ROOT}/IDZSwiftCommonCrypto/Frameworks/$(PLATFORM_NAME)
+SWIFT_VERSION = 3.0

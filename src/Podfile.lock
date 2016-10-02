@@ -1,7 +1,9 @@
 PODS:
   - CryptoSwift (0.6.0)
-  - DonoCore (5.1.0):
+  - DonoCore (5.2.0):
     - CryptoSwift (~> 0.6)
+    - IDZSwiftCommonCrypto (= 0.9.0)
+  - IDZSwiftCommonCrypto (0.9.0)
   - KeychainSwift (6.0.2)
   - RFOverlayScrollView (0.3)
   - SwiftHEXColors (1.0.4)
@@ -20,17 +22,18 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   DonoCore:
-    :commit: f69d1e3dbb5931d084e92e79f240935975068ca2
+    :commit: 617a3413ebd36c7d982b0b181b2db55db9df801a
     :git: https://github.com/dono-app/dono-pod/
 
 SPEC CHECKSUMS:
   CryptoSwift: 4a599b7241b8d3b857d6e2c28867d0bd5d1aae24
-  DonoCore: 2c4f543b0ed5597cfb666b119832a89d6e48c197
+  DonoCore: 7d1d7ee910944c2e47fffed74e113b5bbd9dd6c2
+  IDZSwiftCommonCrypto: 60f14492730da20117ce5875b890c7a6fc38ab8c
   KeychainSwift: a261364334000afa8fab0894390d5d00dd226d4c
   RFOverlayScrollView: 8e2b3cee771aab5b3cf4df10b0ead12d22c7d965
   SwiftHEXColors: b0ecc7bd83a1aa2e1956f9ba51f55ebb2bcf86ef
   SwiftyUserDefaults: 0f1d45fc3aafb9064dac661e367f8f83fe21a4b4
 
-PODFILE CHECKSUM: f014abcb90dfd61829429e69ed86577a881a13c3
+PODFILE CHECKSUM: 19898b20204a4e07888ba37cd4d5ada9af1beb72
 
 COCOAPODS: 1.0.1

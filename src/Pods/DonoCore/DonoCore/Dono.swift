@@ -16,6 +16,7 @@
 
 import CryptoSwift
 import Foundation
+import IDZSwiftCommonCrypto
 
 open class Dono
 {
@@ -44,8 +45,6 @@ open class Dono
             1,
         ]
     
-    fileprivate static var MagicSalt = "4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b"
-    
     public init() { }
     
     open func computePassword(_ k: String, l: String) -> String?
@@ -58,7 +57,6 @@ open class Dono
         var label = l.lowercased()
         label = label.trim()
         
-        
         let c = getIterations(k)
         
         let d = derivePassword(k, l: label, c: c)
@@ -68,15 +66,12 @@ open class Dono
     
     fileprivate func derivePassword(_ k: String, l: String, c: Int) -> String
     {
-        let password: [UInt8] = k.utf8.map {$0}
-        
-        let s = (k + l + Dono.MagicSalt).sha256()
+        let s = (k + l + DonoConstants.MagicSalt).sha256()
         
         let salt: [UInt8] = s.utf8.map {$0}
         
-        let d = try! PKCS5.PBKDF2(password: password, salt: salt, iterations: c, keyLength: 256, variant: .sha256)
-                            .calculate()
-                            .toBase64()!
+        let d = PBKDF.deriveKey(password: k, salt: salt, prf: .sha256, rounds: uint(UInt(c)), derivedKeyLength: UInt(32))
+                .toBase64()!
         
         return d
     }
