@@ -29,6 +29,8 @@ class DonoViewController : NSViewController
     
     static var EnterKeyCode = UInt16(36)
     
+    static var SegueIdentifierNewLabel = "NewLabelSegue"
+    
     let key = PersistableKey()
 
     let labels = PersistableLabels()
@@ -73,5 +75,11 @@ class DonoViewController : NSViewController
     {
         self.view.wantsLayer = true
         self.view.layer?.backgroundColor = NSColor(hexString: DonoViewController.PrimaryColor)?.withAlphaComponent(1).cgColor
+    }
+    
+    // Xcode 8 & macOS Storyboards has a bug where storyboards try to connect to Swift2 type methods
+    // adding @objc & prepending arg with _ fixes this.
+    @objc @IBAction func newDocument(_ sender: AnyObject?) {
+        self.performSegue(withIdentifier: DonoViewController.SegueIdentifierNewLabel, sender: nil)
     }
 }
