@@ -16,10 +16,8 @@
 
 import Foundation
 
-let docsFolder = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as String;
-
-let labelsfilename = "/.labels";
-let pathToServiceTagsFile = docsFolder + labelsfilename;
+let labelsfilename = "~/.labels";
+let pathToServiceTagsFile = (labelsfilename as NSString).expandingTildeInPath
 
 internal class PersistableLabels
 {
