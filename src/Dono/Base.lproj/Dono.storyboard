@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
         <deployment identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11201"/>
@@ -625,9 +625,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="350" height="592"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="In5-EN-dxX">
-                                <rect key="frame" x="18" y="319" width="314" height="168"/>
-                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Feels lonely in here! Add Labels in order to derive passwords for them" id="ohY-nC-t8h">
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="AxS-fJ-9ZL" userLabel="welcome image">
+                                <rect key="frame" x="100" y="271" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="aA4-cA-mLO"/>
+                                    <constraint firstAttribute="height" constant="150" id="nzs-K3-qDZ"/>
+                                </constraints>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="negative" id="ZLo-Hf-dqT"/>
+                            </imageView>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="In5-EN-dxX" userLabel="welcome text">
+                                <rect key="frame" x="18" y="361" width="314" height="126"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Feels lonely in here! Add Labels to derive passwords for them" id="ohY-nC-t8h">
                                     <font key="font" size="35" name=".AppleSystemUIFontUltraLight"/>
                                     <color key="textColor" red="1" green="1" blue="1" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -757,7 +765,7 @@
                                     <segue destination="Mw9-1n-BRh" kind="sheet" identifier="ShowSettingsView" id="gGP-3r-6ZB"/>
                                 </connections>
                             </button>
-                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="S5B-T1-Lux">
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="S5B-T1-Lux" userLabel="Navbar icon">
                                 <rect key="frame" x="155" y="541" width="40" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="QA1-SL-HGe"/>
@@ -780,9 +788,11 @@
                             <constraint firstItem="In5-EN-dxX" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="MGb-ht-WNM"/>
                             <constraint firstItem="ICl-4e-4u1" firstAttribute="leading" secondItem="PCJ-vs-hvz" secondAttribute="trailing" constant="10" id="N7r-jK-xCn"/>
                             <constraint firstItem="In5-EN-dxX" firstAttribute="top" secondItem="S5B-T1-Lux" secondAttribute="bottom" constant="54" id="RJ1-5A-Nsb"/>
+                            <constraint firstItem="AxS-fJ-9ZL" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="T6x-tA-FnC"/>
                             <constraint firstItem="CE2-m5-YjX" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="TNI-A0-wkW"/>
                             <constraint firstItem="CE2-m5-YjX" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="Zjo-P5-jKo"/>
                             <constraint firstAttribute="trailing" secondItem="In5-EN-dxX" secondAttribute="trailing" constant="20" id="aUd-Jn-Tx5"/>
+                            <constraint firstItem="AxS-fJ-9ZL" firstAttribute="top" secondItem="S5B-T1-Lux" secondAttribute="bottom" constant="120" id="fYq-mN-WF5"/>
                             <constraint firstItem="PCJ-vs-hvz" firstAttribute="top" secondItem="CE2-m5-YjX" secondAttribute="bottom" constant="15" id="sTO-Dn-Jid"/>
                             <constraint firstItem="ICl-4e-4u1" firstAttribute="top" secondItem="CE2-m5-YjX" secondAttribute="bottom" constant="15" id="tK1-tE-1Qw"/>
                             <constraint firstItem="ICl-4e-4u1" firstAttribute="top" secondItem="CE2-m5-YjX" secondAttribute="bottom" constant="15" id="tjy-Ku-omO"/>
@@ -1079,7 +1089,8 @@
         <image name="eye-dark" width="48" height="48"/>
         <image name="key" width="48" height="48"/>
         <image name="key-dark" width="48" height="48"/>
-        <image name="logo" width="1024" height="1024"/>
+        <image name="logo" width="60" height="60"/>
+        <image name="negative" width="200" height="200"/>
         <image name="plus-circle" width="48" height="48"/>
         <image name="plus-circle-dark" width="48" height="48"/>
         <image name="settings" width="48" height="48"/>

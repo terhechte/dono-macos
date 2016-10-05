@@ -37,7 +37,7 @@ class LabelsViewController : DonoViewController, NSTableViewDataSource, NSTableV
         self.labelsTableView.target = self
         self.labelsTableView.doubleAction = #selector(LabelsViewController.tableViewDoubleClick(_:))
         
-        self.lonelyLabel.cell?.title = "Feels lonely in here!\n\nAdd Labels in order to derive passwords for them"
+        self.lonelyLabel.cell?.title = "Feels lonely in here!\n\n\n\n\n\nAdd Labels to derive passwords for them"
 
         self.refreshLabels()
     }
