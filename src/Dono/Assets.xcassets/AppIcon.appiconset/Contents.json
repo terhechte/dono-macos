@@ -3,61 +3,61 @@
     {
       "size" : "16x16",
       "idiom" : "mac",
-      "filename" : "1024-iconMacMicro_16pt.png",
+      "filename" : "App Store@2xMacMicro_16pt.png",
       "scale" : "1x"
     },
     {
       "size" : "16x16",
       "idiom" : "mac",
-      "filename" : "1024-iconMacMicro_16pt@2x.png",
+      "filename" : "App Store@2xMacMicro_16pt@2x.png",
       "scale" : "2x"
     },
     {
       "size" : "32x32",
       "idiom" : "mac",
-      "filename" : "1024-iconMacSmall_32pt.png",
+      "filename" : "App Store@2xMacSmall_32pt.png",
       "scale" : "1x"
     },
     {
       "size" : "32x32",
       "idiom" : "mac",
-      "filename" : "1024-iconMacSmall_32pt@2x.png",
+      "filename" : "App Store@2xMacSmall_32pt@2x.png",
       "scale" : "2x"
     },
     {
       "size" : "128x128",
       "idiom" : "mac",
-      "filename" : "1024-iconMacMedium_128pt.png",
+      "filename" : "App Store@2xMacMedium_128pt.png",
       "scale" : "1x"
     },
     {
       "size" : "128x128",
       "idiom" : "mac",
-      "filename" : "1024-iconMacMedium_128pt@2x.png",
+      "filename" : "App Store@2xMacMedium_128pt@2x.png",
       "scale" : "2x"
     },
     {
       "size" : "256x256",
       "idiom" : "mac",
-      "filename" : "1024-iconMacLarge_256pt.png",
+      "filename" : "App Store@2xMacLarge_256pt.png",
       "scale" : "1x"
     },
     {
       "size" : "256x256",
       "idiom" : "mac",
-      "filename" : "1024-iconMacLarge_256pt@2x.png",
+      "filename" : "App Store@2xMacLarge_256pt@2x.png",
       "scale" : "2x"
     },
     {
       "size" : "512x512",
       "idiom" : "mac",
-      "filename" : "1024-iconMacHuge_512pt.png",
+      "filename" : "App Store@2xMacHuge_512pt.png",
       "scale" : "1x"
     },
     {
       "size" : "512x512",
       "idiom" : "mac",
-      "filename" : "1024-iconMacHuge_512pt@2x.png",
+      "filename" : "App Store@2xMacHuge_512pt@2x.png",
       "scale" : "2x"
     }
   ],
