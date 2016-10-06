@@ -634,8 +634,8 @@
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="negative" id="ZLo-Hf-dqT"/>
                             </imageView>
                             <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="In5-EN-dxX" userLabel="welcome text">
-                                <rect key="frame" x="18" y="361" width="314" height="126"/>
-                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Feels lonely in here! Add Labels to derive passwords for them" id="ohY-nC-t8h">
+                                <rect key="frame" x="18" y="319" width="314" height="168"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Feels lonely in here! Add Labels to derive passwords from them" id="ohY-nC-t8h">
                                     <font key="font" size="35" name=".AppleSystemUIFontUltraLight"/>
                                     <color key="textColor" red="1" green="1" blue="1" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -672,11 +672,11 @@
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>
                                                                 <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7Et-he-FJL">
-                                                                    <rect key="frame" x="3" y="12" width="40" height="24"/>
+                                                                    <rect key="frame" x="3" y="12" width="80" height="24"/>
                                                                     <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="tag" id="TKy-yE-tES"/>
                                                                 </imageView>
                                                                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nU0-qF-Xrc">
-                                                                    <rect key="frame" x="49" y="12" width="286" height="24"/>
+                                                                    <rect key="frame" x="89" y="12" width="246" height="24"/>
                                                                     <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Table View Cell" id="JYh-bk-6qy">
                                                                         <font key="font" metaFont="system" size="17"/>
                                                                         <color key="textColor" red="0.12941176470588234" green="0.58823529411764708" blue="0.95294117647058818" alpha="1" colorSpace="calibratedRGB"/>
