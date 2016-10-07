@@ -10,3 +10,9 @@
 * [KeychainSwift](https://github.com/marketplacer/keychain-swift)
 * [RFOverlayScrollView](https://github.com/rheinfabrik/RFOverlayScrollView)
 * [SwiftHEXColors](https://github.com/thii/SwiftHEXColors)
+
+<div style="font-size:16px;margin:0 auto;width:300px">
+    <a href="https://blockchain.info/address/1BKiueRAqfo6dzBGcbHmiJ5n6EHXhtuJrw">
+        <img src="https://blockchain.info/Resources/buttons/donate_64.png"/>
+    </a>
+</div>
