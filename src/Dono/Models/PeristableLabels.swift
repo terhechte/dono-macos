@@ -15,6 +15,7 @@
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 import Foundation
+import SwiftyJSON
 
 let labelsfilename = "~/.labels";
 let pathToServiceTagsFile = (labelsfilename as NSString).expandingTildeInPath

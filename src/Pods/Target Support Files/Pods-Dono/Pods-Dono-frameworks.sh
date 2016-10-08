@@ -90,6 +90,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/KeychainSwift/KeychainSwift.framework"
   install_framework "$BUILT_PRODUCTS_DIR/RFOverlayScrollView/RFOverlayScrollView.framework"
   install_framework "$BUILT_PRODUCTS_DIR/SwiftHEXColors/SwiftHEXColors.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/SwiftyJSON/SwiftyJSON.framework"
   install_framework "$BUILT_PRODUCTS_DIR/SwiftyUserDefaults/SwiftyUserDefaults.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
@@ -99,5 +100,6 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/KeychainSwift/KeychainSwift.framework"
   install_framework "$BUILT_PRODUCTS_DIR/RFOverlayScrollView/RFOverlayScrollView.framework"
   install_framework "$BUILT_PRODUCTS_DIR/SwiftHEXColors/SwiftHEXColors.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/SwiftyJSON/SwiftyJSON.framework"
   install_framework "$BUILT_PRODUCTS_DIR/SwiftyUserDefaults/SwiftyUserDefaults.framework"
 fi
