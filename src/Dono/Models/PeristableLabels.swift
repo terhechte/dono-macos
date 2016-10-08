@@ -93,39 +93,57 @@ internal class PersistableLabels
     
     fileprivate func saveLabels()
     {
-        var dump = String()
-        
-        for (_, label) in self.labels.enumerated()
-        {
-            dump += label + "\n"
-        }
+        let data = self.encodeLabels()
         
         do
         {
-            try dump.write(toFile: pathToServiceTagsFile, atomically: false, encoding: String.Encoding.utf8)
+            try data.write(toFile: pathToServiceTagsFile, atomically: false, encoding: String.Encoding.utf8)
         }
         catch
         {
         }
     }
     
+    private func encodeLabels() -> String
+    {
+        var data = String()
+        
+        for (_, label) in self.labels.enumerated()
+        {
+            data += label + "\n"
+        }
+        
+        return data
+    }
+    
     fileprivate func loadLabels()
     {
+        self.labels.removeAll()
+        
+        var labels = String()
+        
         do
         {
-            self.labels.removeAll()
-            
-            let labels = try String(contentsOfFile: pathToServiceTagsFile, encoding: String.Encoding.utf8).characters.split(separator: "\n")
-            
-            for (_, label) in labels.enumerated()
-            {
-                self.labels.insert(String(label), at: 0)
-            }
-            
-            self.labels.sort()
+            labels = try String(contentsOfFile: pathToServiceTagsFile, encoding: String.Encoding.utf8)
         }
         catch
         {
         }
+        
+        let decodedLabels = self.decodeLabels(data: labels)
+        
+        for (_, label) in decodedLabels.enumerated()
+        {
+            self.labels.insert(String(label), at: 0)
+        }
+        
+        self.labels.sort()
+    }
+    
+    private func decodeLabels(data: String) -> [String.CharacterView.SubSequence]
+    {
+        var encodedData = data
+        
+        return encodedData.characters.split(separator: "\n")
     }
 }
