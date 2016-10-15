@@ -129,4 +129,12 @@ class LabelsViewController : DonoViewController, NSTableViewDataSource, NSTableV
                 buttonTitle: "Awesome!")
         }
     }
+    
+    // MARK:- UIResponder keyDown
+    override func keyDown(with event: NSEvent) {
+        // Listen only to return key
+        if event.keyCode == 36 {
+            self.tableViewDoubleClick(self)
+        }
+    }
 }
