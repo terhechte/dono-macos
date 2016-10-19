@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
         <deployment identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11201"/>
@@ -66,6 +66,11 @@
                                         <menuItem title="New Label" keyEquivalent="n" id="Was-JA-tGl">
                                             <connections>
                                                 <action selector="newDocument:" target="Ady-hI-5gd" id="5Dg-uD-EJA"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Add Key" keyEquivalent="k" id="AaU-wK-VuX">
+                                            <connections>
+                                                <action selector="addKey:" target="Ady-hI-5gd" id="NZD-qh-yEX"/>
                                             </connections>
                                         </menuItem>
                                     </items>
@@ -672,11 +677,11 @@
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>
                                                                 <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7Et-he-FJL">
-                                                                    <rect key="frame" x="3" y="12" width="80" height="24"/>
+                                                                    <rect key="frame" x="3" y="12" width="40" height="24"/>
                                                                     <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="tag" id="TKy-yE-tES"/>
                                                                 </imageView>
                                                                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nU0-qF-Xrc">
-                                                                    <rect key="frame" x="89" y="12" width="246" height="24"/>
+                                                                    <rect key="frame" x="49" y="12" width="286" height="24"/>
                                                                     <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Table View Cell" id="JYh-bk-6qy">
                                                                         <font key="font" metaFont="system" size="17"/>
                                                                         <color key="textColor" red="0.12941176470588234" green="0.58823529411764708" blue="0.95294117647058818" alpha="1" colorSpace="calibratedRGB"/>
@@ -730,7 +735,7 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <segue destination="ox4-km-s57" kind="sheet" id="V8Q-uj-NYO"/>
+                                    <segue destination="ox4-km-s57" kind="sheet" identifier="AddKeySegue" id="V8Q-uj-NYO"/>
                                 </connections>
                             </button>
                             <button translatesAutoresizingMaskIntoConstraints="NO" id="v2M-5D-8Lx" userLabel="Add Label Button">
@@ -1081,20 +1086,20 @@
         </scene>
     </scenes>
     <resources>
-        <image name="check-circle" width="48" height="48"/>
-        <image name="check-circle-dark" width="48" height="48"/>
-        <image name="close-circle" width="48" height="48"/>
-        <image name="close-circle-dark" width="48" height="48"/>
-        <image name="eye" width="48" height="48"/>
-        <image name="eye-dark" width="48" height="48"/>
-        <image name="key" width="48" height="48"/>
-        <image name="key-dark" width="48" height="48"/>
+        <image name="check-circle" width="24" height="24"/>
+        <image name="check-circle-dark" width="24" height="24"/>
+        <image name="close-circle" width="24" height="24"/>
+        <image name="close-circle-dark" width="24" height="24"/>
+        <image name="eye" width="24" height="24"/>
+        <image name="eye-dark" width="24" height="24"/>
+        <image name="key" width="24" height="24"/>
+        <image name="key-dark" width="24" height="24"/>
         <image name="logo" width="60" height="60"/>
         <image name="negative" width="200" height="200"/>
-        <image name="plus-circle" width="48" height="48"/>
-        <image name="plus-circle-dark" width="48" height="48"/>
-        <image name="settings" width="48" height="48"/>
-        <image name="settings-dark" width="48" height="48"/>
-        <image name="tag" width="80" height="80"/>
+        <image name="plus-circle" width="24" height="24"/>
+        <image name="plus-circle-dark" width="24" height="24"/>
+        <image name="settings" width="24" height="24"/>
+        <image name="settings-dark" width="24" height="24"/>
+        <image name="tag" width="40" height="40"/>
     </resources>
 </document>

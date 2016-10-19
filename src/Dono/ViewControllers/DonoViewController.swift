@@ -31,6 +31,8 @@ class DonoViewController : NSViewController
     
     static var SegueIdentifierNewLabel = "NewLabelSegue"
     
+    static var SegueIdentifierAddKey = "AddKeySegue"
+    
     let key = PersistableKey()
 
     let labels = PersistableLabels()
@@ -81,5 +83,9 @@ class DonoViewController : NSViewController
     // adding @objc & prepending arg with _ fixes this.
     @objc @IBAction func newDocument(_ sender: AnyObject?) {
         self.performSegue(withIdentifier: DonoViewController.SegueIdentifierNewLabel, sender: nil)
+    }
+    
+    @objc @IBAction func addKey(_ sender: AnyObject?) {
+        self.performSegue(withIdentifier: DonoViewController.SegueIdentifierAddKey, sender: nil)
     }
 }
