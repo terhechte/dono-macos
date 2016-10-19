@@ -132,9 +132,25 @@ class LabelsViewController : DonoViewController, NSTableViewDataSource, NSTableV
     
     // MARK:- UIResponder keyDown
     override func keyDown(with event: NSEvent) {
-        // Listen only to return key
-        if event.keyCode == 36 {
+        if event.keyCode == 36 { // return
             self.tableViewDoubleClick(self)
+        } else if event.keyCode == 48 { // tab
+            let selected = labelsTableView.selectedRow
+            var next = selected
+            if event.modifierFlags.contains(NSEventModifierFlags.shift) {
+                if selected == 0 {
+                    next = (self.labels.count() - 1)
+                } else {
+                    next -= 1
+                }
+            } else {
+                if selected >= (self.labels.count() - 1) {
+                    next = 0
+                } else {
+                    next += 1
+                }
+            }
+            labelsTableView.selectRowIndexes(IndexSet(integer: next), byExtendingSelection: false)
         }
     }
 }
