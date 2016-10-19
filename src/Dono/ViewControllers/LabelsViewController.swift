@@ -132,7 +132,6 @@ class LabelsViewController : DonoViewController, NSTableViewDataSource, NSTableV
     
     // MARK:- UIResponder keyDown
     override func keyDown(with event: NSEvent) {
-        print(self.labels.count())
         if event.keyCode == 36 { // return
             self.tableViewDoubleClick(self)
         } else if event.keyCode == 48 { // tab
